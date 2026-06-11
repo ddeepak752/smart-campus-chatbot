@@ -1,0 +1,35 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Environment
+.env
+
+# Mac
+.DS_Store
+
+# Model checkpoints (keep final models only)
+models/distilbert_intent/checkpoint-*/
+
+# Docker image
+*.tar
+*.tar.gz
+
+# Logs
+outputs/logs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Large audio (regeneratable)
+data/audio/
+
+# Backup files
+*_backup.py
+
+# HuggingFace cache
+.cache/
