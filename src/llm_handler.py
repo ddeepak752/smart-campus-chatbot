@@ -7,7 +7,7 @@ Add to .env:  GROQ_API_KEY=gsk_xxxx
 import os
 from dotenv import load_dotenv
 
-GROQ_MODEL = "llama-3.1-8b-instant"
+GROQ_MODEL = "llama-3.3-70b-versatile"
 
 def _get_api_key() -> str:
     # On HuggingFace Spaces, key is set as env secret — don't override it
@@ -18,13 +18,13 @@ def _get_api_key() -> str:
     return key
 
 
-def _clean_template_response(kb_result: str) -> str:
+def _clean_template_response(kb_result: str, user_query: str = "") -> str:
     """Readable local fallback when Groq is unavailable."""
     if not kb_result:
         return "I couldn't find a specific campus match. Please visit Main Reception for help."
 
     lines = [line.strip() for line in kb_result.splitlines()]
-    data = {"events": [], "related": [], "courses": []}
+    data = {"events": [], "related": [], "courses": [], "directions": []}
     section = ""
 
     for line in lines:
@@ -37,9 +37,14 @@ def _clean_template_response(kb_result: str) -> str:
             section = "related"; continue
         if low.startswith("courses offered:"):
             section = "courses"; continue
+        if low.startswith("directions:") or low.startswith("how to get there:"):
+            section = "directions"; continue
 
         if section in ("events", "related", "courses") and line.startswith("- "):
             data[section].append(line[2:].strip())
+            continue
+        if section == "directions":
+            data["directions"].append(line)
             continue
 
         if ":" in line:
@@ -63,6 +68,9 @@ def _clean_template_response(kb_result: str) -> str:
         parts.append(about)
     if map_ref:
         parts.append(f"Location: {map_ref}.")
+    if data["directions"] and any(user_query.lower().startswith(w) or w in user_query.lower()
+                                  for w in ["direction", "directions", "how do i get", "route", "from "]):
+        parts.append("Directions:\n" + "\n".join(data["directions"]))
     if hours:
         parts.append(f"Hours: {hours}")
     if data["events"] and "No upcoming events" not in " ".join(data["events"]):
@@ -103,7 +111,7 @@ def ask_llm(user_query: str, kb_result: str) -> tuple:
     """
     GROQ_API_KEY = _get_api_key()
     if not GROQ_API_KEY or GROQ_API_KEY.startswith("your_"):
-        return _clean_template_response(kb_result), False
+        return _clean_template_response(kb_result, user_query), False
 
     try:
         from groq import Groq
@@ -129,4 +137,4 @@ def ask_llm(user_query: str, kb_result: str) -> tuple:
 
     except Exception as e:
         print(f"[LLM] Groq unavailable ({e}), using template response.")
-        return _clean_template_response(kb_result), False
+        return _clean_template_response(kb_result, user_query), False
