@@ -1,0 +1,1261 @@
+query,intent,query_len,label
+debate society details,ask_club,3,1
+where can visitors ask for help,ask_contact,6,2
+how to get admission in computer science,ask_admission,7,0
+sports tournament schedule,ask_fest,3,6
+my wifi is not working,service_query,5,19
+tell me about Artificial Intelligence and Data Science,ask_department,8,3
+where can i meet my project supervisor,faculty_query,7,13
+where is Main Auditorium,find_location,4,15
+lost my laptop,lost_found,3,16
+hostel rules and regulations,ask_hostel,4,7
+is AI and Data Science Lab open today,ask_hours,8,8
+government scholarship details,ask_scholarship,3,10
+friday special menu,menu_query,3,17
+fee waiver process,ask_scholarship,3,10
+how to check exam results online,ask_exam,6,5
+weekend activities on campus,social_life,4,20
+what does Biotechnology department offer,ask_department,5,3
+what are the timings of Engineering Physics Lab,ask_hours,8,8
+how to socialise at university,social_life,5,20
+i cut my finger,emergency,4,11
+where is first aid,emergency,4,11
+best place to read on campus,recommend_place,6,18
+where can visitors ask for help,ask_contact,6,2
+what is todays date,fallback,4,14
+hostel curfew timing,ask_hostel,3,7
+show me the way to Ground Floor Water Dispenser,find_location,9,15
+my wifi is not working,service_query,5,19
+i found a phone on campus,lost_found,6,16
+navigate to Staff Parking Area,find_location,5,15
+where do lecturers sit,faculty_query,4,13
+eligibility criteria for BTech,ask_admission,4,0
+attendance requirement for exams,ask_exam,4,5
+grace marks policy,ask_exam,3,5
+hostel room availability,ask_hostel,3,7
+science exhibition campus,ask_fest,3,6
+coding competition details,ask_fest,3,6
+i need first aid,emergency,4,11
+where is the hod office of Artificial Intelligence and Data Science,faculty_query,11,13
+give me details about CSE Classroom 101,facility_info,7,12
+where is Civil Engineering faculty room,faculty_query,6,13
+how much is coffee,menu_query,4,17
+who is the contact for AI&DS Classroom 202,ask_contact,8,2
+hackathon on campus,ask_fest,3,6
+who should i contact for Boys Common Room,ask_contact,8,2
+when is the annual fest,ask_fest,5,6
+i need a doctor,emergency,4,11
+is the library open now,ask_hours,5,8
+i lost my student id card,lost_found,6,16
+cultural club activities,ask_club,3,1
+startup pitch event,ask_fest,3,6
+when is the annual fest,ask_fest,5,6
+admission process for MBA,ask_admission,4,0
+what is on today,ask_event,4,4
+suggest a romantic spot,fallback,4,14
+campus life tips for freshers,social_life,5,20
+coding competition details,ask_fest,3,6
+hostel warden contact,ask_hostel,3,7
+how much does lunch cost,menu_query,5,17
+hostel rules and regulations,ask_hostel,4,7
+what is on today,ask_event,4,4
+sports scholarship campus,ask_scholarship,3,10
+where is medical room,emergency,4,11
+what is the weather,fallback,4,14
+where can i sit and focus on my assignment,recommend_place,9,18
+how to adjust to university life,social_life,6,20
+where is Security Cabin,find_location,4,15
+i found a phone on campus,lost_found,6,16
+salary packages for graduates,ask_placement,4,9
+where is the hod office of Biotechnology,faculty_query,7,13
+fellowship opportunities campus,ask_scholarship,3,10
+i feel dizzy,emergency,3,11
+where is Chemical Engineering department,ask_department,5,3
+internship opportunities on campus,ask_placement,4,9
+debate society details,ask_club,3,1
+who is the contact for AI and Data Science Department Washrooms,ask_contact,11,2
+student social events this week,social_life,5,20
+i injured myself,emergency,3,11
+best place to read on campus,recommend_place,6,18
+how do i get to Humanities and Communication Department,find_location,9,15
+hostel wifi details,ask_hostel,3,7
+what facilities are in Hostel Mess,facility_info,6,12
+what is Digital Library used for,facility_info,6,12
+grade sheet collection,ask_exam,3,5
+where can i charge my laptop,service_query,6,19
+give me details about HOD Office - Computer Science Engineering,facility_info,10,12
+how to join a club,ask_club,5,1
+where can i ask general questions,ask_contact,6,2
+what is the fee structure,ask_admission,5,0
+what workshops are happening,ask_event,4,4
+i need a peaceful place to work,recommend_place,7,18
+what is todays date,fallback,4,14
+events at student union,ask_event,4,4
+where can i get lunch,menu_query,5,17
+hostel security details,ask_hostel,3,7
+I need help with my CV,ask_placement,6,9
+take me to Final Year Project Lab,find_location,7,15
+activities to meet people campus,social_life,5,20
+which floor is Electronics and Communication Engineering department,ask_department,8,3
+suggest a romantic spot,fallback,4,14
+who is the contact for IT Classroom 101,ask_contact,8,2
+hostel visiting hours,ask_hostel,3,7
+is Main Gate open today,ask_hours,5,8
+where can i sit with laptop,recommend_place,6,18
+exam timetable for this semester,ask_exam,5,5
+hostel complaint procedure,ask_hostel,3,7
+robotics competition schedule,ask_fest,3,6
+anything happening on campus,ask_event,4,4
+student clubs at campus,ask_club,4,1
+is Biotechnology Department Washrooms open today,ask_hours,6,8
+where is Coffee Kiosk,find_location,4,15
+mid semester exam dates,ask_exam,4,5
+need based scholarship,ask_scholarship,3,10
+any events today,ask_event,3,4
+mid semester exam dates,ask_exam,4,5
+how to get student id reissued,service_query,6,19
+i need a no objection certificate,service_query,6,19
+hostel mess menu,ask_hostel,3,7
+cultural night programme,ask_fest,3,6
+change hostel room request,ask_hostel,4,7
+suggest a calm place on campus,recommend_place,6,18
+i lost my student id card,lost_found,6,16
+hostel canteen timing,ask_hostel,3,7
+menu for today,menu_query,3,17
+degree certificate collection,ask_exam,3,5
+how do i get to Ground Floor Washrooms,find_location,8,15
+where can I hang out on campus,social_life,7,20
+show me upcoming events,ask_event,4,4
+backlog exam schedule,ask_exam,3,5
+photography club meetings,ask_club,3,1
+my friend fainted in the robotics lab what do i do,emergency,11,11
+where is Computer Science Engineering department,ask_department,6,3
+when is Student Device Charging Station open,ask_hours,7,8
+art exhibition schedule,ask_fest,3,6
+what workshops are happening,ask_event,4,4
+when are the exams,ask_exam,4,5
+where do teachers sit in Information Technology,faculty_query,7,13
+my friend fainted in the robotics lab what do i do,emergency,11,11
+internship opportunities on campus,ask_placement,4,9
+how to start a new club,ask_club,6,1
+who should i contact for Printing and Copying Room,ask_contact,9,2
+how do I apply for admission,ask_admission,6,0
+hostel warden contact,ask_hostel,3,7
+what is Registrar Office used for,facility_info,6,12
+government scholarship details,ask_scholarship,3,10
+where do lecturers sit,faculty_query,4,13
+who handles hostel issues,ask_contact,4,2
+is Main Reception open today,ask_hours,5,8
+new student orientation details,ask_admission,4,0
+from library to cafeteria,find_location,4,15
+where can i meet my professor,faculty_query,6,13
+what year is it,fallback,4,14
+who is the contact for Staff Parking Area,ask_contact,8,2
+i need to charge my phone urgently,service_query,7,19
+where do teachers sit in Computer Science Engineering,faculty_query,8,13
+what are the timings of ME Classroom 301,ask_hours,8,8
+where can i take a break between classes,recommend_place,8,18
+lost my wallet,lost_found,3,16
+best place to propose,fallback,4,14
+who won the match,fallback,4,14
+where do lecturers sit,faculty_query,4,13
+inter department sports meet,ask_fest,4,6
+i have chest pain,emergency,4,11
+how do i go from Reading Room to the library,find_location,10,15
+where can i get bonafide certificate,service_query,6,19
+i found a wallet near the library what do i do,lost_found,11,16
+how to adjust to university life,social_life,6,20
+opening hours of Scholarship Office,ask_hours,5,8
+where is the library,find_location,4,15
+best place to study on campus,recommend_place,6,18
+anything happening on campus,ask_event,4,4
+mid semester exam dates,ask_exam,4,5
+where can i meet my project supervisor,faculty_query,7,13
+who should i contact for Security Cabin,ask_contact,7,2
+how to balance studies and social life,social_life,7,20
+who handles hostel issues,ask_contact,4,2
+best place to propose,fallback,4,14
+off campus placement support,ask_placement,4,9
+price of samosa,menu_query,3,17
+what labs are in Computer Science Engineering,ask_department,7,3
+price of samosa,menu_query,3,17
+where do teachers sit in Humanities and Communication,faculty_query,8,13
+how to apply for hostel,ask_hostel,5,7
+where is Robotics and Automation department,ask_department,6,3
+what is love,fallback,3,14
+how to reach MBA Classroom 602,find_location,6,15
+i accidentally cut myself,emergency,4,11
+need based scholarship,ask_scholarship,3,10
+where is a comfortable place to sit,recommend_place,7,18
+entrepreneurship club,ask_club,2,1
+what workshops are happening,ask_event,4,4
+i found a phone on campus,lost_found,6,16
+friday special menu,menu_query,3,17
+i need a peaceful place to work,recommend_place,7,18
+what is today menu,menu_query,4,17
+industry visit schedule,ask_placement,3,9
+where can i find Girls Common Room,find_location,7,15
+exam hall rules,ask_exam,3,5
+where can i ask general questions,ask_contact,6,2
+change hostel room request,ask_hostel,4,7
+coffee price,menu_query,2,17
+how do I register as a new student,ask_admission,8,0
+i found keys near the cafeteria,lost_found,6,16
+where is the hod office of Robotics and Automation,faculty_query,9,13
+my laptop battery is dead where can i go,service_query,9,19
+play some music,fallback,3,14
+exam schedule for final year,ask_exam,5,5
+what labs are in Information Technology,ask_department,6,3
+which floor is Management department,ask_department,5,3
+can i visit Student Services Office now,ask_hours,7,8
+buddy programme for new students,social_life,5,20
+i need a doctor,emergency,4,11
+opening hours of AI&DS Classroom 202,ask_hours,6,8
+where do teachers sit in Civil Engineering,faculty_query,7,13
+where is the admissions office,ask_admission,5,0
+which floor is Campus Fitness Centre,find_location,6,15
+which floor is Artificial Intelligence and Data Science department,ask_department,9,3
+where is Biotechnology faculty room,faculty_query,5,13
+exam fee payment deadline,ask_exam,4,5
+degree certificate collection,ask_exam,3,5
+show me upcoming events,ask_event,4,4
+what time does EE Classroom 302 close,ask_hours,7,8
+internal assessment marks,ask_exam,3,5
+what time does HOD Office - Mechanical Engineering close,ask_hours,9,8
+i hurt my hand,emergency,4,11
+what workshops are happening,ask_event,4,4
+i found keys near the cafeteria,lost_found,6,16
+i need to charge my phone urgently,service_query,7,19
+who handles hostel issues,ask_contact,4,2
+where is Humanities and Communication staff room,faculty_query,7,13
+what time does Engineering Physics Lab close,ask_hours,7,8
+how do i cook pasta,fallback,5,14
+what are the timings of AI and Data Science Lab,ask_hours,10,8
+what food is available now,menu_query,5,17
+my laptop battery died where can i charge,service_query,8,19
+where can i print assignment,service_query,5,19
+where should i report lost item,lost_found,6,16
+what services does Networking Lab provide,facility_info,6,12
+best place to study on campus,recommend_place,6,18
+boys hostel details,ask_hostel,3,7
+how can I make friends on campus,social_life,7,20
+where can i get wifi password,service_query,6,19
+i have stomachache,emergency,3,11
+how to get involved on campus,ask_club,6,1
+what is Electronics and Communication Engineering Department used for,facility_info,9,12
+directions to Electronics Lab,find_location,4,15
+how to get student id reissued,service_query,6,19
+what workshops are happening,ask_event,4,4
+how much does lunch cost,menu_query,5,17
+give me details about Mechanical Engineering Lab,facility_info,7,12
+who qualifies for scholarship,ask_scholarship,4,10
+where can i sit and focus on my assignment,recommend_place,9,18
+where do lecturers sit,faculty_query,4,13
+what is the news today,fallback,5,14
+faculty room for Humanities and Communication,faculty_query,6,13
+hostel common room timing,ask_hostel,4,7
+where can i meet my project supervisor,faculty_query,7,13
+how do I apply for admission,ask_admission,6,0
+suggest a quiet study place,recommend_place,5,18
+where can i ask general questions,ask_contact,6,2
+i lost my bag,lost_found,4,16
+i found someone phone,lost_found,4,16
+eligibility criteria for BTech,ask_admission,4,0
+volunteer club campus,ask_club,3,1
+friendly places on campus,social_life,4,20
+who should i contact for Main Auditorium,ask_contact,7,2
+my wifi is not working,service_query,5,19
+i found a bag in the classroom,lost_found,7,16
+hostel laundry facility,ask_hostel,3,7
+where can i get my id card reissued,service_query,8,19
+who should i contact for Training and Placement Cell,ask_contact,9,2
+what time does CSE Classroom 102 close,ask_hours,7,8
+tea price,menu_query,2,17
+I want to apply to this university,ask_admission,7,0
+financial aid office location,ask_scholarship,4,10
+where can i study quietly,recommend_place,5,18
+from cse to gym,find_location,4,15
+hostel leave application,ask_hostel,3,7
+where can i do group study,recommend_place,6,18
+where can i get lunch,menu_query,5,17
+i found someone bag what should i do,lost_found,8,16
+i think i am having an anxiety attack,emergency,8,11
+what labs are in Biotechnology,ask_department,5,3
+what are the timings of Student Device Charging Station,ask_hours,9,8
+sports day this year,ask_fest,4,6
+how to get involved on campus,ask_club,6,1
+is there a nice outdoor spot on campus,recommend_place,8,18
+sports club registration,ask_club,3,1
+take me to CSE Classroom 102,find_location,6,15
+where can i meet my project supervisor,faculty_query,7,13
+scholarship deadline this year,ask_scholarship,4,10
+where is Electronics and Communication Engineering department,ask_department,7,3
+how to apply for re-evaluation,ask_exam,5,5
+how much is coffee,menu_query,4,17
+who is the placement officer,ask_placement,5,9
+student council elections,ask_club,3,1
+is cafeteria open on sunday,ask_hours,5,8
+what food is available now,menu_query,5,17
+i accidentally cut myself,emergency,4,11
+student enrollment process,ask_admission,3,0
+job fair at campus,ask_placement,4,9
+hackathon on campus,ask_fest,3,6
+I feel lonely on campus,social_life,5,20
+attendance requirement for exams,ask_exam,4,5
+where can i find a boyfriend,fallback,6,14
+I am new here how to settle in,social_life,8,20
+fee waiver process,ask_scholarship,3,10
+what workshops are happening,ask_event,4,4
+student newspaper club,ask_club,3,1
+where is the placement cell,ask_placement,5,9
+academic excellence award,ask_scholarship,3,10
+activities to meet people campus,social_life,5,20
+where is Humanities and Communication staff room,faculty_query,7,13
+where can i charge my laptop,service_query,6,19
+my laptop battery died where can i charge,service_query,8,19
+any seminar this week,ask_event,4,4
+who manages document queries,ask_contact,4,2
+what labs are in Mechanical Engineering,ask_department,6,3
+where can i study quietly,recommend_place,5,18
+location of Computer Science Engineering Department,find_location,6,15
+social clubs for students,social_life,4,20
+placement cell opening hours,ask_placement,4,9
+government scholarship details,ask_scholarship,3,10
+where can i find BIO Classroom 501,find_location,7,15
+location of Ground Floor Washrooms,find_location,5,15
+is the library open now,ask_hours,5,8
+where can i issue books,service_query,5,19
+where can i meet my professor,faculty_query,6,13
+hostel fees and charges,ask_hostel,4,7
+where is the cafeteria,find_location,4,15
+entrepreneurship club,ask_club,2,1
+food festival on campus,ask_fest,4,6
+what services does MBA Classroom 602 provide,facility_info,7,12
+faculty room for Electrical Engineering,faculty_query,5,13
+where is the canteen,find_location,4,15
+what facilities are in Boys Common Room,facility_info,7,12
+where can visitors ask for help,ask_contact,6,2
+how to apply for exam leave,ask_exam,6,5
+tell me a joke,fallback,4,14
+exam schedule for final year,ask_exam,5,5
+where is the it helpdesk,service_query,5,19
+industry visit schedule,ask_placement,3,9
+anything happening on campus,ask_event,4,4
+where is the cafeteria,find_location,4,15
+how much is coffee,menu_query,4,17
+where is AI&DS Classroom 202,find_location,5,15
+which floor is Management department,ask_department,5,3
+job fair at campus,ask_placement,4,9
+book me a flight,fallback,4,14
+food festival on campus,ask_fest,4,6
+what labs are in Management,ask_department,5,3
+what is HOD Office - Civil Engineering used for,facility_info,9,12
+i have stomachache,emergency,3,11
+any seminar this week,ask_event,4,4
+what does Artificial Intelligence and Data Science department offer,ask_department,9,3
+give me details about CE Classroom 401,facility_info,7,12
+where can i get medical help,emergency,6,11
+show me upcoming events,ask_event,4,4
+what facilities are in Security Cabin,facility_info,6,12
+what day is today,fallback,4,14
+volunteer club campus,ask_club,3,1
+which floor is Electrical Engineering department,ask_department,6,3
+student clubs at campus,ask_club,4,1
+is Main Cafeteria open today,ask_hours,5,8
+how do i cook pasta,fallback,5,14
+what labs are in Biotechnology,ask_department,5,3
+what is today menu,menu_query,4,17
+where is lost and found,lost_found,5,16
+how to register for the fest,ask_fest,6,6
+events at student union,ask_event,4,4
+what services does Reading Room provide,facility_info,6,12
+is there still time to apply,ask_admission,6,0
+events at student union,ask_event,4,4
+tea price,menu_query,2,17
+i think someone stole my phone,lost_found,6,16
+i lost my bag,lost_found,4,16
+where is Electronics and Communication Engineering faculty room,faculty_query,8,13
+is the library open now,ask_hours,5,8
+what do students do for fun,social_life,6,20
+which floor is Computer Science Engineering department,ask_department,7,3
+result announcement date,ask_exam,3,5
+where is ATM,find_location,3,15
+food festival on campus,ask_fest,4,6
+is there still time to apply,ask_admission,6,0
+i am bleeding,emergency,3,11
+where can i ask general questions,ask_contact,6,2
+what is Humanities and Communication Department used for,facility_info,8,12
+what year is it,fallback,4,14
+what is Dean Academic Office used for,facility_info,7,12
+drama club auditions,ask_club,3,1
+where is first aid,emergency,4,11
+eligibility criteria for BTech,ask_admission,4,0
+gaming club details,ask_club,3,1
+how can I make friends on campus,social_life,7,20
+any guest lecture today,ask_event,4,4
+lost my wallet,lost_found,3,16
+where can i get bonafide certificate,service_query,6,19
+what is CE Classroom 402 used for,facility_info,7,12
+how to reach Computer Science Engineering Department,find_location,7,15
+where to pay admission fees,ask_admission,5,0
+what is todays date,fallback,4,14
+where can i find a boyfriend,fallback,6,14
+recreational facilities on campus,social_life,4,20
+where is Humanities and Communication department,ask_department,6,3
+is cafeteria open on sunday,ask_hours,5,8
+lost property office,lost_found,3,16
+from library to cafeteria,find_location,4,15
+who is the contact for Campus Bus Stop,ask_contact,8,2
+where is first aid,emergency,4,11
+sports scholarship campus,ask_scholarship,3,10
+i found keys near the cafeteria,lost_found,6,16
+arrear examination details,ask_exam,3,5
+navigate to Main Seminar Hall,find_location,5,15
+where can i get bonafide certificate,service_query,6,19
+where can I submit my admission form,ask_admission,7,0
+how do i get to Electrical Machines and Power Systems Lab,find_location,11,15
+how do i go from Ground Floor Washrooms to the library,find_location,11,15
+degree certificate collection,ask_exam,3,5
+student social events this week,social_life,5,20
+hostel allotment process,ask_hostel,3,7
+my laptop battery died where can i charge,service_query,8,19
+club fair on campus,ask_club,4,1
+where can i take a break between classes,recommend_place,8,18
+any events today,ask_event,3,4
+open mic night campus,ask_fest,4,6
+where can i make friends,fallback,5,14
+someone stole my laptop what do i do,lost_found,8,16
+where do teachers sit in Electronics and Communication Engineering,faculty_query,9,13
+where do students hang out,social_life,5,20
+how to get a student ID after admission,ask_admission,8,0
+which companies come for recruitment,ask_placement,5,9
+student council elections,ask_club,3,1
+give me details about Innovation and Incubation Centre,facility_info,8,12
+where can i meet my project supervisor,faculty_query,7,13
+inter college competition,ask_fest,3,6
+where can i sit with laptop,recommend_place,6,18
+any seminar this week,ask_event,4,4
+give me details about Mechanical Engineering Lab,facility_info,7,12
+where can visitors ask for help,ask_contact,6,2
+dance club on campus,ask_club,4,1
+what is on today,ask_event,4,4
+exam schedule for final year,ask_exam,5,5
+who handles hostel issues,ask_contact,4,2
+where is a comfortable place to sit,recommend_place,7,18
+welcome week schedule,ask_admission,3,0
+what does Management department offer,ask_department,5,3
+i found keys near the cafeteria,lost_found,6,16
+industry visit schedule,ask_placement,3,9
+best place to study on campus,recommend_place,6,18
+how to get student id reissued,service_query,6,19
+is cafeteria open on sunday,ask_hours,5,8
+hostel room availability,ask_hostel,3,7
+where do teachers sit in Humanities and Communication,faculty_query,8,13
+my laptop battery is dead where can i go,service_query,9,19
+what food is available now,menu_query,5,17
+gaming club details,ask_club,3,1
+where can i get lunch,menu_query,5,17
+is MBA Faculty Room open today,ask_hours,6,8
+where is the hod office of Mechanical Engineering,faculty_query,8,13
+when is the annual fest,ask_fest,5,6
+who is the contact for Principal Office,ask_contact,7,2
+what snacks are available,menu_query,4,17
+i need a peaceful place to work,recommend_place,7,18
+my wifi is not working,service_query,5,19
+inter department sports meet,ask_fest,4,6
+i need to charge my phone urgently,service_query,7,19
+i found a wallet near the library what do i do,lost_found,11,16
+how much does lunch cost,menu_query,5,17
+merit list for admission,ask_admission,4,0
+which floor is Chemical Engineering department,ask_department,6,3
+where can i study quietly,recommend_place,5,18
+how much does lunch cost,menu_query,5,17
+i lost my bag,lost_found,4,16
+i want to propose a girl,fallback,6,14
+where is the library,find_location,4,15
+what labs are in Electrical Engineering,ask_department,6,3
+stipend for research students,ask_scholarship,4,10
+placement cell opening hours,ask_placement,4,9
+opening hours of ROBO Classroom 502,ask_hours,6,8
+what time does the gym open,ask_hours,6,8
+hostel laundry facility,ask_hostel,3,7
+induction programme for new students,ask_admission,5,0
+need based scholarship,ask_scholarship,3,10
+anything happening on campus,ask_event,4,4
+exam hall rules,ask_exam,3,5
+lost my wallet,lost_found,3,16
+when is the placement season,ask_placement,5,9
+where can i get bonafide certificate,service_query,6,19
+what time is it,fallback,4,14
+I want to apply to this university,ask_admission,7,0
+suggest a calm place on campus,recommend_place,6,18
+how many students get placed,ask_placement,5,9
+anything happening on campus,ask_event,4,4
+language learning club,ask_club,3,1
+internet is not working on my laptop,service_query,7,19
+hostel leave application,ask_hostel,3,7
+sports day this year,ask_fest,4,6
+lost property office,lost_found,3,16
+where can i get my id card reissued,service_query,8,19
+where can i charge my laptop,service_query,6,19
+how do i cook pasta,fallback,5,14
+student newspaper club,ask_club,3,1
+buddy programme for new students,social_life,5,20
+i twisted my ankle,emergency,4,11
+what is on today,ask_event,4,4
+how do I get my hall ticket,ask_exam,7,5
+eligibility criteria for BTech,ask_admission,4,0
+show me upcoming events,ask_event,4,4
+hostel room availability,ask_hostel,3,7
+financial aid office location,ask_scholarship,4,10
+campus life tips for freshers,social_life,5,20
+what time does HOD Office - Mechanical Engineering close,ask_hours,9,8
+what is love,fallback,3,14
+my phone got stolen where do i report,lost_found,8,16
+who is the placement officer,ask_placement,5,9
+music club details,ask_club,3,1
+placement training workshops,ask_placement,3,9
+how to apply for hostel,ask_hostel,5,7
+which floor is Mechanical Engineering department,ask_department,6,3
+scholarship amount details,ask_scholarship,3,10
+what labs are in Computer Science Engineering,ask_department,7,3
+student social events this week,social_life,5,20
+what does Electronics and Communication Engineering department offer,ask_department,8,3
+any events today,ask_event,3,4
+any seminar this week,ask_event,4,4
+where can i sit with laptop,recommend_place,6,18
+buddy programme for new students,social_life,5,20
+how to network with students,social_life,5,20
+fee concession process,ask_scholarship,3,10
+student ambassador programme,ask_club,3,1
+how to apply for scholarship,ask_scholarship,5,10
+friday special menu,menu_query,3,17
+where can i meet my professor,faculty_query,6,13
+farewell party for final year,ask_fest,5,6
+how much is coffee,menu_query,4,17
+I feel lonely on campus,social_life,5,20
+transcript request process,ask_exam,3,5
+best place to study on campus,recommend_place,6,18
+price of tea,menu_query,3,17
+what does Management department offer,ask_department,5,3
+is cafeteria open on sunday,ask_hours,5,8
+sports club registration,ask_club,3,1
+which floor is Chemical Engineering department,ask_department,6,3
+where is the canteen,find_location,4,15
+backlog exam schedule,ask_exam,3,5
+where do lecturers sit,faculty_query,4,13
+is there any scholarship available,ask_scholarship,5,10
+hostel fee payment process,ask_hostel,4,7
+where can i study quietly,recommend_place,5,18
+how to start a new club,ask_club,6,1
+best place to study on campus,recommend_place,6,18
+who handles hostel issues,ask_contact,4,2
+who qualifies for scholarship,ask_scholarship,4,10
+events at student union,ask_event,4,4
+what is bitcoin price,fallback,4,14
+what is bitcoin price,fallback,4,14
+industry visit schedule,ask_placement,3,9
+i feel nauseated and dizzy,emergency,5,11
+when is Staff Parking Area open,ask_hours,6,8
+i hurt my hand,emergency,4,11
+internship opportunities on campus,ask_placement,4,9
+welcome week schedule,ask_admission,3,0
+project submission deadline,ask_exam,3,5
+i am having trouble breathing,emergency,5,11
+what does Dean Academic Office offer,facility_info,6,12
+scholarship deadline this year,ask_scholarship,4,10
+show me upcoming events,ask_event,4,4
+how do I register as a new student,ask_admission,8,0
+how do i cook pasta,fallback,5,14
+stipend for research students,ask_scholarship,4,10
+who is the contact for Indoor Games Room,ask_contact,8,2
+is the library open now,ask_hours,5,8
+highest package in placements,ask_placement,4,9
+admission for transfer students,ask_admission,4,0
+location of Engineering Workshop,find_location,4,15
+answer sheet re-checking process,ask_exam,4,5
+i feel sick,emergency,3,11
+where is Computer Science Engineering staff room,faculty_query,7,13
+how do i cook pasta,fallback,5,14
+i need a doctor,emergency,4,11
+i need a no objection certificate,service_query,6,19
+my wifi is not working,service_query,5,19
+recreational facilities on campus,social_life,4,20
+where to get admission brochure,ask_admission,5,0
+where is Management department,ask_department,4,3
+is the library open now,ask_hours,5,8
+student newspaper club,ask_club,3,1
+where can i find a boyfriend,fallback,6,14
+is Campus Fitness Centre open now,ask_hours,6,8
+events at student union,ask_event,4,4
+where can i find Stationery Store,find_location,6,15
+where can i meet my project supervisor,faculty_query,7,13
+scholarship office location,ask_scholarship,3,10
+where is the hostel,ask_hostel,4,7
+welcome week schedule,ask_admission,3,0
+extracurricular activities details,ask_club,3,1
+hostel mess menu,ask_hostel,3,7
+hostel rules and regulations,ask_hostel,4,7
+government scholarship details,ask_scholarship,3,10
+how do i get to IT Classroom 101,find_location,8,15
+where can visitors ask for help,ask_contact,6,2
+what does Mechanical Engineering department offer,ask_department,6,3
+dance club on campus,ask_club,4,1
+give me details about MBA Classroom 601,facility_info,7,12
+where can i find Robotics and Automation Department,find_location,8,15
+lost my laptop,lost_found,3,16
+i need to take a printout urgently,service_query,7,19
+show me upcoming events,ask_event,4,4
+where can i relax after class,recommend_place,6,18
+admission for transfer students,ask_admission,4,0
+where do teachers sit in Management,faculty_query,6,13
+buddy programme for new students,social_life,5,20
+cultural club activities,ask_club,3,1
+scholarship amount details,ask_scholarship,3,10
+from library to cafeteria,find_location,4,15
+eligibility criteria for BTech,ask_admission,4,0
+who handles hostel issues,ask_contact,4,2
+student council elections,ask_club,3,1
+which floor is Electrical Engineering department,ask_department,6,3
+where is the exam cell,ask_exam,5,5
+tea price,menu_query,2,17
+language learning club,ask_club,3,1
+need based scholarship,ask_scholarship,3,10
+cultural fest this year,ask_fest,4,6
+where is HOD Office - Electrical Engineering,find_location,7,15
+food festival on campus,ask_fest,4,6
+scholarship amount details,ask_scholarship,3,10
+i need a quiet corner with good wifi,recommend_place,8,18
+which floor is Computer Science Engineering department,ask_department,7,3
+who should i contact for Main Reception,ask_contact,7,2
+where can i sit and focus on my assignment,recommend_place,9,18
+staff room for Artificial Intelligence and Data Science,faculty_query,8,13
+who is the president,fallback,4,14
+i found a bag in the classroom,lost_found,7,16
+drama club auditions,ask_club,3,1
+menu for today,menu_query,3,17
+any events today,ask_event,3,4
+book me a flight,fallback,4,14
+how to get involved on campus,ask_club,6,1
+photography club meetings,ask_club,3,1
+my phone got stolen where do i report,lost_found,8,16
+where is the hod office of Humanities and Communication,faculty_query,9,13
+how to prepare for campus interviews,ask_placement,6,9
+boys hostel details,ask_hostel,3,7
+tell me about Electrical Engineering,ask_department,5,3
+how to get involved on campus,ask_club,6,1
+where can I submit my admission form,ask_admission,7,0
+someone stole my laptop what do i do,lost_found,8,16
+what is on today,ask_event,4,4
+opening hours of CE Faculty Room,ask_hours,6,8
+give me details about CHE Faculty Room,facility_info,7,12
+where to get admission brochure,ask_admission,5,0
+where can i find Admin Conference Room,find_location,7,15
+robotics competition schedule,ask_fest,3,6
+where can i get lunch,menu_query,5,17
+what is HOD Office - Management Department used for,facility_info,9,12
+where can i get lunch,menu_query,5,17
+tell me the time,fallback,4,14
+where can visitors ask for help,ask_contact,6,2
+grade sheet collection,ask_exam,3,5
+stipend for research students,ask_scholarship,4,10
+placement statistics this year,ask_placement,4,9
+how to get admission in computer science,ask_admission,7,0
+where is first aid,emergency,4,11
+government scholarship details,ask_scholarship,3,10
+where can i pay fees,service_query,5,19
+what year is it,fallback,4,14
+i need to take a printout urgently,service_query,7,19
+grace marks policy,ask_exam,3,5
+how to adjust to university life,social_life,6,20
+i found keys near the cafeteria,lost_found,6,16
+transcript request process,ask_exam,3,5
+social clubs for students,social_life,4,20
+where is the admissions office,ask_admission,5,0
+where can i do group study,recommend_place,6,18
+opening hours of Student Parking Area,ask_hours,6,8
+where is the library,find_location,4,15
+is there a coding club,ask_club,5,1
+business plan competition,ask_fest,3,6
+how can I make friends on campus,social_life,7,20
+from library to cafeteria,find_location,4,15
+tell me about Biotechnology,ask_department,4,3
+who is the contact for ME Classroom 301,ask_contact,8,2
+answer sheet re-checking process,ask_exam,4,5
+how do I apply for admission,ask_admission,6,0
+i need bandage,emergency,3,11
+what services does Main Seminar Hall provide,facility_info,7,12
+who qualifies for scholarship,ask_scholarship,4,10
+my friend is unconscious,emergency,4,11
+robotics competition schedule,ask_fest,3,6
+where can i meet my project supervisor,faculty_query,7,13
+i have fever,emergency,3,11
+best place to propose,fallback,4,14
+where can i study quietly,recommend_place,5,18
+extracurricular activities details,ask_club,3,1
+debate competition details,ask_fest,3,6
+what day is today,fallback,4,14
+student newspaper club,ask_club,3,1
+what is IT Classroom 101 used for,facility_info,7,12
+hostel visiting hours,ask_hostel,3,7
+where can i get lunch,menu_query,5,17
+who qualifies for scholarship,ask_scholarship,4,10
+internal assessment marks,ask_exam,3,5
+lost my wallet,lost_found,3,16
+lost my watch,lost_found,3,16
+job fair at campus,ask_placement,4,9
+opening hours of Electronics Lab,ask_hours,5,8
+i feel nauseated and dizzy,emergency,5,11
+what labs are in Electrical Engineering,ask_department,6,3
+sports tournament schedule,ask_fest,3,6
+hostel room availability,ask_hostel,3,7
+where can i get bonafide certificate,service_query,6,19
+any guest lecture today,ask_event,4,4
+where is medical room,emergency,4,11
+where is Robotics and Automation faculty room,faculty_query,7,13
+any events today,ask_event,3,4
+where can i do group study,recommend_place,6,18
+what time does Chemical Engineering Lab close,ask_hours,7,8
+what services does Multi-Faith Prayer Room provide,facility_info,7,12
+what time does the gym open,ask_hours,6,8
+what is on the menu today,menu_query,6,17
+when are the exams,ask_exam,4,5
+where can i get wifi password,service_query,6,19
+financial assistance for students,ask_scholarship,4,10
+what labs are in Civil Engineering,ask_department,6,3
+what workshops are happening,ask_event,4,4
+sports scholarship campus,ask_scholarship,3,10
+prospectus for new students,ask_admission,4,0
+student clubs at campus,ask_club,4,1
+off campus placement support,ask_placement,4,9
+what is the price of tea,menu_query,6,17
+campus life tips for freshers,social_life,5,20
+lost my laptop,lost_found,3,16
+suggest a romantic spot,fallback,4,14
+how do i go from BIO Classroom 501 to the library,find_location,11,15
+language learning club,ask_club,3,1
+hostel common room timing,ask_hostel,4,7
+how to get admission in computer science,ask_admission,7,0
+i feel like vomiting,emergency,4,11
+suggest a quiet study place,recommend_place,5,18
+where is the library,find_location,4,15
+where is Civil Engineering faculty room,faculty_query,6,13
+where can i meet my project supervisor,faculty_query,7,13
+I want to meet new people at university,social_life,8,20
+where should i report lost item,lost_found,6,16
+how to adjust to university life,social_life,6,20
+what food is available now,menu_query,5,17
+job fair at campus,ask_placement,4,9
+where is the hod office of Information Technology,faculty_query,8,13
+robotics competition schedule,ask_fest,3,6
+who manages document queries,ask_contact,4,2
+hostel warden contact,ask_hostel,3,7
+i found keys near the cafeteria,lost_found,6,16
+startup pitch event,ask_fest,3,6
+what does Campus Bus Stop offer,facility_info,6,12
+merit list for admission,ask_admission,4,0
+i think someone stole my phone,lost_found,6,16
+merit list for admission,ask_admission,4,0
+how do i talk to girls,fallback,6,14
+what does Ground Floor Emergency Exit offer,facility_info,7,12
+book me a flight,fallback,4,14
+is cafeteria open on sunday,ask_hours,5,8
+where can i sit with laptop,recommend_place,6,18
+how to join a club,ask_club,5,1
+how to get involved in campus activities,social_life,7,20
+career guidance sessions,ask_placement,3,9
+how much does lunch cost,menu_query,5,17
+when are the exams,ask_exam,4,5
+what snacks are available,menu_query,4,17
+how to apply for exam leave,ask_exam,6,5
+scholarship office location,ask_scholarship,3,10
+is there a girls hostel,ask_hostel,5,7
+how much does lunch cost,menu_query,5,17
+what labs are in Electrical Engineering,ask_department,6,3
+my laptop battery died where can i charge,service_query,8,19
+hostel laundry facility,ask_hostel,3,7
+which companies come for recruitment,ask_placement,5,9
+coffee price,menu_query,2,17
+education loan guidance,ask_scholarship,3,10
+admission for transfer students,ask_admission,4,0
+opening hours of Innovation and Incubation Centre,ask_hours,7,8
+weekend activities on campus,social_life,4,20
+what are the timings of Management Department,ask_hours,7,8
+what time does Electrical Engineering Department close,ask_hours,7,8
+what is todays date,fallback,4,14
+is cafeteria open on sunday,ask_hours,5,8
+someone stole my laptop what do i do,lost_found,8,16
+hostel curfew timing,ask_hostel,3,7
+i lost my bag,lost_found,4,16
+i found a phone on campus,lost_found,6,16
+hostel rules and regulations,ask_hostel,4,7
+volunteer club campus,ask_club,3,1
+suggest a quiet study place,recommend_place,5,18
+what is the price of tea,menu_query,6,17
+hostel complaint procedure,ask_hostel,3,7
+lost my laptop,lost_found,3,16
+where can i get bonafide certificate,service_query,6,19
+coffee price,menu_query,2,17
+where can i meet my professor,faculty_query,6,13
+suggest a calm place on campus,recommend_place,6,18
+i found someone bag what should i do,lost_found,8,16
+industry visit schedule,ask_placement,3,9
+what labs are in Humanities and Communication,ask_department,7,3
+how to start a new club,ask_club,6,1
+what documents do I need for admission,ask_admission,7,0
+i found a phone on campus,lost_found,6,16
+tea price,menu_query,2,17
+who is the contact for IT Help Desk,ask_contact,8,2
+how to prepare for campus interviews,ask_placement,6,9
+where can i do group study,recommend_place,6,18
+arrear examination details,ask_exam,3,5
+who is the contact for HOD Office - Information Technology,ask_contact,10,2
+dance competition on campus,ask_fest,4,6
+farewell party for final year,ask_fest,5,6
+placement cell opening hours,ask_placement,4,9
+best place to read on campus,recommend_place,6,18
+where can i get my id card reissued,service_query,8,19
+tell me about IT Faculty Room,facility_info,6,12
+tell me about Civil Engineering,ask_department,5,3
+where is the cafeteria,find_location,4,15
+what facilities are in HOD Office - Chemical Engineering,facility_info,9,12
+any events today,ask_event,3,4
+is there a nice outdoor spot on campus,recommend_place,8,18
+how to get student id reissued,service_query,6,19
+how to apply for re-evaluation,ask_exam,5,5
+any seminar this week,ask_event,4,4
+where can i print assignment,service_query,5,19
+i found a wallet near the library what do i do,lost_found,11,16
+i am having trouble breathing,emergency,5,11
+any guest lecture today,ask_event,4,4
+transcript request process,ask_exam,3,5
+film club at university,ask_club,4,1
+i feel sick,emergency,3,11
+tell me about HOD Office - Information Technology,facility_info,8,12
+navigate to CSE Classroom 102,find_location,5,15
+who is the president,fallback,4,14
+where can i get bonafide certificate,service_query,6,19
+tell me the time,fallback,4,14
+location of IT Department Washrooms,find_location,5,15
+how to apply for hostel,ask_hostel,5,7
+aptitude test for placements,ask_placement,4,9
+debate competition details,ask_fest,3,6
+who handles hostel issues,ask_contact,4,2
+industry visit schedule,ask_placement,3,9
+hackathon on campus,ask_fest,3,6
+hostel laundry facility,ask_hostel,3,7
+opening hours of Group Study Room,ask_hours,6,8
+where can i print assignment,service_query,5,19
+where to chill between classes,social_life,5,20
+how to get marksheet,ask_exam,4,5
+what snacks are available,menu_query,4,17
+where can i study quietly,recommend_place,5,18
+opening hours of HOD Office - Civil Engineering,ask_hours,8,8
+i think someone stole my phone,lost_found,6,16
+admission for transfer students,ask_admission,4,0
+student enrollment process,ask_admission,3,0
+where can i prepare for exams,recommend_place,6,18
+AI club at university,ask_club,4,1
+where can i scan documents,service_query,5,19
+overnight stay in hostel,ask_hostel,4,7
+where can I get career counselling,ask_placement,6,9
+how to apply for exam leave,ask_exam,6,5
+internet is not working on my laptop,service_query,7,19
+any events today,ask_event,3,4
+suggest a calm place on campus,recommend_place,6,18
+my laptop battery is dead where can i go,service_query,9,19
+where is Electronics and Communication Engineering department,ask_department,7,3
+i have chest pain,emergency,4,11
+where can i meet my professor,faculty_query,6,13
+hackathon on campus,ask_fest,3,6
+what documents do I need for admission,ask_admission,7,0
+where is Electrical Engineering faculty room,faculty_query,6,13
+where to chill between classes,social_life,5,20
+i found someone phone,lost_found,4,16
+internet is not working on my laptop,service_query,7,19
+campus orientation social events,social_life,4,20
+photography club meetings,ask_club,3,1
+who is the president,fallback,4,14
+who is the contact for Ground Floor Emergency Exit,ask_contact,9,2
+where can visitors ask for help,ask_contact,6,2
+my laptop battery died where can i charge,service_query,8,19
+where is Biotechnology department,ask_department,4,3
+result announcement date,ask_exam,3,5
+hostel security details,ask_hostel,3,7
+any seminar this week,ask_event,4,4
+i found a wallet near the library what do i do,lost_found,11,16
+where do lecturers sit,faculty_query,4,13
+when is ECE Classroom 202 open,ask_hours,6,8
+i have chest pain,emergency,4,11
+can i visit Main Lift Area now,ask_hours,7,8
+off campus placement support,ask_placement,4,9
+what does Student Union offer,facility_info,5,12
+i feel dizzy,emergency,3,11
+what does Information Technology department offer,ask_department,6,3
+hostel gate pass procedure,ask_hostel,4,7
+from civil to mechanical,find_location,4,15
+scholarship for international students,ask_scholarship,4,10
+merit scholarship details,ask_scholarship,3,10
+club fair on campus,ask_club,4,1
+inter department sports meet,ask_fest,4,6
+where can i meet my professor,faculty_query,6,13
+i feel nauseated and dizzy,emergency,5,11
+what time does the gym open,ask_hours,6,8
+admission for transfer students,ask_admission,4,0
+hostel gate pass procedure,ask_hostel,4,7
+hostel canteen timing,ask_hostel,3,7
+who manages document queries,ask_contact,4,2
+off campus placement support,ask_placement,4,9
+friday special menu,menu_query,3,17
+sports day this year,ask_fest,4,6
+who should i contact for Electrical Department Washrooms,ask_contact,8,2
+I want to meet new people at university,social_life,8,20
+coffee price,menu_query,2,17
+what food is available now,menu_query,5,17
+photography club meetings,ask_club,3,1
+what is on the menu today,menu_query,6,17
+hostel visiting hours,ask_hostel,3,7
+lost my wallet,lost_found,3,16
+internet is not working on my laptop,service_query,7,19
+scholarship amount details,ask_scholarship,3,10
+who should i contact for Engineering Workshop,ask_contact,7,2
+tell me about Robotics Department Washrooms,facility_info,6,12
+admission process for MBA,ask_admission,4,0
+where is a comfortable place to sit,recommend_place,7,18
+what labs are in Electronics and Communication Engineering,ask_department,8,3
+where can i meet my professor,faculty_query,6,13
+tea price,menu_query,2,17
+scholarship deadline this year,ask_scholarship,4,10
+lost my laptop,lost_found,3,16
+what services does MBA Classroom 601 provide,facility_info,7,12
+where is Electrical Engineering faculty room,faculty_query,6,13
+exam hall rules,ask_exam,3,5
+where is Humanities and Communication department,ask_department,6,3
+recreational facilities on campus,social_life,4,20
+what do students do for fun,social_life,6,20
+where can i do group study,recommend_place,6,18
+from library to cafeteria,find_location,4,15
+scholarship for international students,ask_scholarship,4,10
+where is Electronics and Communication Engineering department,ask_department,7,3
+business plan competition,ask_fest,3,6
+i have stomachache,emergency,3,11
+is the library open now,ask_hours,5,8
+admission for transfer students,ask_admission,4,0
+where is the cafeteria,find_location,4,15
+cultural night programme,ask_fest,3,6
+i found keys near the cafeteria,lost_found,6,16
+how do I register as a new student,ask_admission,8,0
+what is IT Help Desk used for,facility_info,7,12
+which floor is Artificial Intelligence and Data Science department,ask_department,9,3
+what workshops are happening,ask_event,4,4
+i lost my student id card,lost_found,6,16
+who manages document queries,ask_contact,4,2
+which companies come for recruitment,ask_placement,5,9
+admission for transfer students,ask_admission,4,0
+how to socialise at university,social_life,5,20
+prospectus for new students,ask_admission,4,0
+i found a bag in the classroom,lost_found,7,16
+can i visit Chemical Department Washrooms now,ask_hours,7,8
+what does Chemical Engineering department offer,ask_department,6,3
+education loan guidance,ask_scholarship,3,10
+hostel warden contact,ask_hostel,3,7
+tuition fee instalment plan,ask_scholarship,4,10
+is there still time to apply,ask_admission,6,0
+scholarship renewal process,ask_scholarship,3,10
+what facilities are in Student Services Office,facility_info,7,12
+merit scholarship details,ask_scholarship,3,10
+my friend fainted in the robotics lab what do i do,emergency,11,11
+what services does Examination Cell provide,facility_info,6,12
+who manages document queries,ask_contact,4,2
+my laptop battery is dead where can i go,service_query,9,19
+what does Computer Science Engineering department offer,ask_department,7,3
+how do i meet new people,fallback,6,14
+give me details about HUM Classroom 602,facility_info,7,12
+admission process for MBA,ask_admission,4,0
+events at student union,ask_event,4,4
+what is the price of tea,menu_query,6,17
+fee waiver process,ask_scholarship,3,10
+where is the hod office of Electronics and Communication Engineering,faculty_query,10,13
+best place to study on campus,recommend_place,6,18
+what facilities are in Robotics and Automation Department,facility_info,8,12
+recreational facilities on campus,social_life,4,20
+where do teachers sit in Management,faculty_query,6,13
+any events today,ask_event,3,4
+what services does Electronics Lab provide,facility_info,6,12
+what labs are in Electrical Engineering,ask_department,6,3
+robotics competition schedule,ask_fest,3,6
+i am bleeding,emergency,3,11
+highest package in placements,ask_placement,4,9
+what time does the gym open,ask_hours,6,8
+my phone got stolen where do i report,lost_found,8,16
+what is on the menu today,menu_query,6,17
+highest package in placements,ask_placement,4,9
+how to prepare for campus interviews,ask_placement,6,9
+when is the annual fest,ask_fest,5,6
+where is the it helpdesk,service_query,5,19
+opening hours of ATM,ask_hours,4,8
+where is medical room,emergency,4,11
+what facilities are in HOD Office - Management Department,facility_info,9,12
+where to pay admission fees,ask_admission,5,0
+i found keys near the cafeteria,lost_found,6,16
+cultural night programme,ask_fest,3,6
+how to register for placements,ask_placement,5,9
+startup pitch event,ask_fest,3,6
+where can i prepare for exams,recommend_place,6,18
+hostel gate pass procedure,ask_hostel,4,7
+hostel curfew timing,ask_hostel,3,7
+result announcement date,ask_exam,3,5
+i hurt my hand,emergency,4,11
+backlog exam schedule,ask_exam,3,5
+what is today menu,menu_query,4,17
+what labs are in Computer Science Engineering,ask_department,7,3
+suggest a quiet study place,recommend_place,5,18
+who is the president,fallback,4,14
+best place to read on campus,recommend_place,6,18
+friendly places on campus,social_life,4,20
+how to join a club,ask_club,5,1
+what is ECE Classroom 201 used for,facility_info,7,12
+what is on the menu today,menu_query,6,17
+tell me about Biotechnology Department,facility_info,5,12
+how many students get placed,ask_placement,5,9
+induction programme for new students,ask_admission,5,0
+what workshops are happening,ask_event,4,4
+how to get involved in campus activities,social_life,7,20
+where can i find a boyfriend,fallback,6,14
+where can visitors ask for help,ask_contact,6,2
+where is Artificial Intelligence and Data Science department,ask_department,8,3
+who should i contact for CE Faculty Room,ask_contact,8,2
+where can i ask general questions,ask_contact,6,2
+is there a nice outdoor spot on campus,recommend_place,8,18
+tell me about Main Auditorium,facility_info,5,12
+i cut my finger,emergency,4,11
+where can i charge my laptop,service_query,6,19
+farewell party for final year,ask_fest,5,6
+is cafeteria open on sunday,ask_hours,5,8
+suggest a calm place on campus,recommend_place,6,18
+hostel notice board,ask_hostel,3,7
+what labs are in Chemical Engineering,ask_department,6,3
+show me the way to Hostel Laundry Room,find_location,8,15
+fee concession process,ask_scholarship,3,10
+highest package in placements,ask_placement,4,9
+financial assistance for students,ask_scholarship,4,10
+where can i ask general questions,ask_contact,6,2
+student clubs at campus,ask_club,4,1
+hostel fees and charges,ask_hostel,4,7
+campus community events,social_life,3,20
+where can i meet my professor,faculty_query,6,13
+lost my wallet,lost_found,3,16
+project submission deadline,ask_exam,3,5
+tell me about MBA Classroom 601,facility_info,6,12
+friendly places on campus,social_life,4,20
+inter college competition,ask_fest,3,6
+play some music,fallback,3,14
+best place to read on campus,recommend_place,6,18
+which floor is Hostel Mess,find_location,5,15
+who manages document queries,ask_contact,4,2
+attendance requirement for exams,ask_exam,4,5
+is HOD Office - Computer Science Engineering open now,ask_hours,9,8
+what is the weather,fallback,4,14
+which floor is Mechanical Engineering department,ask_department,6,3
+hostel laundry facility,ask_hostel,3,7
+who manages document queries,ask_contact,4,2
+where can I get career counselling,ask_placement,6,9
+location of BIO Classroom 502,find_location,5,15
+what snacks are available,menu_query,4,17
+tell me about relationships,fallback,4,14
+who is the placement officer,ask_placement,5,9
+who handles hostel issues,ask_contact,4,2
+what does Electrical Engineering department offer,ask_department,6,3
+how to prepare for campus interviews,ask_placement,6,9
+where is Artificial Intelligence and Data Science department,ask_department,8,3
+from library to cafeteria,find_location,4,15
+how to get involved in campus activities,social_life,7,20
+give me details about Careers and Employability Office,facility_info,8,12
+where can i issue books,service_query,5,19
+my friend fainted in the robotics lab what do i do,emergency,11,11
+where do teachers sit in Computer Science Engineering,faculty_query,8,13
+how to register for the fest,ask_fest,6,6
+where do lecturers sit,faculty_query,4,13
+where can i prepare for exams,recommend_place,6,18
+film club at university,ask_club,4,1
+when is the placement season,ask_placement,5,9
+open mic night campus,ask_fest,4,6
+coffee price,menu_query,2,17
+when is the annual fest,ask_fest,5,6
+food festival on campus,ask_fest,4,6
+tell me about Chemical Department Washrooms,facility_info,6,12
+any seminar this week,ask_event,4,4
+I am new here how to settle in,social_life,8,20
+give me details about CSE Department Washrooms,facility_info,7,12
+where can i return books,service_query,5,19
+merit scholarship details,ask_scholarship,3,10
+which floor is Mechanical Engineering department,ask_department,6,3
+eligibility criteria for BTech,ask_admission,4,0
+how to check exam results online,ask_exam,6,5
+I feel lonely on campus,social_life,5,20
+hostel fees and charges,ask_hostel,4,7
+where can i get wifi password,service_query,6,19
+which companies come for recruitment,ask_placement,5,9
+is the library open now,ask_hours,5,8
+where is first aid,emergency,4,11
+where can visitors ask for help,ask_contact,6,2
+how to prepare for campus interviews,ask_placement,6,9
+i found a phone on campus,lost_found,6,16
+where is the placement cell,ask_placement,5,9
+how to get admission in computer science,ask_admission,7,0
+someone fainted in the classroom,emergency,5,11
+how to apply for exam leave,ask_exam,6,5
+how do i go from ECE Faculty Room to the library,find_location,11,15
+what are the timings of CHE Classroom 402,ask_hours,8,8
+student ambassador programme,ask_club,3,1
+dance competition on campus,ask_fest,4,6
+where can i meet my professor,faculty_query,6,13
+how to apply for re-evaluation,ask_exam,5,5
+career guidance sessions,ask_placement,3,9
+meeting classmates outside class,social_life,4,20
+how to apply for hostel,ask_hostel,5,7
+merit scholarship details,ask_scholarship,3,10
+exam schedule for final year,ask_exam,5,5
+what do students do for fun,social_life,6,20
+internal assessment marks,ask_exam,3,5
+where can i ask general questions,ask_contact,6,2
+scholarship amount details,ask_scholarship,3,10
+i accidentally cut myself,emergency,4,11
+backlog exam schedule,ask_exam,3,5
+i feel like vomiting,emergency,4,11
+hackathon on campus,ask_fest,3,6
+events at student union,ask_event,4,4
+someone fainted in the classroom,emergency,5,11
+lost my laptop,lost_found,3,16
+what food is available now,menu_query,5,17
+project submission deadline,ask_exam,3,5
+which floor is Electronics and Communication Engineering department,ask_department,8,3
+where can visitors ask for help,ask_contact,6,2
+where is first aid,emergency,4,11
+who is the president,fallback,4,14
+who is the contact for AI and Data Science Department Washrooms,ask_contact,11,2
+where is the admissions office,ask_admission,5,0
+where can i get my id card reissued,service_query,8,19
+student newspaper club,ask_club,3,1
+i feel sick,emergency,3,11
+where is a comfortable place to sit,recommend_place,7,18
+events at student union,ask_event,4,4
+give me details about ECE Department Washrooms,facility_info,7,12
+i need emergency help,emergency,4,11
+where can i ask general questions,ask_contact,6,2
+stipend for research students,ask_scholarship,4,10
+sports scholarship campus,ask_scholarship,3,10
+can i pay with student card,menu_query,6,17
+i found a wallet near the library what do i do,lost_found,11,16
+how do i go from BIO Faculty Room to the library,find_location,11,15
+from cse to gym,find_location,4,15
+how to apply for exam leave,ask_exam,6,5
+need based scholarship,ask_scholarship,3,10
+where can i meet my project supervisor,faculty_query,7,13
+debate society details,ask_club,3,1
+grade sheet collection,ask_exam,3,5
+i feel dizzy,emergency,3,11
+who won the match,fallback,4,14
+who won the match,fallback,4,14
+where can i do group study,recommend_place,6,18
+my friend fainted in the robotics lab what do i do,emergency,11,11
+how much is coffee,menu_query,4,17
+take me to HOD Office - Chemical Engineering,find_location,8,15
+hostel security details,ask_hostel,3,7
+where can i ask general questions,ask_contact,6,2
+aptitude test for placements,ask_placement,4,9
+hostel fees and charges,ask_hostel,4,7
+where is Information Technology department,ask_department,5,3
+is there any scholarship available,ask_scholarship,5,10
+who handles hostel issues,ask_contact,4,2
+scholarship application form,ask_scholarship,3,10
+who is the contact for Electronics and Communication Engineering Department,ask_contact,10,2
+merit scholarship details,ask_scholarship,3,10
+when is the placement season,ask_placement,5,9
+my wifi is not working,service_query,5,19
+is CSE Department Washrooms open now,ask_hours,6,8
+any seminar this week,ask_event,4,4
+where is the hod office of Biotechnology,faculty_query,7,13
+where can i get bonafide certificate,service_query,6,19
+how to reach Campus Fitness Centre,find_location,6,15
+any events today,ask_event,3,4
+book me a flight,fallback,4,14
+where can i meet my project supervisor,faculty_query,7,13
+is BIO Faculty Room open today,ask_hours,6,8
+what workshops are happening,ask_event,4,4
+how do i cook pasta,fallback,5,14
+freshers party details,ask_fest,3,6
+I need help with my CV,ask_placement,6,9
+take me to ME Classroom 302,find_location,6,15
+placement training workshops,ask_placement,3,9
+where do teachers sit in Electronics and Communication Engineering,faculty_query,9,13
+where can i study peacefully,recommend_place,5,18
+coding competition details,ask_fest,3,6
+where can i study peacefully,recommend_place,5,18
+how much is coffee,menu_query,4,17
+buddy programme for new students,social_life,5,20
+where is Biotechnology staff room,faculty_query,5,13
+who won the match,fallback,4,14
+give me details about HOD Office - Artificial Intelligence and Data Science,facility_info,12,12
+what is on today,ask_event,4,4
+merit scholarship details,ask_scholarship,3,10
+what is ECE Classroom 201 used for,facility_info,7,12
+where can i ask general questions,ask_contact,6,2
+where is the placement cell,ask_placement,5,9
+where can visitors ask for help,ask_contact,6,2
+what is love,fallback,3,14
+i am bleeding,emergency,3,11
+I want to meet new people at university,social_life,8,20
+cultural fest this year,ask_fest,4,6
+what is CHE Faculty Room used for,facility_info,7,12
+student council elections,ask_club,3,1
+what are the intake dates,ask_admission,5,0
+when is AI and Data Science Department Washrooms open,ask_hours,9,8
+give me details about Library Book Issue Counter,facility_info,8,12
+any events today,ask_event,3,4
+highest package in placements,ask_placement,4,9
+music fest at university,ask_fest,4,6
+I want to meet new people at university,social_life,8,20
+placement cell opening hours,ask_placement,4,9
+what are the timings of Robotics and Automation Department,ask_hours,9,8
+mock interview preparation help,ask_placement,4,9
+events at student union,ask_event,4,4
+events at student union,ask_event,4,4
+give me details about Electronics Lab,facility_info,6,12
+what services does IT Classroom 102 provide,facility_info,7,12
+best place to read on campus,recommend_place,6,18
+any events today,ask_event,3,4
+I feel lonely on campus,social_life,5,20
+hackathon on campus,ask_fest,3,6
+tea price,menu_query,2,17
+when is the annual fest,ask_fest,5,6
+suggest a quiet study place,recommend_place,5,18
+what does ECE Department Washrooms offer,facility_info,6,12
+what does BIO Classroom 502 offer,facility_info,6,12
+any seminar this week,ask_event,4,4
+coffee price,menu_query,2,17
+what labs are in Artificial Intelligence and Data Science,ask_department,9,3
+exam schedule for final year,ask_exam,5,5
+what facilities are in Printing and Copying Room,facility_info,8,12
+what does Civil Engineering department offer,ask_department,6,3
+where can i get wifi password,service_query,6,19
+where is the admissions office,ask_admission,5,0
+i want to propose a girl,fallback,6,14
+which floor is HOD Office - Civil Engineering,find_location,8,15
+hostel visiting hours,ask_hostel,3,7
+student newspaper club,ask_club,3,1
+student social events this week,social_life,5,20
+i am having trouble breathing,emergency,5,11
+what facilities are in CHE Classroom 401,facility_info,7,12
+i twisted my ankle,emergency,4,11
+hostel security details,ask_hostel,3,7
+suggest a romantic spot,fallback,4,14
+what services does IT Faculty Room provide,facility_info,7,12
+friendly places on campus,social_life,4,20
+where do lecturers sit,faculty_query,4,13
+can I still enroll this semester,ask_admission,6,0
+how do i talk to girls,fallback,6,14
+who is the contact for ECE Classroom 202,ask_contact,8,2
+what time does Electrical Machines and Power Systems Lab close,ask_hours,10,8
+scholarship deadline this year,ask_scholarship,4,10
+where do teachers sit in Computer Science Engineering,faculty_query,8,13

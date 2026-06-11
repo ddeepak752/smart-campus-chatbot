@@ -1,0 +1,20 @@
+2026-06-08 17:26:19,410 | INFO     | Loading Whisper ASR model (base)...
+2026-06-08 17:26:19,860 | INFO     | Whisper loaded.
+2026-06-08 17:26:20,721 | INFO     | Whisper transcript: 'I feel sick, where can I get help?'
+2026-06-08 17:26:20,721 | INFO     | Loading intent classifier...
+2026-06-08 17:26:21,765 | INFO     | Loading retrieval model...
+2026-06-08 17:26:23,969 | INFO     | All models loaded.
+2026-06-08 17:26:24,000 | DEBUG    | Query='I feel sick, where can I get help?' Intent=emergency Conf=0.98
+2026-06-08 17:26:24,215 | DEBUG    | Matched='Medical Room' Score=0.32
+2026-06-08 17:26:25,168 | INFO     | Whisper transcript: 'What is the price of T?'
+2026-06-08 17:26:25,183 | DEBUG    | Query='What is the price of T?' Intent=menu_query Conf=0.90
+2026-06-08 17:26:25,230 | DEBUG    | Matched='Main Cafeteria' Score=0.12
+2026-06-08 17:26:25,801 | INFO     | Whisper transcript: 'How do I go from the civil department to the mechanical department?'
+2026-06-08 17:26:25,814 | DEBUG    | Query='How do I go from the civil department to the mechanical department?' Intent=find_location Conf=0.97
+2026-06-08 17:26:25,862 | DEBUG    | Matched='Mechanical Engineering Department' Score=0.37
+2026-06-08 17:26:26,641 | INFO     | Whisper transcript: 'I lost my wallet where should I go?'
+2026-06-08 17:26:26,654 | DEBUG    | Query='I lost my wallet where should I go?' Intent=lost_found Conf=0.97
+2026-06-08 17:26:26,702 | DEBUG    | Matched='Lost and Found Desk' Score=0.44
+2026-06-08 17:26:27,416 | INFO     | Whisper transcript: 'Is the library open on Saturday?'
+2026-06-08 17:26:27,431 | DEBUG    | Query='Is the library open on Saturday?' Intent=ask_hours Conf=0.97
+2026-06-08 17:26:27,441 | DEBUG    | Matched='Central Library' Score=0.38

@@ -1,0 +1,266 @@
+2026-06-06 17:06:23,609 | INFO     | Loading intent classifier...
+2026-06-06 17:06:24,519 | INFO     | Loading retrieval model...
+2026-06-06 17:06:26,666 | INFO     | All models loaded.
+2026-06-06 17:06:26,745 | DEBUG    | Query='from library to cafeteria' Intent=find_location Conf=0.98
+2026-06-06 17:06:27,491 | DEBUG    | Matched='Outdoor Canteen Terrace' Score=0.49
+2026-06-06 17:06:47,267 | DEBUG    | Query='from civil department to mechanical department' Intent=find_location Conf=0.97
+2026-06-06 17:06:47,311 | DEBUG    | Matched='Mechanical Engineering Department' Score=0.45
+2026-06-06 17:07:06,885 | DEBUG    | Query='what is on the 3rd floor?' Intent=facility_info Conf=0.67
+2026-06-06 17:07:06,957 | DEBUG    | Matched='Ground Floor Washrooms' Score=0.43
+2026-06-06 17:07:20,546 | DEBUG    | Query='mechanical department is on which floor?' Intent=find_location Conf=0.86
+2026-06-06 17:07:20,577 | DEBUG    | Matched='ME Faculty Room' Score=0.55
+2026-06-06 17:07:39,186 | DEBUG    | Query='civil is on which floor' Intent=find_location Conf=0.92
+2026-06-06 17:07:39,253 | DEBUG    | Matched='Civil Department Washrooms' Score=0.47
+2026-06-06 17:07:59,515 | DEBUG    | Query='on which floor is the library' Intent=find_location Conf=0.97
+2026-06-06 17:07:59,592 | DEBUG    | Matched='Library Floor Water Dispenser' Score=0.58
+2026-06-06 17:08:18,014 | DEBUG    | Query='if i want to propose a girl where can i go' Intent=fallback Conf=0.98
+2026-06-06 17:08:31,570 | DEBUG    | Query='if i want to kiss someone where can i go' Intent=fallback Conf=0.97
+2026-06-06 17:08:59,421 | DEBUG    | Query='if i want to go to the washroom and i am on the 6th floor where can i go' Intent=find_location Conf=0.47
+2026-06-06 17:08:59,482 | DEBUG    | Matched='Ground Floor Washrooms' Score=0.56
+2026-06-06 17:09:18,878 | DEBUG    | Query='there is no washroom on the 6th floor?' Intent=find_location Conf=0.71
+2026-06-06 17:09:18,959 | DEBUG    | Matched='Ground Floor Washrooms' Score=0.55
+2026-06-06 17:09:31,741 | DEBUG    | Query='on which floors there are washrooms?' Intent=find_location Conf=0.95
+2026-06-06 17:09:31,813 | DEBUG    | Matched='First Floor Washrooms' Score=0.69
+2026-06-06 17:09:45,585 | DEBUG    | Query='second floor washroom' Intent=find_location Conf=0.93
+2026-06-06 17:09:45,651 | DEBUG    | Matched='First Floor Washrooms' Score=0.60
+2026-06-06 17:10:02,585 | DEBUG    | Query='on 4th floor what are there?' Intent=find_location Conf=0.47
+2026-06-06 17:10:02,619 | DEBUG    | Matched='Ground Floor Washrooms' Score=0.45
+2026-06-06 17:16:54,367 | INFO     | Loading intent classifier...
+2026-06-06 17:16:55,223 | INFO     | Loading retrieval model...
+2026-06-06 17:16:57,418 | INFO     | All models loaded.
+2026-06-06 17:16:57,475 | DEBUG    | Query='what is on the 3rd floor' Intent=facility_info Conf=0.84
+2026-06-06 17:17:24,620 | DEBUG    | Query='on which floor can I find mechanical department' Intent=find_location Conf=0.97
+2026-06-06 17:17:24,794 | DEBUG    | Matched='ME Faculty Room' Score=0.53
+2026-06-06 17:18:25,005 | DEBUG    | Query='what is the price of paratha' Intent=menu_query Conf=0.97
+2026-06-06 17:18:25,080 | DEBUG    | Matched='Main Cafeteria' Score=0.50
+2026-06-06 17:18:38,481 | DEBUG    | Query='civil is on which floor' Intent=find_location Conf=0.92
+2026-06-06 17:18:38,553 | DEBUG    | Matched='CE Faculty Room' Score=0.44
+2026-06-06 17:18:46,383 | DEBUG    | Query='on which floors are there washrooms' Intent=find_location Conf=0.97
+2026-06-06 17:18:46,436 | DEBUG    | Matched='First Floor Washrooms' Score=0.28
+2026-06-06 17:18:58,916 | DEBUG    | Query='which floors has washrooms' Intent=find_location Conf=0.97
+2026-06-06 17:18:58,947 | DEBUG    | Matched='First Floor Washrooms' Score=0.27
+2026-06-06 17:19:26,843 | DEBUG    | Query='mechanical department is on which floor' Intent=find_location Conf=0.60
+2026-06-06 17:19:26,924 | DEBUG    | Matched='ME Faculty Room' Score=0.53
+2026-06-06 17:19:33,436 | DEBUG    | Query='what is on the ground floor' Intent=facility_info Conf=0.92
+2026-06-06 17:27:45,641 | INFO     | Loading intent classifier...
+2026-06-06 17:27:46,440 | INFO     | Loading retrieval model...
+2026-06-06 17:27:48,722 | INFO     | All models loaded.
+2026-06-06 17:27:48,774 | DEBUG    | Query='what is on the 3rd floor' Intent=facility_info Conf=0.84
+2026-06-06 17:27:48,947 | DEBUG    | Matched='Multi-Faith Prayer Room' Score=0.28
+2026-06-06 17:28:06,644 | DEBUG    | Query='what departments are on the 4th floor' Intent=facility_info Conf=0.95
+2026-06-06 17:28:06,724 | DEBUG    | Matched='CE Faculty Room' Score=0.39
+2026-06-06 17:28:20,499 | DEBUG    | Query='which floors have washrooms' Intent=find_location Conf=0.96
+2026-06-06 17:28:20,565 | DEBUG    | Matched='First Floor Washrooms' Score=0.27
+2026-06-06 17:28:25,642 | DEBUG    | Query='on which floor is the library' Intent=find_location Conf=0.97
+2026-06-06 17:28:25,672 | DEBUG    | Matched='Central Library' Score=0.51
+2026-06-06 17:28:32,318 | DEBUG    | Query='price of paratha' Intent=menu_query Conf=0.97
+2026-06-06 17:28:32,390 | DEBUG    | Matched='Main Cafeteria' Score=0.50
+2026-06-06 17:28:38,062 | DEBUG    | Query='price of veg fried rice' Intent=menu_query Conf=0.97
+2026-06-06 17:28:38,096 | DEBUG    | Matched='HOD Office - Computer Science Engineering' Score=0.50
+2026-06-06 17:28:48,482 | DEBUG    | Query='my friend fainted in the robotics lab' Intent=emergency Conf=0.98
+2026-06-06 17:28:48,553 | DEBUG    | Matched='Medical Room' Score=0.36
+2026-06-06 17:55:47,164 | INFO     | Loading intent classifier...
+2026-06-06 17:55:47,939 | INFO     | Loading retrieval model...
+2026-06-06 17:55:49,923 | INFO     | All models loaded.
+2026-06-06 17:55:49,977 | DEBUG    | Query='what is on the 3rd floor' Intent=facility_info Conf=0.84
+2026-06-06 17:55:50,154 | DEBUG    | Matched='Electrical Engineering Department' Score=0.40
+2026-06-06 17:56:15,854 | DEBUG    | Query='what is on the 4th floor' Intent=facility_info Conf=0.81
+2026-06-06 17:56:15,881 | DEBUG    | Matched='Civil Engineering Department' Score=0.51
+2026-06-06 17:56:27,193 | DEBUG    | Query='where is mechanical department' Intent=ask_department Conf=0.97
+2026-06-06 17:56:27,271 | DEBUG    | Matched='Mechanical Engineering Department' Score=0.47
+2026-06-06 17:56:34,093 | DEBUG    | Query='which floors have washrooms' Intent=find_location Conf=0.96
+2026-06-06 17:56:34,188 | DEBUG    | Matched='First Floor Washrooms' Score=0.67
+2026-06-06 17:56:45,932 | DEBUG    | Query='where is civil department' Intent=ask_department Conf=0.49
+2026-06-06 17:56:45,965 | DEBUG    | Matched='Civil Engineering Department' Score=0.45
+2026-06-06 17:56:52,935 | DEBUG    | Query='from library to cafeteria' Intent=find_location Conf=0.98
+2026-06-06 17:56:53,005 | DEBUG    | Matched='Outdoor Canteen Terrace' Score=0.56
+2026-06-06 17:57:10,624 | DEBUG    | Query='from electrical department to mechanical department' Intent=find_location Conf=0.95
+2026-06-06 17:57:10,649 | DEBUG    | Matched='Mechanical Engineering Department' Score=0.45
+2026-06-06 17:57:30,457 | DEBUG    | Query='price of paratha' Intent=menu_query Conf=0.97
+2026-06-06 17:57:30,486 | DEBUG    | Matched='Coffee Kiosk' Score=0.50
+2026-06-06 17:57:37,072 | DEBUG    | Query='price of tea' Intent=menu_query Conf=0.98
+2026-06-06 17:57:37,137 | DEBUG    | Matched='Coffee Kiosk' Score=0.27
+2026-06-06 17:57:46,952 | DEBUG    | Query='price of coffee' Intent=menu_query Conf=0.98
+2026-06-06 17:57:46,988 | DEBUG    | Matched='Coffee Kiosk' Score=0.46
+2026-06-06 17:57:55,145 | DEBUG    | Query='price of snacks' Intent=menu_query Conf=0.98
+2026-06-06 17:57:55,170 | DEBUG    | Matched='Main Cafeteria' Score=0.30
+2026-06-06 17:58:06,958 | DEBUG    | Query='where can i find beer' Intent=menu_query Conf=0.74
+2026-06-06 17:58:06,984 | DEBUG    | Matched='Lost and Found Desk' Score=0.50
+2026-06-06 17:58:21,051 | DEBUG    | Query='i fell down what to do' Intent=emergency Conf=0.67
+2026-06-06 17:58:21,085 | DEBUG    | Matched='Lost and Found Desk' Score=0.50
+2026-06-06 17:58:33,425 | DEBUG    | Query='i am hurt' Intent=emergency Conf=0.98
+2026-06-06 17:58:33,454 | DEBUG    | Matched='Lost and Found Desk' Score=0.50
+2026-06-06 17:58:42,368 | DEBUG    | Query='i hurt my leg' Intent=emergency Conf=0.98
+2026-06-06 17:58:42,404 | DEBUG    | Matched='Lost and Found Desk' Score=0.50
+2026-06-06 18:03:11,014 | INFO     | Loading intent classifier...
+2026-06-06 18:03:11,476 | INFO     | Loading retrieval model...
+2026-06-06 18:03:14,519 | INFO     | All models loaded.
+2026-06-06 18:03:14,555 | DEBUG    | Query='i am hurt' Intent=emergency Conf=0.98
+2026-06-06 18:03:14,712 | DEBUG    | Matched='Lost and Found Desk' Score=0.50
+2026-06-06 18:03:25,678 | DEBUG    | Query='i hurt my leg' Intent=emergency Conf=0.98
+2026-06-06 18:03:25,744 | DEBUG    | Matched='Lost and Found Desk' Score=0.50
+2026-06-06 18:03:32,063 | DEBUG    | Query='price of tea' Intent=menu_query Conf=0.98
+2026-06-06 18:03:32,103 | DEBUG    | Matched='Coffee Kiosk' Score=0.27
+2026-06-06 18:03:39,371 | DEBUG    | Query='price of paratha' Intent=menu_query Conf=0.97
+2026-06-06 18:03:39,396 | DEBUG    | Matched='Coffee Kiosk' Score=0.50
+2026-06-06 18:03:45,672 | DEBUG    | Query='price of veg fried rice' Intent=menu_query Conf=0.97
+2026-06-06 18:03:45,743 | DEBUG    | Matched='HOD Office - Computer Science Engineering' Score=0.20
+2026-06-06 18:03:54,423 | DEBUG    | Query='burger price' Intent=menu_query Conf=0.97
+2026-06-06 18:03:54,910 | DEBUG    | Matched='Main Cafeteria' Score=0.20
+2026-06-06 18:04:03,147 | DEBUG    | Query='where can i find beer' Intent=menu_query Conf=0.74
+2026-06-06 18:04:03,220 | DEBUG    | Matched='Lost and Found Desk' Score=0.50
+2026-06-06 18:12:37,453 | INFO     | Loading intent classifier...
+2026-06-06 18:12:38,256 | INFO     | Loading retrieval model...
+2026-06-06 18:12:40,437 | INFO     | All models loaded.
+2026-06-06 18:12:40,511 | DEBUG    | Query='i hurt my leg' Intent=emergency Conf=0.98
+2026-06-06 18:12:40,669 | DEBUG    | Matched='Lost and Found Desk' Score=0.28
+2026-06-06 18:12:52,019 | DEBUG    | Query='i cut my finger' Intent=emergency Conf=0.98
+2026-06-06 18:12:52,046 | DEBUG    | Matched='Coffee Kiosk' Score=0.28
+2026-06-06 18:13:11,794 | DEBUG    | Query='i want direction from visa office to civil classroom' Intent=find_location Conf=0.97
+2026-06-06 18:13:11,859 | DEBUG    | Matched='Civil Engineering Department' Score=0.28
+2026-06-06 18:13:24,489 | DEBUG    | Query='where can i inquire for visa' Intent=service_query Conf=0.61
+2026-06-06 18:13:24,561 | DEBUG    | Matched='Accounts Office' Score=0.29
+2026-06-06 18:13:37,588 | DEBUG    | Query='what is on the 3rd floor' Intent=facility_info Conf=0.84
+2026-06-06 18:13:37,662 | DEBUG    | Matched='Electrical Engineering Department' Score=0.40
+2026-06-06 18:13:54,868 | DEBUG    | Query='i want to know what activities can i take part in after classes' Intent=facility_info Conf=0.63
+2026-06-06 18:13:54,933 | DEBUG    | Matched='Group Study Room' Score=0.34
+2026-06-06 18:14:23,221 | DEBUG    | Query='i want to know which office should i visit for visa guidance' Intent=ask_contact Conf=0.55
+2026-06-06 18:14:23,284 | DEBUG    | Matched='Principal Office' Score=0.37
+2026-06-06 18:35:16,178 | INFO     | Loading intent classifier...
+2026-06-06 18:35:16,841 | INFO     | Loading retrieval model...
+2026-06-06 18:35:18,829 | INFO     | All models loaded.
+2026-06-06 18:35:18,892 | DEBUG    | Query='price of tea' Intent=menu_query Conf=0.98
+2026-06-06 18:35:19,057 | DEBUG    | Matched='Coffee Kiosk' Score=0.27
+2026-06-06 18:35:19,958 | DEBUG    | Query='price of veg fried rice' Intent=menu_query Conf=0.97
+2026-06-06 18:35:20,007 | DEBUG    | Matched='Main Cafeteria' Score=0.13
+2026-06-06 18:35:20,364 | DEBUG    | Query='price of cold coffee' Intent=menu_query Conf=0.98
+2026-06-06 18:35:20,412 | DEBUG    | Matched='Coffee Kiosk' Score=0.43
+2026-06-06 18:35:21,173 | DEBUG    | Query='what is the menu for tuesday' Intent=menu_query Conf=0.97
+2026-06-06 18:35:21,185 | DEBUG    | Matched='Main Cafeteria' Score=0.41
+2026-06-06 18:35:21,621 | DEBUG    | Query='what snacks are available' Intent=menu_query Conf=0.97
+2026-06-06 18:35:21,633 | DEBUG    | Matched='Main Cafeteria' Score=0.31
+2026-06-06 18:35:21,934 | DEBUG    | Query='where can i find beer' Intent=menu_query Conf=0.74
+2026-06-06 18:35:21,985 | DEBUG    | Matched='Lost and Found Desk' Score=0.28
+2026-06-06 18:35:22,903 | DEBUG    | Query='where is the library' Intent=find_location Conf=0.98
+2026-06-06 18:35:22,914 | DEBUG    | Matched='Central Library' Score=0.49
+2026-06-06 18:35:23,276 | DEBUG    | Query='where is mechanical department' Intent=ask_department Conf=0.97
+2026-06-06 18:35:23,286 | DEBUG    | Matched='Mechanical Engineering Department' Score=0.47
+2026-06-06 18:35:24,809 | DEBUG    | Query='from library to cafeteria' Intent=find_location Conf=0.98
+2026-06-06 18:35:24,874 | DEBUG    | Matched='Outdoor Canteen Terrace' Score=0.56
+2026-06-06 18:35:31,571 | DEBUG    | Query='from civil department to mechanical department' Intent=find_location Conf=0.97
+2026-06-06 18:35:31,595 | DEBUG    | Matched='Mechanical Engineering Department' Score=0.45
+2026-06-06 18:35:38,135 | DEBUG    | Query='from electrical to robotics department' Intent=find_location Conf=0.88
+2026-06-06 18:35:38,159 | DEBUG    | Matched='Robotics and Automation Department' Score=0.55
+2026-06-06 18:35:45,802 | DEBUG    | Query='where is the gym' Intent=find_location Conf=0.98
+2026-06-06 18:35:45,827 | DEBUG    | Matched='Campus Fitness Centre' Score=0.64
+2026-06-06 18:35:51,429 | DEBUG    | Query='what is on the 3rd floor' Intent=facility_info Conf=0.84
+2026-06-06 18:35:51,454 | DEBUG    | Matched='Electrical Engineering Department' Score=0.40
+2026-06-06 18:35:57,192 | DEBUG    | Query='what is on the 4th floor' Intent=facility_info Conf=0.81
+2026-06-06 18:35:57,224 | DEBUG    | Matched='Civil Engineering Department' Score=0.51
+2026-06-06 18:36:02,898 | DEBUG    | Query='what is on the ground floor' Intent=facility_info Conf=0.92
+2026-06-06 18:36:02,923 | DEBUG    | Matched='Boys Hostel' Score=0.53
+2026-06-06 18:36:08,646 | DEBUG    | Query='which floors have washrooms' Intent=find_location Conf=0.96
+2026-06-06 18:36:08,676 | DEBUG    | Matched='First Floor Washrooms' Score=0.67
+2026-06-06 18:36:15,388 | DEBUG    | Query='mechanical department is on which floor' Intent=find_location Conf=0.60
+2026-06-06 18:36:15,414 | DEBUG    | Matched='Mechanical Engineering Department' Score=0.57
+2026-06-06 18:36:20,946 | DEBUG    | Query='is the library open on saturday' Intent=ask_hours Conf=0.98
+2026-06-06 18:36:20,977 | DEBUG    | Matched='Central Library' Score=0.38
+2026-06-06 18:36:24,378 | DEBUG    | Query='what time does the cafeteria close' Intent=ask_hours Conf=0.98
+2026-06-06 18:36:24,404 | DEBUG    | Matched='Main Cafeteria' Score=0.46
+2026-06-06 18:36:29,069 | DEBUG    | Query='is the gym open now' Intent=ask_hours Conf=0.98
+2026-06-06 18:36:29,094 | DEBUG    | Matched='Campus Fitness Centre' Score=0.47
+2026-06-06 18:36:32,550 | DEBUG    | Query='i am hurt' Intent=emergency Conf=0.98
+2026-06-06 18:36:32,591 | DEBUG    | Matched='Lost and Found Desk' Score=0.28
+2026-06-06 18:36:36,179 | DEBUG    | Query='my friend fainted in the robotics lab' Intent=emergency Conf=0.98
+2026-06-06 18:36:36,248 | DEBUG    | Matched='Medical Room' Score=0.36
+2026-06-06 18:36:41,815 | DEBUG    | Query='i feel sick' Intent=emergency Conf=0.98
+2026-06-06 18:36:41,842 | DEBUG    | Matched='Lost and Found Desk' Score=0.28
+2026-06-06 18:36:46,364 | DEBUG    | Query='i cut my finger' Intent=emergency Conf=0.98
+2026-06-06 18:36:46,391 | DEBUG    | Matched='Coffee Kiosk' Score=0.28
+2026-06-06 18:36:50,870 | DEBUG    | Query='i found a wallet near the library' Intent=lost_found Conf=0.97
+2026-06-06 18:36:50,940 | DEBUG    | Matched='Lost and Found Desk' Score=0.42
+2026-06-06 18:36:55,452 | DEBUG    | Query='i lost my laptop' Intent=lost_found Conf=0.97
+2026-06-06 18:36:55,479 | DEBUG    | Matched='Lost and Found Desk' Score=0.46
+2026-06-06 18:37:00,011 | DEBUG    | Query='i think someone stole my phone' Intent=lost_found Conf=0.97
+2026-06-06 18:37:00,037 | DEBUG    | Matched='Lost and Found Desk' Score=0.39
+2026-06-06 18:37:04,844 | DEBUG    | Query='where can i charge my laptop' Intent=service_query Conf=0.98
+2026-06-06 18:37:04,871 | DEBUG    | Matched='Student Device Charging Station' Score=0.50
+2026-06-06 18:37:11,491 | DEBUG    | Query='where can i print my assignment' Intent=service_query Conf=0.98
+2026-06-06 18:37:11,517 | DEBUG    | Matched='Stationery Store' Score=0.38
+2026-06-06 18:37:18,224 | DEBUG    | Query='where can i inquire for visa' Intent=service_query Conf=0.61
+2026-06-06 18:37:18,253 | DEBUG    | Matched='Accounts Office' Score=0.29
+2026-06-06 18:47:15,733 | INFO     | Loading intent classifier...
+2026-06-06 18:47:16,601 | INFO     | Loading retrieval model...
+2026-06-06 18:47:18,820 | INFO     | All models loaded.
+2026-06-06 18:47:18,891 | DEBUG    | Query='price of tea' Intent=menu_query Conf=0.98
+2026-06-06 18:47:19,074 | DEBUG    | Matched='Coffee Kiosk' Score=0.27
+2026-06-06 18:47:19,664 | DEBUG    | Query='price of veg fried rice' Intent=menu_query Conf=0.97
+2026-06-06 18:47:19,720 | DEBUG    | Matched='Main Cafeteria' Score=0.13
+2026-06-06 18:47:20,008 | DEBUG    | Query='price of cold coffee' Intent=menu_query Conf=0.98
+2026-06-06 18:47:20,054 | DEBUG    | Matched='Coffee Kiosk' Score=0.43
+2026-06-06 18:47:20,351 | DEBUG    | Query='what is the menu for tuesday' Intent=menu_query Conf=0.97
+2026-06-06 18:47:20,360 | DEBUG    | Matched='Main Cafeteria' Score=0.41
+2026-06-06 18:47:20,788 | DEBUG    | Query='where can i find beer' Intent=menu_query Conf=0.74
+2026-06-06 18:47:20,832 | DEBUG    | Matched='Lost and Found Desk' Score=0.28
+2026-06-06 18:47:21,209 | DEBUG    | Query='where is the library' Intent=find_location Conf=0.98
+2026-06-06 18:47:21,218 | DEBUG    | Matched='Central Library' Score=0.49
+2026-06-06 18:47:21,810 | DEBUG    | Query='where is mechanical department' Intent=ask_department Conf=0.97
+2026-06-06 18:47:21,823 | DEBUG    | Matched='Mechanical Engineering Department' Score=0.47
+2026-06-06 18:47:22,222 | DEBUG    | Query='from library to cafeteria' Intent=find_location Conf=0.98
+2026-06-06 18:47:22,281 | DEBUG    | Matched='Outdoor Canteen Terrace' Score=0.56
+2026-06-06 18:47:27,943 | DEBUG    | Query='from civil department to mechanical department' Intent=find_location Conf=0.97
+2026-06-06 18:47:27,969 | DEBUG    | Matched='Mechanical Engineering Department' Score=0.45
+2026-06-06 18:47:30,488 | DEBUG    | Query='from electrical to robotics department' Intent=find_location Conf=0.88
+2026-06-06 18:47:30,514 | DEBUG    | Matched='Robotics and Automation Department' Score=0.55
+2026-06-06 18:47:37,164 | DEBUG    | Query='where is the gym' Intent=find_location Conf=0.98
+2026-06-06 18:47:37,195 | DEBUG    | Matched='Campus Fitness Centre' Score=0.64
+2026-06-06 18:47:43,847 | DEBUG    | Query='what is on the 3rd floor' Intent=facility_info Conf=0.84
+2026-06-06 18:47:43,874 | DEBUG    | Matched='Electrical Engineering Department' Score=0.40
+2026-06-06 18:47:49,493 | DEBUG    | Query='what is on the 4th floor' Intent=facility_info Conf=0.81
+2026-06-06 18:47:49,521 | DEBUG    | Matched='Civil Engineering Department' Score=0.51
+2026-06-06 18:47:56,037 | DEBUG    | Query='which floors have washrooms' Intent=find_location Conf=0.96
+2026-06-06 18:47:56,062 | DEBUG    | Matched='First Floor Washrooms' Score=0.67
+2026-06-06 18:48:02,445 | DEBUG    | Query='mechanical department is on which floor' Intent=find_location Conf=0.60
+2026-06-06 18:48:02,473 | DEBUG    | Matched='Mechanical Engineering Department' Score=0.57
+2026-06-06 18:48:08,022 | DEBUG    | Query='is the library open on saturday' Intent=ask_hours Conf=0.98
+2026-06-06 18:48:08,051 | DEBUG    | Matched='Central Library' Score=0.38
+2026-06-06 18:48:11,651 | DEBUG    | Query='what time does the cafeteria close' Intent=ask_hours Conf=0.98
+2026-06-06 18:48:11,678 | DEBUG    | Matched='Main Cafeteria' Score=0.46
+2026-06-06 18:48:15,041 | DEBUG    | Query='i am hurt' Intent=emergency Conf=0.98
+2026-06-06 18:48:15,069 | DEBUG    | Matched='Lost and Found Desk' Score=0.28
+2026-06-06 18:48:18,565 | DEBUG    | Query='my friend fainted in the robotics lab' Intent=emergency Conf=0.98
+2026-06-06 18:48:18,628 | DEBUG    | Matched='Medical Room' Score=0.36
+2026-06-06 18:48:23,142 | DEBUG    | Query='i found a wallet near the library' Intent=lost_found Conf=0.97
+2026-06-06 18:48:23,220 | DEBUG    | Matched='Lost and Found Desk' Score=0.42
+2026-06-06 18:48:28,916 | DEBUG    | Query='i lost my laptop' Intent=lost_found Conf=0.97
+2026-06-06 18:48:28,942 | DEBUG    | Matched='Lost and Found Desk' Score=0.46
+2026-06-06 18:48:33,796 | DEBUG    | Query='where can i charge my laptop' Intent=service_query Conf=0.98
+2026-06-06 18:48:33,828 | DEBUG    | Matched='Student Device Charging Station' Score=0.50
+2026-06-06 18:48:39,409 | DEBUG    | Query='where can i inquire for visa' Intent=service_query Conf=0.61
+2026-06-06 18:48:39,437 | DEBUG    | Matched='Accounts Office' Score=0.29
+2026-06-06 18:48:43,922 | DEBUG    | Query='my wifi is not working' Intent=service_query Conf=0.98
+2026-06-06 18:48:43,946 | DEBUG    | Matched='Medical Room' Score=0.28
+2026-06-06 18:48:48,695 | DEBUG    | Query='where can i study quietly' Intent=recommend_place Conf=0.98
+2026-06-06 18:48:48,721 | DEBUG    | Matched='Reading Room' Score=0.50
+2026-06-06 18:48:55,287 | DEBUG    | Query='any events today' Intent=ask_event Conf=0.98
+2026-06-06 18:48:55,313 | DEBUG    | Matched='Main Cafeteria' Score=0.28
+2026-06-06 18:48:55,373 | DEBUG    | Query='what is bitcoin price' Intent=fallback Conf=0.98
+2026-06-06 18:48:55,456 | DEBUG    | Query='i want to propose a girl' Intent=fallback Conf=0.98
+2026-06-06 23:55:04,942 | INFO     | Loading intent classifier...
+2026-06-06 23:55:05,904 | INFO     | Loading retrieval model...
+2026-06-06 23:55:07,532 | INFO     | All models loaded.
+2026-06-06 23:55:07,596 | DEBUG    | Query='What classes can I have in Internation Business?' Intent=facility_info Conf=0.86
+2026-06-06 23:55:07,786 | DEBUG    | Matched='Training and Placement Cell' Score=0.32
+2026-06-06 23:56:18,058 | DEBUG    | Query='What can I have in dinner?' Intent=menu_query Conf=0.96
+2026-06-06 23:56:18,125 | DEBUG    | Matched='Hostel Mess' Score=0.28
+2026-06-06 23:57:43,978 | DEBUG    | Query='What I can wear today for dating with my new german girlfriend?' Intent=fallback Conf=0.48
+2026-06-06 23:58:51,006 | DEBUG    | Query='I have a roommate. He play music too loud. How can I shop him?' Intent=recommend_place Conf=0.70
+2026-06-06 23:58:51,070 | DEBUG    | Matched='Coffee Kiosk' Score=0.28
+2026-06-07 00:00:09,180 | DEBUG    | Query='What class can I take this week?' Intent=ask_event Conf=0.36
+2026-06-07 00:00:09,256 | DEBUG    | Matched='Group Study Room' Score=0.28
+2026-06-07 16:10:33,074 | DEBUG    | Query='where can I buy notebooks and pens' Intent=service_query Conf=0.93
+2026-06-07 16:10:33,307 | DEBUG    | Matched='Stationery Store' Score=0.53
+2026-06-07 16:12:16,576 | DEBUG    | Query='do we have a biotech department' Intent=ask_department Conf=0.74
+2026-06-07 16:12:16,613 | DEBUG    | Matched='Biotechnology Department' Score=0.58
+2026-06-07 16:12:33,568 | DEBUG    | Query='what subjects can i study' Intent=recommend_place Conf=0.71
+2026-06-07 16:12:33,678 | DEBUG    | Matched='Group Study Room' Score=0.35

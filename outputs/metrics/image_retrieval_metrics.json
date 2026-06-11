@@ -1,0 +1,6 @@
+{
+  "top1_accuracy": 0.8889,
+  "top3_accuracy": 1.0,
+  "n_tested": 18,
+  "note": "Held-out images are excluded from the FAISS index."
+}

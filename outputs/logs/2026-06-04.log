@@ -1,0 +1,98 @@
+2026-06-04 13:04:26,430 | INFO     | Loading intent classifier...
+2026-06-04 13:04:27,019 | INFO     | Loading retrieval model...
+2026-06-04 13:04:29,012 | INFO     | All models loaded.
+2026-06-04 13:04:29,039 | DEBUG    | Query='where is the library' Intent=find_location Conf=0.98
+2026-06-04 13:04:29,166 | DEBUG    | Matched='Central Library' Score=0.54
+2026-06-04 13:04:29,269 | DEBUG    | Query='price of tea' Intent=menu_query Conf=0.98
+2026-06-04 13:04:29,363 | DEBUG    | Matched='Coffee Kiosk' Score=0.29
+2026-06-04 13:04:29,435 | DEBUG    | Query='from civil to mechanical how do i go' Intent=find_location Conf=0.97
+2026-06-04 13:04:29,809 | DEBUG    | Matched='ME Classroom 301' Score=0.42
+2026-06-04 13:04:29,885 | DEBUG    | Query='is the cafeteria open on sunday' Intent=ask_hours Conf=0.98
+2026-06-04 13:04:29,971 | DEBUG    | Matched='Main Cafeteria' Score=0.47
+2026-06-04 13:04:30,022 | DEBUG    | Query='i lost my wallet' Intent=lost_found Conf=0.98
+2026-06-04 13:04:30,038 | DEBUG    | Matched='Lost and Found Desk' Score=0.47
+2026-06-04 13:04:30,134 | DEBUG    | Query='i feel sick where can i get help' Intent=emergency Conf=0.98
+2026-06-04 13:04:30,156 | DEBUG    | Matched='Medical Room' Score=0.28
+2026-06-04 13:04:30,207 | DEBUG    | Query='where can i study quietly' Intent=recommend_place Conf=0.98
+2026-06-04 13:04:30,313 | DEBUG    | Matched='Reading Room' Score=0.51
+2026-06-04 13:04:30,369 | DEBUG    | Query='what is bitcoin price' Intent=fallback Conf=0.98
+2026-06-04 13:06:36,943 | INFO     | Loading intent classifier...
+2026-06-04 13:06:37,408 | INFO     | Loading retrieval model...
+2026-06-04 13:06:39,261 | INFO     | All models loaded.
+2026-06-04 13:06:39,290 | DEBUG    | Query='hi' Intent=fallback Conf=0.28
+2026-06-04 13:07:00,731 | DEBUG    | Query='how to get from civil faculty room to mechanical faculty room' Intent=find_location Conf=0.98
+2026-06-04 13:07:01,136 | DEBUG    | Matched='ME Faculty Room' Score=0.64
+2026-06-04 13:07:39,808 | DEBUG    | Query='i feel nauseated' Intent=emergency Conf=0.98
+2026-06-04 13:07:39,866 | DEBUG    | Matched='Main Reception' Score=0.10
+2026-06-04 13:12:27,405 | INFO     | Loading intent classifier...
+2026-06-04 13:12:28,295 | INFO     | Loading retrieval model...
+2026-06-04 13:12:30,338 | INFO     | All models loaded.
+2026-06-04 13:12:30,382 | DEBUG    | Query='where is the cloud9' Intent=find_location Conf=0.97
+2026-06-04 13:12:30,529 | DEBUG    | Matched='IT Classroom 101' Score=0.29
+2026-06-04 13:14:07,773 | INFO     | Loading intent classifier...
+2026-06-04 13:14:08,403 | INFO     | Loading retrieval model...
+2026-06-04 13:14:10,280 | INFO     | All models loaded.
+2026-06-04 13:14:10,313 | DEBUG    | Query='where can i drink tea' Intent=menu_query Conf=0.94
+2026-06-04 13:14:10,442 | DEBUG    | Matched='Coffee Kiosk' Score=0.35
+2026-06-04 13:14:38,198 | DEBUG    | Query='how can i go from mechanical department to AI department' Intent=find_location Conf=0.98
+2026-06-04 13:14:38,528 | DEBUG    | Matched='Robotics and Automation Department' Score=0.49
+2026-06-04 13:15:11,508 | DEBUG    | Query='how do i apply for job' Intent=fallback Conf=0.65
+2026-06-04 13:15:31,209 | DEBUG    | Query='what is cloud9' Intent=fallback Conf=0.84
+2026-06-04 13:15:36,089 | DEBUG    | Query='where is cloud9' Intent=find_location Conf=0.93
+2026-06-04 13:15:36,148 | DEBUG    | Matched='IT Classroom 101' Score=0.29
+2026-06-04 13:15:53,879 | DEBUG    | Query='what is the menu for today' Intent=menu_query Conf=0.98
+2026-06-04 13:15:53,941 | DEBUG    | Matched='Main Cafeteria' Score=0.42
+2026-06-04 13:16:13,672 | DEBUG    | Query='what day is today' Intent=ask_event Conf=0.58
+2026-06-04 13:16:13,706 | DEBUG    | Matched='Main Cafeteria' Score=0.15
+2026-06-04 13:16:57,615 | DEBUG    | Query='what is the menu for tuesday' Intent=menu_query Conf=0.98
+2026-06-04 13:16:57,644 | DEBUG    | Matched='Main Cafeteria' Score=0.44
+2026-06-04 13:18:43,418 | INFO     | Loading intent classifier...
+2026-06-04 13:18:44,246 | INFO     | Loading retrieval model...
+2026-06-04 13:18:46,262 | INFO     | All models loaded.
+2026-06-04 13:18:46,301 | DEBUG    | Query='where is cloud9' Intent=find_location Conf=0.93
+2026-06-04 13:18:46,444 | DEBUG    | Matched='IT Classroom 101' Score=0.29
+2026-06-04 13:18:58,925 | DEBUG    | Query='what is the day today' Intent=fallback Conf=0.49
+2026-06-04 13:19:17,305 | DEBUG    | Query='what is the price of coffee in cafeteria' Intent=menu_query Conf=0.98
+2026-06-04 13:19:17,369 | DEBUG    | Matched='Coffee Kiosk' Score=0.56
+2026-06-04 13:20:02,321 | DEBUG    | Query='what are the dates for upcoming seminars' Intent=ask_event Conf=0.52
+2026-06-04 13:20:02,650 | DEBUG    | Matched='Main Seminar Hall' Score=0.43
+2026-06-04 13:20:25,404 | DEBUG    | Query='anything special this week in the lunch' Intent=menu_query Conf=0.75
+2026-06-04 13:20:25,431 | DEBUG    | Matched='Main Cafeteria' Score=0.40
+2026-06-04 13:21:15,649 | DEBUG    | Query='my laptop battery is dead where can i go for help' Intent=emergency Conf=0.56
+2026-06-04 13:21:15,713 | DEBUG    | Matched='Student Device Charging Station' Score=0.25
+2026-06-04 13:21:29,296 | DEBUG    | Query='how to charge my laptop' Intent=service_query Conf=0.97
+2026-06-04 13:21:29,369 | DEBUG    | Matched='Student Device Charging Station' Score=0.48
+2026-06-04 13:21:38,807 | DEBUG    | Query='i need to park my bike' Intent=service_query Conf=0.55
+2026-06-04 13:21:38,867 | DEBUG    | Matched='Student Parking Area' Score=0.46
+2026-06-04 13:21:50,582 | DEBUG    | Query='i am a teacher' Intent=fallback Conf=0.89
+2026-06-04 13:22:07,371 | DEBUG    | Query='is the library open on saturday evening' Intent=ask_hours Conf=0.98
+2026-06-04 13:22:07,405 | DEBUG    | Matched='Central Library' Score=0.39
+2026-06-04 13:22:19,509 | DEBUG    | Query='i found a wallet near the library what do i do' Intent=fallback Conf=0.30
+2026-06-04 13:22:20,784 | DEBUG    | Query='i found a wallet near the library what do i do' Intent=fallback Conf=0.30
+2026-06-04 13:22:22,962 | DEBUG    | Query='i found a wallet near the library what do i do' Intent=fallback Conf=0.30
+2026-06-04 13:22:28,851 | DEBUG    | Query='i found a wallet near the library what do i do' Intent=fallback Conf=0.30
+2026-06-04 13:22:43,385 | DEBUG    | Query='i think someone stole my phone' Intent=lost_found Conf=0.92
+2026-06-04 13:22:43,417 | DEBUG    | Matched='Lost and Found Desk' Score=0.29
+2026-06-04 13:22:58,305 | DEBUG    | Query='which department handles AI and machine learning' Intent=ask_department Conf=0.94
+2026-06-04 13:22:58,337 | DEBUG    | Matched='HOD Office - Artificial Intelligence and Data Science' Score=0.65
+2026-06-04 13:23:09,183 | DEBUG    | Query='where is the best place to propose to someone on campus' Intent=recommend_place Conf=0.95
+2026-06-04 13:23:09,217 | DEBUG    | Matched='Campus Bus Stop' Score=0.34
+2026-06-04 13:29:40,163 | DEBUG    | Query='i need a quiet corner with good wifi' Intent=recommend_place Conf=0.87
+2026-06-04 13:29:40,556 | DEBUG    | Matched='Multi-Faith Prayer Room' Score=0.27
+2026-06-04 13:29:53,199 | DEBUG    | Query='my friend fainted in the robotics lab what do i do' Intent=emergency Conf=0.57
+2026-06-04 13:29:53,465 | DEBUG    | Matched='Final Year Project Lab' Score=0.25
+2026-06-04 13:30:03,368 | DEBUG    | Query='i need to talk to the dean where is his office' Intent=find_location Conf=0.81
+2026-06-04 13:30:03,403 | DEBUG    | Matched='Dean Academic Office' Score=0.59
+2026-06-04 13:38:25,239 | INFO     | Loading intent classifier...
+2026-06-04 13:38:25,880 | INFO     | Loading retrieval model...
+2026-06-04 13:38:27,660 | INFO     | All models loaded.
+2026-06-04 13:38:27,689 | DEBUG    | Query='my friend fainted in the robotics lab what do i do' Intent=emergency Conf=0.98
+2026-06-04 13:38:27,831 | DEBUG    | Matched='Medical Room' Score=0.36
+2026-06-04 13:38:41,727 | DEBUG    | Query='i found a wallet near the library what do i do' Intent=lost_found Conf=0.97
+2026-06-04 13:38:41,786 | DEBUG    | Matched='Lost and Found Desk' Score=0.45
+2026-06-04 13:38:54,012 | DEBUG    | Query='my laptop battery is dead where can i charge' Intent=service_query Conf=0.98
+2026-06-04 13:38:54,080 | DEBUG    | Matched='Student Device Charging Station' Score=0.38
+2026-06-04 13:39:18,867 | DEBUG    | Query='i want to propose a girl, tell me a perfect spot on the campus' Intent=recommend_place Conf=0.94
+2026-06-04 13:39:19,030 | DEBUG    | Matched='Girls Common Room' Score=0.36
+2026-06-04 13:40:44,249 | DEBUG    | Query='where can I meet a girlfriend' Intent=recommend_place Conf=0.51
+2026-06-04 13:40:44,311 | DEBUG    | Matched='Girls Common Room' Score=0.25

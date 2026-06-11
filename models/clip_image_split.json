@@ -1,0 +1,486 @@
+{
+  "train": [
+    {
+      "image_path": "data/images/admin/admin_03.jpg",
+      "generic_label": "admin",
+      "kb_id": "admin_office"
+    },
+    {
+      "image_path": "data/images/admin/admin_09.jpg",
+      "generic_label": "admin",
+      "kb_id": "admin_office"
+    },
+    {
+      "image_path": "data/images/admin/admin_06.jpg",
+      "generic_label": "admin",
+      "kb_id": "admin_office"
+    },
+    {
+      "image_path": "data/images/admin/admin_07.jpg",
+      "generic_label": "admin",
+      "kb_id": "admin_office"
+    },
+    {
+      "image_path": "data/images/admin/admin_10.jpg",
+      "generic_label": "admin",
+      "kb_id": "admin_office"
+    },
+    {
+      "image_path": "data/images/admin/admin_05.jpg",
+      "generic_label": "admin",
+      "kb_id": "admin_office"
+    },
+    {
+      "image_path": "data/images/admin/admin_01.jpg",
+      "generic_label": "admin",
+      "kb_id": "admin_office"
+    },
+    {
+      "image_path": "data/images/admin/admin_02.jpg",
+      "generic_label": "admin",
+      "kb_id": "admin_office"
+    },
+    {
+      "image_path": "data/images/admin/admin_11.jpg",
+      "generic_label": "admin",
+      "kb_id": "admin_office"
+    },
+    {
+      "image_path": "data/images/auditorium/auditorium_13.jpg",
+      "generic_label": "auditorium",
+      "kb_id": "auditorium_main"
+    },
+    {
+      "image_path": "data/images/auditorium/auditorium_06.jpg",
+      "generic_label": "auditorium",
+      "kb_id": "auditorium_main"
+    },
+    {
+      "image_path": "data/images/auditorium/auditorium_05.jpg",
+      "generic_label": "auditorium",
+      "kb_id": "auditorium_main"
+    },
+    {
+      "image_path": "data/images/auditorium/auditorium_09.jpg",
+      "generic_label": "auditorium",
+      "kb_id": "auditorium_main"
+    },
+    {
+      "image_path": "data/images/auditorium/auditorium_04.jpg",
+      "generic_label": "auditorium",
+      "kb_id": "auditorium_main"
+    },
+    {
+      "image_path": "data/images/auditorium/auditorium_02.jpg",
+      "generic_label": "auditorium",
+      "kb_id": "auditorium_main"
+    },
+    {
+      "image_path": "data/images/auditorium/auditorium_11.jpg",
+      "generic_label": "auditorium",
+      "kb_id": "auditorium_main"
+    },
+    {
+      "image_path": "data/images/auditorium/auditorium_01.jpg",
+      "generic_label": "auditorium",
+      "kb_id": "auditorium_main"
+    },
+    {
+      "image_path": "data/images/auditorium/auditorium_07.jpg",
+      "generic_label": "auditorium",
+      "kb_id": "auditorium_main"
+    },
+    {
+      "image_path": "data/images/auditorium/auditorium_10.jpg",
+      "generic_label": "auditorium",
+      "kb_id": "auditorium_main"
+    },
+    {
+      "image_path": "data/images/cafeteria/cafeteria_10.jpg",
+      "generic_label": "cafeteria",
+      "kb_id": "main_cafeteria"
+    },
+    {
+      "image_path": "data/images/cafeteria/cafeteria_01.jpg",
+      "generic_label": "cafeteria",
+      "kb_id": "main_cafeteria"
+    },
+    {
+      "image_path": "data/images/cafeteria/cafeteria_03.jpg",
+      "generic_label": "cafeteria",
+      "kb_id": "main_cafeteria"
+    },
+    {
+      "image_path": "data/images/cafeteria/cafeteria_05.jpg",
+      "generic_label": "cafeteria",
+      "kb_id": "main_cafeteria"
+    },
+    {
+      "image_path": "data/images/cafeteria/cafeteria_08.jpg",
+      "generic_label": "cafeteria",
+      "kb_id": "main_cafeteria"
+    },
+    {
+      "image_path": "data/images/cafeteria/cafeteria_04.jpg",
+      "generic_label": "cafeteria",
+      "kb_id": "main_cafeteria"
+    },
+    {
+      "image_path": "data/images/cafeteria/cafeteria_07.jpeg",
+      "generic_label": "cafeteria",
+      "kb_id": "main_cafeteria"
+    },
+    {
+      "image_path": "data/images/cafeteria/cafeteria_09.jpg",
+      "generic_label": "cafeteria",
+      "kb_id": "main_cafeteria"
+    },
+    {
+      "image_path": "data/images/classroom/classroom_02.jpg",
+      "generic_label": "classroom",
+      "kb_id": "cse_classroom_101"
+    },
+    {
+      "image_path": "data/images/classroom/classroom_10.jpg",
+      "generic_label": "classroom",
+      "kb_id": "cse_classroom_101"
+    },
+    {
+      "image_path": "data/images/classroom/classroom_01.jpg",
+      "generic_label": "classroom",
+      "kb_id": "cse_classroom_101"
+    },
+    {
+      "image_path": "data/images/classroom/classroom_09.jpg",
+      "generic_label": "classroom",
+      "kb_id": "cse_classroom_101"
+    },
+    {
+      "image_path": "data/images/classroom/classroom_07.jpg",
+      "generic_label": "classroom",
+      "kb_id": "cse_classroom_101"
+    },
+    {
+      "image_path": "data/images/classroom/classroom_04.jpg",
+      "generic_label": "classroom",
+      "kb_id": "cse_classroom_101"
+    },
+    {
+      "image_path": "data/images/classroom/classroom_03.jpg",
+      "generic_label": "classroom",
+      "kb_id": "cse_classroom_101"
+    },
+    {
+      "image_path": "data/images/classroom/classroom_05.jpg",
+      "generic_label": "classroom",
+      "kb_id": "cse_classroom_101"
+    },
+    {
+      "image_path": "data/images/classroom/classroom_06.jpg",
+      "generic_label": "classroom",
+      "kb_id": "cse_classroom_101"
+    },
+    {
+      "image_path": "data/images/department/department_08.jpg",
+      "generic_label": "department",
+      "kb_id": "cse_department"
+    },
+    {
+      "image_path": "data/images/department/department_01.jpg",
+      "generic_label": "department",
+      "kb_id": "cse_department"
+    },
+    {
+      "image_path": "data/images/department/department_03.jpg",
+      "generic_label": "department",
+      "kb_id": "cse_department"
+    },
+    {
+      "image_path": "data/images/department/department_09.jpg",
+      "generic_label": "department",
+      "kb_id": "cse_department"
+    },
+    {
+      "image_path": "data/images/gym/gym_13.jpg",
+      "generic_label": "gym",
+      "kb_id": "gym"
+    },
+    {
+      "image_path": "data/images/gym/gym_14.jpg",
+      "generic_label": "gym",
+      "kb_id": "gym"
+    },
+    {
+      "image_path": "data/images/gym/gym_01.jpg",
+      "generic_label": "gym",
+      "kb_id": "gym"
+    },
+    {
+      "image_path": "data/images/gym/gym_12.jpg",
+      "generic_label": "gym",
+      "kb_id": "gym"
+    },
+    {
+      "image_path": "data/images/gym/gym_04.jpg",
+      "generic_label": "gym",
+      "kb_id": "gym"
+    },
+    {
+      "image_path": "data/images/gym/gym_06.jpg",
+      "generic_label": "gym",
+      "kb_id": "gym"
+    },
+    {
+      "image_path": "data/images/gym/gym_10.jpg",
+      "generic_label": "gym",
+      "kb_id": "gym"
+    },
+    {
+      "image_path": "data/images/gym/gym_05.jpg",
+      "generic_label": "gym",
+      "kb_id": "gym"
+    },
+    {
+      "image_path": "data/images/gym/gym_09.jpg",
+      "generic_label": "gym",
+      "kb_id": "gym"
+    },
+    {
+      "image_path": "data/images/gym/gym_02.jpg",
+      "generic_label": "gym",
+      "kb_id": "gym"
+    },
+    {
+      "image_path": "data/images/gym/gym_07.jpg",
+      "generic_label": "gym",
+      "kb_id": "gym"
+    },
+    {
+      "image_path": "data/images/gym/gym_15.jpg",
+      "generic_label": "gym",
+      "kb_id": "gym"
+    },
+    {
+      "image_path": "data/images/lab/lab_17.jpg",
+      "generic_label": "lab",
+      "kb_id": "computer_lab"
+    },
+    {
+      "image_path": "data/images/lab/lab_15.jpg",
+      "generic_label": "lab",
+      "kb_id": "computer_lab"
+    },
+    {
+      "image_path": "data/images/lab/lab_09.jpg",
+      "generic_label": "lab",
+      "kb_id": "computer_lab"
+    },
+    {
+      "image_path": "data/images/lab/lab_18.jpg",
+      "generic_label": "lab",
+      "kb_id": "computer_lab"
+    },
+    {
+      "image_path": "data/images/lab/lab_12.jpg",
+      "generic_label": "lab",
+      "kb_id": "computer_lab"
+    },
+    {
+      "image_path": "data/images/lab/lab_14.jpg",
+      "generic_label": "lab",
+      "kb_id": "computer_lab"
+    },
+    {
+      "image_path": "data/images/lab/lab_11.jpg",
+      "generic_label": "lab",
+      "kb_id": "computer_lab"
+    },
+    {
+      "image_path": "data/images/lab/lab_13.jpg",
+      "generic_label": "lab",
+      "kb_id": "computer_lab"
+    },
+    {
+      "image_path": "data/images/lab/lab_08.jpg",
+      "generic_label": "lab",
+      "kb_id": "computer_lab"
+    },
+    {
+      "image_path": "data/images/lab/lab_10.jpg",
+      "generic_label": "lab",
+      "kb_id": "computer_lab"
+    },
+    {
+      "image_path": "data/images/library/library_02.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    },
+    {
+      "image_path": "data/images/library/library_01.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    },
+    {
+      "image_path": "data/images/library/library_14.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    },
+    {
+      "image_path": "data/images/library/library_16.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    },
+    {
+      "image_path": "data/images/library/library_13.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    },
+    {
+      "image_path": "data/images/library/library_05.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    },
+    {
+      "image_path": "data/images/library/library_07.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    },
+    {
+      "image_path": "data/images/library/library_08.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    },
+    {
+      "image_path": "data/images/library/library_17.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    },
+    {
+      "image_path": "data/images/library/library_04.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    },
+    {
+      "image_path": "data/images/library/library_12.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    },
+    {
+      "image_path": "data/images/library/library_09.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    },
+    {
+      "image_path": "data/images/library/library_06.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    },
+    {
+      "image_path": "data/images/library/library_03.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    }
+  ],
+  "test": [
+    {
+      "image_path": "data/images/admin/admin_08.jpg",
+      "generic_label": "admin",
+      "kb_id": "admin_office"
+    },
+    {
+      "image_path": "data/images/admin/admin_04.jpg",
+      "generic_label": "admin",
+      "kb_id": "admin_office"
+    },
+    {
+      "image_path": "data/images/auditorium/auditorium_12.jpg",
+      "generic_label": "auditorium",
+      "kb_id": "auditorium_main"
+    },
+    {
+      "image_path": "data/images/auditorium/auditorium_08.jpg",
+      "generic_label": "auditorium",
+      "kb_id": "auditorium_main"
+    },
+    {
+      "image_path": "data/images/auditorium/auditorium_03.jpg",
+      "generic_label": "auditorium",
+      "kb_id": "auditorium_main"
+    },
+    {
+      "image_path": "data/images/cafeteria/cafeteria_06.jpg",
+      "generic_label": "cafeteria",
+      "kb_id": "main_cafeteria"
+    },
+    {
+      "image_path": "data/images/cafeteria/cafeteria_02.jpg",
+      "generic_label": "cafeteria",
+      "kb_id": "main_cafeteria"
+    },
+    {
+      "image_path": "data/images/classroom/classroom_11.jpg",
+      "generic_label": "classroom",
+      "kb_id": "cse_classroom_101"
+    },
+    {
+      "image_path": "data/images/classroom/classroom_08.jpg",
+      "generic_label": "classroom",
+      "kb_id": "cse_classroom_101"
+    },
+    {
+      "image_path": "data/images/department/department_02.jpg",
+      "generic_label": "department",
+      "kb_id": "cse_department"
+    },
+    {
+      "image_path": "data/images/department/department_07.jpg",
+      "generic_label": "department",
+      "kb_id": "cse_department"
+    },
+    {
+      "image_path": "data/images/gym/gym_03.jpg",
+      "generic_label": "gym",
+      "kb_id": "gym"
+    },
+    {
+      "image_path": "data/images/gym/gym_11.jpg",
+      "generic_label": "gym",
+      "kb_id": "gym"
+    },
+    {
+      "image_path": "data/images/gym/gym_08.jpg",
+      "generic_label": "gym",
+      "kb_id": "gym"
+    },
+    {
+      "image_path": "data/images/lab/lab_07.jpg",
+      "generic_label": "lab",
+      "kb_id": "computer_lab"
+    },
+    {
+      "image_path": "data/images/lab/lab_19.jpg",
+      "generic_label": "lab",
+      "kb_id": "computer_lab"
+    },
+    {
+      "image_path": "data/images/lab/lab_16.jpg",
+      "generic_label": "lab",
+      "kb_id": "computer_lab"
+    },
+    {
+      "image_path": "data/images/library/library_10.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    },
+    {
+      "image_path": "data/images/library/library_11.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    },
+    {
+      "image_path": "data/images/library/library_15.jpg",
+      "generic_label": "library",
+      "kb_id": "central_library"
+    }
+  ]
+}

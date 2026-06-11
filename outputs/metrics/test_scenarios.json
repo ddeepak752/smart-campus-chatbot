@@ -1,0 +1,95 @@
+{
+  "test_date": "2026-06-11T11:04:58.213330",
+  "total_scenarios": 9,
+  "passed": 9,
+  "scenarios": [
+    {
+      "scenario": 1,
+      "modality": "text",
+      "input": "where is the library",
+      "intent": "find_location",
+      "matched": "Central Library",
+      "confidence": 0.991,
+      "response": "You're looking for the library? It's actually called the Central Library, and it's located on the First Floor of the Library Block, Zone LIB. You can ",
+      "correct": true
+    },
+    {
+      "scenario": 2,
+      "modality": "text",
+      "input": "is the cafeteria open on Sundays",
+      "intent": "ask_hours",
+      "matched": "Main Cafeteria",
+      "confidence": 0.989,
+      "response": "Unfortunately, the Main Cafeteria is closed on Sundays. It's open from Monday to Saturday, 08:00\u201318:00. If you're looking for alternative options, you",
+      "correct": true
+    },
+    {
+      "scenario": 3,
+      "modality": "text",
+      "input": "price of coffee",
+      "intent": "menu_query",
+      "matched": "Coffee Kiosk",
+      "confidence": 0.992,
+      "response": "You can grab a coffee at the Coffee Kiosk. A hot coffee will cost you \u20ac1.50. They accept cash, student cards, and debit cards for payment.",
+      "correct": true
+    },
+    {
+      "scenario": 4,
+      "modality": "image",
+      "input": "library_01.jpg",
+      "source": "clip",
+      "matched": "Central Library",
+      "confidence": 0.886,
+      "correct": true
+    },
+    {
+      "scenario": 5,
+      "modality": "image",
+      "input": "gym_01.jpg",
+      "source": "clip",
+      "matched": "Campus Fitness Centre",
+      "confidence": 1.0,
+      "correct": true
+    },
+    {
+      "scenario": 6,
+      "modality": "text",
+      "input": "i feel sick and need help",
+      "intent": "emergency",
+      "matched": "Medical Room",
+      "confidence": 0.99,
+      "response": "I'm so sorry to hear that you're not feeling well. The Medical Room is available to help you. You can find it on the Ground Floor, near the Security C",
+      "correct": true
+    },
+    {
+      "scenario": 7,
+      "modality": "text",
+      "input": "how to apply for scholarship",
+      "intent": "ask_scholarship",
+      "matched": "Accounts Office",
+      "confidence": 0.991,
+      "response": "To apply for a scholarship, you should head to the Accounts Office. You can find them on the Ground Floor of the Admin Block, Zone ADM. To get there, ",
+      "correct": true
+    },
+    {
+      "scenario": 8,
+      "modality": "voice",
+      "input": "\ud83c\udfa4 \"where is the student union?\" (Whisper transcript: \"where is the student union\")",
+      "intent": "find_location",
+      "matched": "Student Union",
+      "confidence": 0.764,
+      "response": "You can find the Student Union on the Ground Floor, in the Student Area, Zone STU. It's a student-run social hub for clubs, events, and communities. T",
+      "correct": true
+    },
+    {
+      "scenario": 9,
+      "modality": "voice",
+      "input": "\ud83c\udfa4 \"is the cafeteria open on Sundays?\" (Whisper transcript: \"is the cafeteria open on sunday\")",
+      "intent": "ask_hours",
+      "matched": "Main Cafeteria",
+      "confidence": 0.989,
+      "response": "The Main Cafeteria is open from Monday to Saturday, 08:00\u201318:00. Unfortunately, it's closed on Sundays.",
+      "correct": true
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "data/audio/synthetic/ask_contact/ask_contact_01.mp3": {
+    "reference": "Who should I contact for hostel issues",
+    "hypothesis": "Who should I contact for hostile issues?"
+  },
+  "data/audio/synthetic/ask_contact/ask_contact_02.mp3": {
+    "reference": "Where can visitors ask for help",
+    "hypothesis": "Where can visitors ask for help?"
+  },
+  "data/audio/synthetic/ask_contact/ask_contact_03.mp3": {
+    "reference": "Who handles document queries on campus",
+    "hypothesis": "Who handles document queries on campus?"
+  },
+  "data/audio/synthetic/ask_contact/ask_contact_04.mp3": {
+    "reference": "Who is the contact for international students",
+    "hypothesis": "who is the contact for international students."
+  },
+  "data/audio/synthetic/ask_contact/ask_contact_05.mp3": {
+    "reference": "Where can I ask general questions",
+    "hypothesis": "Where can I ask general questions?"
+  },
+  "data/audio/synthetic/ask_department/ask_department_01.mp3": {
+    "reference": "Tell me about the computer science department",
+    "hypothesis": "Tell me about the Computer Science Department."
+  },
+  "data/audio/synthetic/ask_department/ask_department_02.mp3": {
+    "reference": "Where is the mechanical engineering department",
+    "hypothesis": "Where is the mechanical engineering department?"
+  },
+  "data/audio/synthetic/ask_department/ask_department_03.mp3": {
+    "reference": "What labs are in the AI department",
+    "hypothesis": "What labs are in the AI department?"
+  },
+  "data/audio/synthetic/ask_department/ask_department_04.mp3": {
+    "reference": "Which floor is the civil engineering department on",
+    "hypothesis": "which floor is the Civil Engineering Department on?"
+  },
+  "data/audio/synthetic/ask_department/ask_department_05.mp3": {
+    "reference": "What does the robotics department offer",
+    "hypothesis": "What does the robotics department offer?"
+  },
+  "data/audio/synthetic/ask_event/ask_event_01.mp3": {
+    "reference": "Any events happening today",
+    "hypothesis": "Any events happening today?"
+  },
+  "data/audio/synthetic/ask_event/ask_event_02.mp3": {
+    "reference": "Are there any seminars this week",
+    "hypothesis": "Are there any seminars this week?"
+  },
+  "data/audio/synthetic/ask_event/ask_event_03.mp3": {
+    "reference": "What workshops are available on campus",
+    "hypothesis": "What workshops are available on campus?"
+  },
+  "data/audio/synthetic/ask_event/ask_event_04.mp3": {
+    "reference": "Show me upcoming events at the student union",
+    "hypothesis": "Show me upcoming events at the Student Union."
+  },
+  "data/audio/synthetic/ask_event/ask_event_05.mp3": {
+    "reference": "Any guest lectures today",
+    "hypothesis": "Any guest lectures today?"
+  },
+  "data/audio/synthetic/ask_hours/ask_hours_01.mp3": {
+    "reference": "Is the library open on Saturday",
+    "hypothesis": "Is the library open on Saturday?"
+  },
+  "data/audio/synthetic/ask_hours/ask_hours_02.mp3": {
+    "reference": "What time does the cafeteria close",
+    "hypothesis": "What timed is the cafeteria close?"
+  },
+  "data/audio/synthetic/ask_hours/ask_hours_03.mp3": {
+    "reference": "Is the gym open now",
+    "hypothesis": "Is the gym open now?"
+  },
+  "data/audio/synthetic/ask_hours/ask_hours_04.mp3": {
+    "reference": "What are the opening hours of the reading room",
+    "hypothesis": "What are the opening hours of the reading room?"
+  },
+  "data/audio/synthetic/ask_hours/ask_hours_05.mp3": {
+    "reference": "Can I visit the library this evening",
+    "hypothesis": "Can I visit the library this evening?"
+  },
+  "data/audio/synthetic/emergency/emergency_01.mp3": {
+    "reference": "I feel sick where can I get help",
+    "hypothesis": "I feel sick, where can I get help?"
+  },
+  "data/audio/synthetic/emergency/emergency_02.mp3": {
+    "reference": "My friend fainted in the robotics lab what do I do",
+    "hypothesis": "My friend fainted in the Robotics lab, what do I do?"
+  },
+  "data/audio/synthetic/emergency/emergency_03.mp3": {
+    "reference": "I cut my finger where is first aid",
+    "hypothesis": "I cut my finger where is first aid."
+  },
+  "data/audio/synthetic/emergency/emergency_04.mp3": {
+    "reference": "I need medical assistance urgently",
+    "hypothesis": "I need medical assistance urgently."
+  },
+  "data/audio/synthetic/emergency/emergency_05.mp3": {
+    "reference": "I hurt my leg and need help",
+    "hypothesis": "I hurt my leg and need help."
+  },
+  "data/audio/synthetic/facility_info/facility_info_01.mp3": {
+    "reference": "Tell me about the central library",
+    "hypothesis": "Tell me about the central library."
+  },
+  "data/audio/synthetic/facility_info/facility_info_02.mp3": {
+    "reference": "What facilities are available in the student union",
+    "hypothesis": "What facilities are available in the Student Union?"
+  },
+  "data/audio/synthetic/facility_info/facility_info_03.mp3": {
+    "reference": "What does the innovation centre offer",
+    "hypothesis": "What does the Innovation Center offer?"
+  },
+  "data/audio/synthetic/facility_info/facility_info_04.mp3": {
+    "reference": "Give me details about the sports complex",
+    "hypothesis": "give me details about the sports complex."
+  },
+  "data/audio/synthetic/facility_info/facility_info_05.mp3": {
+    "reference": "What is on the third floor",
+    "hypothesis": "What is on the third floor?"
+  },
+  "data/audio/synthetic/faculty_query/faculty_query_01.mp3": {
+    "reference": "Where is the civil department staff room",
+    "hypothesis": "Where is the Civil Department staff room?"
+  },
+  "data/audio/synthetic/faculty_query/faculty_query_02.mp3": {
+    "reference": "Where can I meet my project supervisor",
+    "hypothesis": "Where can I meet my project supervisor?"
+  },
+  "data/audio/synthetic/faculty_query/faculty_query_03.mp3": {
+    "reference": "Where do lecturers sit in the mechanical department",
+    "hypothesis": "where delecturers sit in the mechanical department."
+  },
+  "data/audio/synthetic/faculty_query/faculty_query_04.mp3": {
+    "reference": "Where is the HOD office of the AI department",
+    "hypothesis": "Where is the HOD Office of the AI Department?"
+  },
+  "data/audio/synthetic/faculty_query/faculty_query_05.mp3": {
+    "reference": "Where can I find my professor",
+    "hypothesis": "Where can I find my professor?"
+  },
+  "data/audio/synthetic/fallback/fallback_01.mp3": {
+    "reference": "What is the weather today",
+    "hypothesis": "What is the weather today?"
+  },
+  "data/audio/synthetic/fallback/fallback_02.mp3": {
+    "reference": "Tell me a joke",
+    "hypothesis": "Tell me a joke."
+  },
+  "data/audio/synthetic/fallback/fallback_03.mp3": {
+    "reference": "Who won the cricket match yesterday",
+    "hypothesis": "Who won the cricket match yesterday?"
+  },
+  "data/audio/synthetic/fallback/fallback_04.mp3": {
+    "reference": "What is the price of bitcoin",
+    "hypothesis": "What is the price of Bitcoin?"
+  },
+  "data/audio/synthetic/fallback/fallback_05.mp3": {
+    "reference": "Play some music for me",
+    "hypothesis": "Play some music for me."
+  },
+  "data/audio/synthetic/find_location/find_location_01.mp3": {
+    "reference": "Where is the library",
+    "hypothesis": "Where is the library?"
+  },
+  "data/audio/synthetic/find_location/find_location_02.mp3": {
+    "reference": "How do I get to the cafeteria",
+    "hypothesis": "How do I get to the cafeteria?"
+  },
+  "data/audio/synthetic/find_location/find_location_03.mp3": {
+    "reference": "Take me to the computer lab",
+    "hypothesis": "Take me to the computer lab."
+  },
+  "data/audio/synthetic/find_location/find_location_04.mp3": {
+    "reference": "Which floor is the AI department on",
+    "hypothesis": "which floor is the AI department on?"
+  },
+  "data/audio/synthetic/find_location/find_location_05.mp3": {
+    "reference": "How do I go from the civil department to the mechanical department",
+    "hypothesis": "How do I go from the civil department to the mechanical department?"
+  },
+  "data/audio/synthetic/lost_found/lost_found_01.mp3": {
+    "reference": "I lost my wallet where should I go",
+    "hypothesis": "I lost my wallet where should I go?"
+  },
+  "data/audio/synthetic/lost_found/lost_found_02.mp3": {
+    "reference": "I found a phone near the library what do I do",
+    "hypothesis": "I found a phone near the library what do I do?"
+  },
+  "data/audio/synthetic/lost_found/lost_found_03.mp3": {
+    "reference": "Where is the lost and found office",
+    "hypothesis": "where is the lost and found office?"
+  },
+  "data/audio/synthetic/lost_found/lost_found_04.mp3": {
+    "reference": "I lost my student ID card",
+    "hypothesis": "I lost my student ID card."
+  },
+  "data/audio/synthetic/lost_found/lost_found_05.mp3": {
+    "reference": "I think someone took my bag",
+    "hypothesis": "I think someone took my bag."
+  },
+  "data/audio/synthetic/menu_query/menu_query_01.mp3": {
+    "reference": "What is the price of tea",
+    "hypothesis": "What is the price of T?"
+  },
+  "data/audio/synthetic/menu_query/menu_query_02.mp3": {
+    "reference": "How much does coffee cost",
+    "hypothesis": "how much does coffee cost?"
+  },
+  "data/audio/synthetic/menu_query/menu_query_03.mp3": {
+    "reference": "What is on the menu today",
+    "hypothesis": "What is on the menu today?"
+  },
+  "data/audio/synthetic/menu_query/menu_query_04.mp3": {
+    "reference": "Price of samosa",
+    "hypothesis": "Price of Samosa"
+  },
+  "data/audio/synthetic/menu_query/menu_query_05.mp3": {
+    "reference": "What snacks are available right now",
+    "hypothesis": "What snacks are available right now?"
+  },
+  "data/audio/synthetic/recommend_place/recommend_place_01.mp3": {
+    "reference": "Where can I study quietly",
+    "hypothesis": "Where can I study quietly?"
+  },
+  "data/audio/synthetic/recommend_place/recommend_place_02.mp3": {
+    "reference": "Suggest a peaceful place to study",
+    "hypothesis": "Suggest a peaceful place to study."
+  },
+  "data/audio/synthetic/recommend_place/recommend_place_03.mp3": {
+    "reference": "Where can I sit with my laptop",
+    "hypothesis": "Where can I sit with my laptop?"
+  },
+  "data/audio/synthetic/recommend_place/recommend_place_04.mp3": {
+    "reference": "I need a quiet corner with good wifi",
+    "hypothesis": "I need a quiet corner with good Wi-Fi."
+  },
+  "data/audio/synthetic/recommend_place/recommend_place_05.mp3": {
+    "reference": "Where is the best place to prepare for exams",
+    "hypothesis": "Where is the best place to prepare for exams?"
+  },
+  "data/audio/synthetic/service_query/service_query_01.mp3": {
+    "reference": "Where can I charge my laptop",
+    "hypothesis": "Where can I charge my laptop?"
+  },
+  "data/audio/synthetic/service_query/service_query_02.mp3": {
+    "reference": "Where can I print my assignment",
+    "hypothesis": "Where can I print my assignment?"
+  },
+  "data/audio/synthetic/service_query/service_query_03.mp3": {
+    "reference": "My wifi is not working who do I contact",
+    "hypothesis": "My Wi-Fi is not working, who do I contact?"
+  },
+  "data/audio/synthetic/service_query/service_query_04.mp3": {
+    "reference": "Where can I get a bonafide certificate",
+    "hypothesis": "Where can I get a bonafide certificate?"
+  },
+  "data/audio/synthetic/service_query/service_query_05.mp3": {
+    "reference": "Where is the IT helpdesk",
+    "hypothesis": "Where is the IT help desk?"
+  }
+}

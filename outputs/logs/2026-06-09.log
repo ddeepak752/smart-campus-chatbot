@@ -1,0 +1,139 @@
+2026-06-09 11:21:17,024 | INFO     | Loading intent classifier...
+2026-06-09 11:21:18,092 | INFO     | Loading retrieval model...
+2026-06-09 11:21:20,797 | INFO     | All models loaded.
+2026-06-09 11:21:20,855 | DEBUG    | Query='what is in the picture?' Intent=fallback Conf=0.84
+2026-06-09 11:24:58,351 | DEBUG    | Query='Price of coffee' Intent=menu_query Conf=0.98
+2026-06-09 11:24:58,428 | DEBUG    | Matched='Coffee Kiosk' Score=0.46
+2026-06-09 11:28:06,232 | INFO     | Loading Whisper ASR model (base)...
+2026-06-09 11:28:06,720 | INFO     | Whisper loaded.
+2026-06-09 11:28:07,884 | INFO     | Whisper transcript: ''
+2026-06-09 11:28:21,949 | INFO     | Whisper transcript: ''
+2026-06-09 11:28:30,366 | INFO     | Whisper transcript: 'Where is the library?'
+2026-06-09 11:28:30,366 | INFO     | Loading intent classifier...
+2026-06-09 11:28:31,380 | INFO     | Loading retrieval model...
+2026-06-09 11:28:33,881 | INFO     | All models loaded.
+2026-06-09 11:28:33,922 | DEBUG    | Query='Where is the library?' Intent=find_location Conf=0.96
+2026-06-09 11:28:34,088 | DEBUG    | Matched='Central Library' Score=0.50
+2026-06-09 11:28:52,568 | INFO     | Whisper transcript: 'What can I have for lunch?'
+2026-06-09 11:28:52,585 | DEBUG    | Query='What can I have for lunch?' Intent=menu_query Conf=0.97
+2026-06-09 11:28:52,656 | DEBUG    | Matched='Main Cafeteria' Score=0.41
+2026-06-09 11:29:10,531 | INFO     | Whisper transcript: 'I need help with my visa.'
+2026-06-09 11:29:10,552 | DEBUG    | Query='I need help with my visa.' Intent=emergency Conf=0.93
+2026-06-09 11:29:10,586 | DEBUG    | Matched='Lost and Found Desk' Score=0.28
+2026-06-09 11:32:37,260 | INFO     | Whisper transcript: 'How do I get to gym?'
+2026-06-09 11:32:37,296 | DEBUG    | Query='How do I get to gym?' Intent=find_location Conf=0.96
+2026-06-09 11:32:37,481 | DEBUG    | Matched='Campus Fitness Centre' Score=0.56
+2026-06-09 11:33:19,449 | INFO     | Loading intent classifier...
+2026-06-09 11:33:20,389 | INFO     | Loading retrieval model...
+2026-06-09 11:33:38,123 | INFO     | All models loaded.
+2026-06-09 11:33:38,146 | DEBUG    | Query='how can i make friends' Intent=fallback Conf=0.98
+2026-06-09 11:34:05,275 | DEBUG    | Query='what is the dean's timing' Intent=fallback Conf=0.84
+2026-06-09 11:34:22,486 | DEBUG    | Query='faculty room timing, civil' Intent=ask_hours Conf=0.80
+2026-06-09 11:34:22,652 | DEBUG    | Matched='Civil Engineering Department' Score=0.28
+2026-06-09 11:34:33,327 | DEBUG    | Query='civil washroom' Intent=find_location Conf=0.93
+2026-06-09 11:34:33,405 | DEBUG    | Matched='Civil Department Washrooms' Score=0.63
+2026-06-09 11:35:46,027 | DEBUG    | Query='mechanical department to civil department direction' Intent=find_location Conf=0.96
+2026-06-09 11:35:46,090 | DEBUG    | Matched='Civil Engineering Department' Score=0.30
+2026-06-09 11:36:03,211 | DEBUG    | Query='directions from mechanical department to civil department' Intent=find_location Conf=0.98
+2026-06-09 11:36:03,287 | DEBUG    | Matched='Civil Engineering Department' Score=0.35
+2026-06-09 11:40:14,898 | INFO     | Loading intent classifier...
+2026-06-09 11:40:15,545 | INFO     | Loading retrieval model...
+2026-06-09 11:40:17,837 | INFO     | All models loaded.
+2026-06-09 11:40:17,868 | DEBUG    | Query='faculty room timing, civil' Intent=ask_hours Conf=0.80
+2026-06-09 11:40:18,016 | DEBUG    | Matched='Civil Engineering Department' Score=0.28
+2026-06-09 11:40:18,709 | DEBUG    | Query='what is the dean's timing' Intent=fallback Conf=0.84
+2026-06-09 11:40:18,724 | DEBUG    | Query='how can i make friends' Intent=fallback Conf=0.98
+2026-06-09 11:40:18,736 | DEBUG    | Query='civil washroom' Intent=find_location Conf=0.93
+2026-06-09 11:40:18,782 | DEBUG    | Matched='Civil Department Washrooms' Score=0.63
+2026-06-09 11:40:19,525 | DEBUG    | Query='directions from mechanical department to civil department' Intent=find_location Conf=0.98
+2026-06-09 11:40:19,579 | DEBUG    | Matched='Civil Engineering Department' Score=0.35
+2026-06-09 11:41:39,996 | INFO     | Loading intent classifier...
+2026-06-09 11:41:40,438 | INFO     | Loading retrieval model...
+2026-06-09 11:41:42,107 | INFO     | All models loaded.
+2026-06-09 11:41:42,140 | DEBUG    | Query='faculty room timing, civil' Intent=ask_hours Conf=0.80
+2026-06-09 11:41:42,295 | DEBUG    | Matched='CE Faculty Room' Score=0.30
+2026-06-09 11:41:43,097 | DEBUG    | Query='what is the dean's timing' Intent=fallback Conf=0.84
+2026-06-09 11:41:43,120 | DEBUG    | Query='how can i make friends' Intent=fallback Conf=0.98
+2026-06-09 11:41:43,149 | DEBUG    | Query='when is the civil hod available' Intent=ask_hours Conf=0.54
+2026-06-09 11:41:43,215 | DEBUG    | Matched='Civil Engineering Department' Score=0.28
+2026-06-09 11:43:10,986 | INFO     | Loading intent classifier...
+2026-06-09 11:43:11,426 | INFO     | Loading retrieval model...
+2026-06-09 11:43:13,790 | INFO     | All models loaded.
+2026-06-09 11:43:13,824 | DEBUG    | Query='what is the dean's timing' Intent=fallback Conf=0.84
+2026-06-09 11:43:13,848 | DEBUG    | Query='how can i make friends' Intent=fallback Conf=0.98
+2026-06-09 11:43:13,868 | DEBUG    | Query='when is the principal available' Intent=ask_hours Conf=0.39
+2026-06-09 11:43:14,032 | DEBUG    | Matched='Principal Office' Score=0.46
+2026-06-09 11:43:14,558 | DEBUG    | Query='faculty timing civil department' Intent=find_location Conf=0.83
+2026-06-09 11:43:14,616 | DEBUG    | Matched='Civil Engineering Department' Score=0.28
+2026-06-09 11:43:14,703 | DEBUG    | Query='where is student union' Intent=find_location Conf=0.97
+2026-06-09 11:43:14,719 | DEBUG    | Matched='Student Union' Score=0.64
+2026-06-09 11:45:14,485 | INFO     | Loading intent classifier...
+2026-06-09 11:45:14,936 | INFO     | Loading retrieval model...
+2026-06-09 11:45:16,841 | INFO     | All models loaded.
+2026-06-09 11:45:16,876 | DEBUG    | Query='principal office opening hours' Intent=ask_hours Conf=0.97
+2026-06-09 11:45:17,031 | DEBUG    | Matched='Principal Office' Score=0.39
+2026-06-09 11:45:17,598 | DEBUG    | Query='student union events clubs activities' Intent=ask_event Conf=0.73
+2026-06-09 11:45:17,647 | DEBUG    | Matched='Student Union' Score=0.77
+2026-06-09 11:45:18,534 | DEBUG    | Query='faculty timing civil faculty room hours' Intent=ask_hours Conf=0.97
+2026-06-09 11:45:18,587 | DEBUG    | Matched='CE Faculty Room' Score=0.29
+2026-06-09 11:46:09,806 | INFO     | Loading intent classifier...
+2026-06-09 11:46:10,250 | INFO     | Loading retrieval model...
+2026-06-09 11:46:12,318 | INFO     | All models loaded.
+2026-06-09 11:46:12,349 | DEBUG    | Query='opening hours civil faculty room' Intent=ask_hours Conf=0.97
+2026-06-09 11:46:12,503 | DEBUG    | Matched='CE Faculty Room' Score=0.28
+2026-06-09 11:46:13,288 | DEBUG    | Query='opening hours cse faculty room' Intent=ask_hours Conf=0.97
+2026-06-09 11:46:13,334 | DEBUG    | Matched='Group Study Room' Score=0.61
+2026-06-09 11:46:13,633 | DEBUG    | Query='hod timing mechanical' Intent=find_location Conf=0.57
+2026-06-09 11:46:13,677 | DEBUG    | Matched='Mechanical Engineering Department' Score=0.28
+2026-06-09 11:48:00,531 | INFO     | Loading intent classifier...
+2026-06-09 11:48:00,981 | INFO     | Loading retrieval model...
+2026-06-09 11:48:03,454 | INFO     | All models loaded.
+2026-06-09 11:48:03,488 | DEBUG    | Query='faculty timing civil' Intent=ask_hours Conf=0.63
+2026-06-09 11:48:03,637 | DEBUG    | Matched='Civil Engineering Department' Score=0.28
+2026-06-09 11:48:04,840 | DEBUG    | Query='what is the dean's timing' Intent=fallback Conf=0.84
+2026-06-09 11:48:04,853 | DEBUG    | Query='how can i make friends' Intent=fallback Conf=0.98
+2026-06-09 11:48:04,870 | DEBUG    | Query='hod timing mechanical' Intent=find_location Conf=0.57
+2026-06-09 11:48:04,925 | DEBUG    | Matched='Mechanical Engineering Department' Score=0.28
+2026-06-09 11:48:04,998 | DEBUG    | Query='where is library' Intent=find_location Conf=0.98
+2026-06-09 11:48:05,013 | DEBUG    | Matched='Central Library' Score=0.44
+2026-06-09 11:48:05,751 | DEBUG    | Query='price of coffee' Intent=menu_query Conf=0.98
+2026-06-09 11:48:05,765 | DEBUG    | Matched='Coffee Kiosk' Score=0.46
+2026-06-09 12:19:07,036 | INFO     | Loading intent classifier...
+2026-06-09 12:19:08,002 | INFO     | Loading retrieval model...
+2026-06-09 12:19:09,868 | INFO     | All models loaded.
+2026-06-09 12:19:09,905 | DEBUG    | Query='where is the principal's officec' Intent=find_location Conf=0.88
+2026-06-09 12:19:10,085 | DEBUG    | Matched='Principal Office' Score=0.47
+2026-06-09 12:19:28,596 | DEBUG    | Query='what is the timing for Principal's office' Intent=ask_hours Conf=0.64
+2026-06-09 12:19:28,674 | DEBUG    | Matched='Principal Office' Score=0.57
+2026-06-09 12:19:55,517 | DEBUG    | Query='How to get princiapl's office appointment?' Intent=find_location Conf=0.81
+2026-06-09 12:19:55,558 | DEBUG    | Matched='Coffee Kiosk' Score=0.28
+2026-06-09 12:31:27,121 | INFO     | Loading intent classifier...
+2026-06-09 12:31:28,046 | INFO     | Loading retrieval model...
+2026-06-09 12:34:09,540 | INFO     | All models loaded.
+2026-06-09 12:34:09,610 | DEBUG    | Query='Where is the library?' Intent=find_location Conf=0.96
+2026-06-09 12:34:09,650 | DEBUG    | Matched='Central Library' Score=0.50
+2026-06-09 12:39:02,202 | DEBUG    | Query='i need help with admissions' Intent=emergency Conf=0.90
+2026-06-09 12:39:02,430 | DEBUG    | Matched='Main Gate' Score=0.37
+2026-06-09 12:39:26,128 | DEBUG    | Query='what is the fees structure' Intent=facility_info Conf=0.56
+2026-06-09 12:39:26,171 | DEBUG    | Matched='Accounts Office' Score=0.41
+2026-06-09 20:51:47,506 | INFO     | Loading intent classifier...
+2026-06-09 20:51:47,991 | INFO     | Loading retrieval model...
+2026-06-09 20:51:52,443 | INFO     | All models loaded.
+2026-06-09 20:51:52,484 | DEBUG    | Query='where is admissions department' Intent=ask_admission Conf=0.98
+2026-06-09 20:51:52,673 | DEBUG    | Matched='Administrative Office' Score=0.51
+2026-06-09 20:52:08,105 | DEBUG    | Query='where can i get information about hostel?' Intent=facility_info Conf=0.48
+2026-06-09 20:52:08,196 | DEBUG    | Matched='Hostel Mess' Score=0.56
+2026-06-09 20:52:32,570 | DEBUG    | Query='where can I make friends?' Intent=fallback Conf=0.98
+2026-06-09 20:52:47,004 | DEBUG    | Query='how to make friends' Intent=fallback Conf=0.94
+2026-06-09 20:52:55,577 | DEBUG    | Query='price of tea' Intent=menu_query Conf=0.99
+2026-06-09 20:52:55,666 | DEBUG    | Matched='Administrative Office' Score=0.28
+2026-06-09 20:55:09,446 | DEBUG    | Query='i want to know hostel prices' Intent=find_location Conf=0.33
+2026-06-09 20:55:20,082 | DEBUG    | Query='where to get fit' Intent=emergency Conf=0.84
+2026-06-09 20:55:20,191 | DEBUG    | Matched='Campus Fitness Centre' Score=0.40
+2026-06-09 20:55:36,948 | DEBUG    | Query='where to get fit' Intent=emergency Conf=0.84
+2026-06-09 20:55:36,989 | DEBUG    | Matched='Campus Fitness Centre' Score=0.40
+2026-06-09 20:55:54,130 | INFO     | Loading Whisper ASR model (base)...
+2026-06-09 20:55:54,644 | INFO     | Whisper loaded.
+2026-06-09 20:55:56,406 | INFO     | Whisper transcript: 'I got hurt. Oh no.'
+2026-06-09 20:55:56,420 | DEBUG    | Query='I got hurt. Oh no.' Intent=emergency Conf=0.98
+2026-06-09 20:55:56,507 | DEBUG    | Matched='Lost and Found Desk' Score=0.28

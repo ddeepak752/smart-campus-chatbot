@@ -1,0 +1,30 @@
+{
+  "overall_wer": 0.1744,
+  "overall_wer_pct": 17.44,
+  "wer_per_intent": {
+    "ask_contact": 0.1875,
+    "ask_department": 0.1471,
+    "ask_event": 0.1786,
+    "ask_hours": 0.2121,
+    "emergency": 0.1795,
+    "facility_info": 0.1818,
+    "faculty_query": 0.1892,
+    "fallback": 0.1923,
+    "find_location": 0.1389,
+    "lost_found": 0.1316,
+    "menu_query": 0.1538,
+    "recommend_place": 0.1429,
+    "service_query": 0.2424
+  },
+  "total_files": 65,
+  "whisper_model": "base",
+  "sample_rate": 22050,
+  "n_mfcc": 40,
+  "mfcc_max_len": 200,
+  "mfcc_array_shape": [
+    65,
+    40,
+    200
+  ],
+  "note": "WER is a reporting metric only. Whisper is frozen \u2014 not retrained."
+}

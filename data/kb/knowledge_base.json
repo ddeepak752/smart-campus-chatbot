@@ -1,0 +1,4382 @@
+[
+  {
+    "id": "reception",
+    "name": "Main Reception",
+    "category": "reception",
+    "description": "The main welcome and information desk for visitors, students, and staff. Reception helps with directions, appointments, visitor passes, and general campus queries.",
+    "opening_hours": "Monday to Friday, 08:00\u201319:00. Saturday, 09:00\u201314:00.",
+    "map_reference": "Ground Floor, Zone A",
+    "coordinates": "A0",
+    "directions": "Enter through the main entrance on the ground floor. Reception is directly ahead.",
+    "events": [
+      "Welcome orientation every Monday at 09:00"
+    ],
+    "keywords": [
+      "reception",
+      "welcome desk",
+      "front desk",
+      "information",
+      "help desk",
+      "main desk",
+      "visitor help"
+    ],
+    "aliases": [
+      "Main Reception"
+    ],
+    "search_priority": 1.0,
+    "courses_offered": [
+      "MBA (Master of Business Administration)",
+      "MSc Artificial Intelligence",
+      "MSc Data Science",
+      "MSc Computer Science",
+      "BSc Business Administration",
+      "BSc Information Technology",
+      "BSc Computer Science",
+      "BSc Engineering (Civil, Mechanical, Electrical)",
+      "BSc Biotechnology",
+      "BA Humanities and Communication",
+      "Diploma in Digital Marketing",
+      "Diploma in Finance and Accounting"
+    ]
+  },
+  {
+    "id": "main_gate",
+    "name": "Main Gate",
+    "category": "entrance",
+    "description": "Main entry and exit point of the university campus.",
+    "opening_hours": "Open 24 hours with security monitoring.",
+    "map_reference": "Campus Entrance, Zone A",
+    "coordinates": "A-GATE",
+    "directions": "The main gate is at the front of the campus before the security cabin and reception.",
+    "events": [],
+    "keywords": [
+      "main gate",
+      "gate",
+      "entrance",
+      "campus entry",
+      "entry gate",
+      "college entrance"
+    ],
+    "aliases": [
+      "Main Gate"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "security_cabin",
+    "name": "Security Cabin",
+    "category": "security",
+    "description": "Security checkpoint for visitor entry, ID verification, lost and found, and emergency reporting.",
+    "opening_hours": "Open 24 hours.",
+    "map_reference": "Ground Floor, Main Entrance, Zone A",
+    "coordinates": "A-SEC",
+    "directions": "The security cabin is just inside the main gate, before reception.",
+    "events": [],
+    "keywords": [
+      "security",
+      "security cabin",
+      "guard",
+      "lost and found",
+      "id card",
+      "visitor entry",
+      "emergency"
+    ],
+    "aliases": [
+      "Security Cabin"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "admin_office",
+    "name": "Administrative Office",
+    "category": "administration",
+    "description": "Handles admissions, certificates, bonafide letters, student records, forms, and general college administration.",
+    "opening_hours": "Monday to Friday, 09:30\u201317:00.",
+    "map_reference": "Ground Floor, Admin Block, Zone ADM",
+    "coordinates": "ADM0",
+    "directions": "From reception, turn left and enter the admin block. The Administrative Office is the first large office on the right.",
+    "events": [],
+    "keywords": [
+      "administration",
+      "forms",
+      "bonafide",
+      "student records",
+      "dean",
+      "management office",
+      "admin office",
+      "admission",
+      "director",
+      "certificate",
+      "dean's timing",
+      "head of institution",
+      "principal"
+    ],
+    "aliases": [
+      "Administrative Office"
+    ],
+    "search_priority": 1.0,
+    "courses_offered": [
+      "MBA (Master of Business Administration)",
+      "MSc Artificial Intelligence",
+      "MSc Data Science",
+      "MSc Computer Science",
+      "BSc Business Administration",
+      "BSc Information Technology",
+      "BSc Computer Science",
+      "BSc Engineering (Civil, Mechanical, Electrical)",
+      "BSc Biotechnology",
+      "BA Humanities and Communication",
+      "Diploma in Digital Marketing",
+      "Diploma in Finance and Accounting"
+    ]
+  },
+  {
+    "id": "accounts_office",
+    "name": "Accounts Office",
+    "category": "administration",
+    "description": "Office for fee payments, receipts, scholarship payment queries, and financial documentation.",
+    "opening_hours": "Monday to Friday, 10:00\u201316:30.",
+    "map_reference": "Ground Floor, Admin Block, Zone ADM",
+    "coordinates": "ADM0-ACC",
+    "directions": "Go to the admin block from reception. The Accounts Office is beside the Administrative Office.",
+    "events": [],
+    "keywords": [
+      "scholarship",
+      "finance office",
+      "dean",
+      "payment",
+      "management office",
+      "accounts",
+      "director",
+      "fee payment",
+      "head of institution",
+      "fees",
+      "dean's timing",
+      "receipt",
+      "principal"
+    ],
+    "aliases": [
+      "Accounts Office"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "exam_cell",
+    "name": "Examination Cell",
+    "category": "administration",
+    "description": "Handles exam forms, admit cards, hall tickets, timetables, marksheets, revaluation, and exam-related queries.",
+    "opening_hours": "Monday to Friday, 10:00\u201317:00.",
+    "map_reference": "Ground Floor, Admin Block, Zone ADM",
+    "coordinates": "ADM0-EXAM",
+    "directions": "From reception, go left to the admin block. The Examination Cell is the second office on the right.",
+    "events": [],
+    "keywords": [
+      "admit card",
+      "dean",
+      "management office",
+      "examination",
+      "hall ticket",
+      "exam form",
+      "exam cell",
+      "revaluation",
+      "director",
+      "marksheet",
+      "exam timetable",
+      "dean's timing",
+      "head of institution",
+      "principal"
+    ],
+    "aliases": [
+      "Examination Cell"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "principal_office",
+    "name": "Principal Office",
+    "category": "administration",
+    "description": "Office of the college principal for official approvals, institutional meetings, and senior administration.",
+    "opening_hours": "Monday to Friday, 10:00\u201316:00 by appointment.",
+    "map_reference": "Ground Floor, Admin Block, Zone ADM",
+    "coordinates": "ADM0-PR",
+    "directions": "From reception, walk towards the admin block. The Principal Office is at the end of the corridor.",
+    "events": [],
+    "keywords": [
+      "administration",
+      "dean's office",
+      "dean",
+      "head of school",
+      "management office",
+      "dean office",
+      "director",
+      "chancellor",
+      "approval",
+      "vice chancellor",
+      "dean's timing",
+      "rector",
+      "head of institution",
+      "college head",
+      "principal office",
+      "principal"
+    ],
+    "aliases": [
+      "Principal Office"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "registrar_office",
+    "name": "Registrar Office",
+    "category": "administration",
+    "description": "Handles official university records, academic registration, degree records, transcripts, and institutional documentation.",
+    "opening_hours": "Monday to Friday, 09:30\u201317:00.",
+    "map_reference": "Ground Floor, Admin Block, Zone ADM",
+    "coordinates": "ADM0-REG",
+    "directions": "From reception, enter the admin block and walk past the accounts office. The Registrar Office is on the left.",
+    "events": [],
+    "keywords": [
+      "registrar",
+      "dean",
+      "management office",
+      "director",
+      "registration",
+      "head of institution",
+      "degree record",
+      "official documents",
+      "dean's timing",
+      "transcript",
+      "academic records",
+      "principal"
+    ],
+    "aliases": [
+      "Registrar Office"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "dean_office",
+    "name": "Dean Academic Office",
+    "category": "administration",
+    "description": "Office for academic policy, course approvals, academic grievances, and high-level student academic matters.",
+    "opening_hours": "Monday to Friday, 10:00\u201316:00 by appointment.",
+    "map_reference": "First Floor, Admin Block, Zone ADM",
+    "coordinates": "ADM1-DEAN",
+    "directions": "Take the stairs to the first floor of the admin block. The Dean Academic Office is beside the conference room.",
+    "events": [],
+    "keywords": [
+      "dean's office",
+      "dean",
+      "head of school",
+      "academic dean",
+      "management office",
+      "dean office",
+      "director",
+      "course approval",
+      "chancellor",
+      "academic grievance",
+      "vice chancellor",
+      "dean's timing",
+      "rector",
+      "head of institution",
+      "principal office",
+      "principal"
+    ],
+    "aliases": [
+      "Dean Academic Office"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "scholarship_office",
+    "name": "Scholarship Office",
+    "category": "administration",
+    "description": "Supports scholarship applications, fee concessions, financial aid documents, and scholarship status queries.",
+    "opening_hours": "Monday to Friday, 10:00\u201316:00.",
+    "map_reference": "Ground Floor, Admin Block, Zone ADM",
+    "coordinates": "ADM0-SCH",
+    "directions": "From reception, go to the admin block. The Scholarship Office is next to the Accounts Office.",
+    "events": [],
+    "keywords": [
+      "scholarship",
+      "fee concession",
+      "dean",
+      "scholarship form",
+      "management office",
+      "financial aid",
+      "director",
+      "dean's timing",
+      "head of institution",
+      "student funding",
+      "principal"
+    ],
+    "aliases": [
+      "Scholarship Office"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "international_office",
+    "name": "International Student Office",
+    "category": "student_services",
+    "description": "Supports international students with visa guidance, accommodation support, arrival support, and documentation queries.",
+    "opening_hours": "Monday to Friday, 09:30\u201317:00.",
+    "map_reference": "Ground Floor, Student Services Zone",
+    "coordinates": "C0-INT",
+    "directions": "From reception, turn left and walk past the notice boards. The International Student Office is inside Student Services.",
+    "events": [],
+    "keywords": [
+      "international office",
+      "visa",
+      "international student",
+      "accommodation",
+      "arrival support"
+    ],
+    "aliases": [
+      "International Student Office"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "student_services",
+    "name": "Student Services Office",
+    "category": "student_services",
+    "description": "Handles student enrolment, welfare support, accommodation queries, letters, and general student help.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Ground Floor, Zone C",
+    "coordinates": "C0",
+    "directions": "From reception, turn left and walk past the notice boards. Student Services is the first office on the right.",
+    "events": [
+      "Drop-in visa advice every Tuesday at 14:00",
+      "Wellbeing workshop every Thursday at 15:00"
+    ],
+    "keywords": [
+      "student services",
+      "visa",
+      "enrolment",
+      "welfare",
+      "support",
+      "accommodation",
+      "help",
+      "admin"
+    ],
+    "aliases": [
+      "Student Services Office"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "main_cafeteria",
+    "name": "Main Cafeteria",
+    "category": "cafeteria",
+    "description": "Main food area serving breakfast, lunch, snacks, tea, coffee, cold drinks, and affordable student meals. Day-wise menu with approximate prices is available.",
+    "opening_hours": "Monday to Saturday, 08:00\u201318:00.",
+    "map_reference": "Ground Floor, Cafeteria Block, Zone CAF",
+    "coordinates": "CAF0",
+    "directions": "From reception, turn right and walk straight past the notice board. The Main Cafeteria is on the left side of the ground floor.",
+    "events": [
+      "Special lunch menu every Friday"
+    ],
+    "keywords": [
+      "lunch",
+      "friday special lunch",
+      "canteen",
+      "snacks",
+      "menu today",
+      "todays menu",
+      "monday menu",
+      "coffee",
+      "today menu",
+      "eat",
+      "thursday menu",
+      "wednesday menu",
+      "tea",
+      "daily menu",
+      "special lunch",
+      "prices",
+      "cafeteria",
+      "cost",
+      "food",
+      "breakfast",
+      "tuesday menu",
+      "price",
+      "meals",
+      "menu",
+      "student meal",
+      "thali",
+      "tea price",
+      "coffee price"
+    ],
+    "menu": {
+      "special_lunch_day": "Friday",
+      "payment_options": [
+        "cash",
+        "student card",
+        "debit card"
+      ],
+      "note": "Prices are approximate student canteen prices and may change slightly.",
+      "weekly_menu": {
+        "monday": {
+          "breakfast": [
+            {
+              "item": "Tea",
+              "price": "\u20ac1.00"
+            },
+            {
+              "item": "Coffee",
+              "price": "\u20ac1.50"
+            },
+            {
+              "item": "Poha",
+              "price": "\u20ac2.50"
+            },
+            {
+              "item": "Veg Sandwich",
+              "price": "\u20ac3.00"
+            }
+          ],
+          "lunch": [
+            {
+              "item": "Veg Thali",
+              "price": "\u20ac5.50"
+            },
+            {
+              "item": "Paneer Rice Bowl",
+              "price": "\u20ac6.00"
+            },
+            {
+              "item": "Chicken Curry Rice",
+              "price": "\u20ac6.50"
+            }
+          ],
+          "snacks": [
+            {
+              "item": "Samosa",
+              "price": "\u20ac1.50"
+            },
+            {
+              "item": "Cookies",
+              "price": "\u20ac1.50"
+            },
+            {
+              "item": "Fresh Juice",
+              "price": "\u20ac2.50"
+            }
+          ]
+        },
+        "tuesday": {
+          "breakfast": [
+            {
+              "item": "Tea",
+              "price": "\u20ac1.00"
+            },
+            {
+              "item": "Coffee",
+              "price": "\u20ac1.50"
+            },
+            {
+              "item": "Idli Sambar",
+              "price": "\u20ac3.00"
+            },
+            {
+              "item": "Omelette Toast",
+              "price": "\u20ac3.50"
+            }
+          ],
+          "lunch": [
+            {
+              "item": "Rajma Rice",
+              "price": "\u20ac5.50"
+            },
+            {
+              "item": "Veg Pasta",
+              "price": "\u20ac5.00"
+            },
+            {
+              "item": "Grilled Chicken Wrap",
+              "price": "\u20ac6.50"
+            }
+          ],
+          "snacks": [
+            {
+              "item": "Muffin",
+              "price": "\u20ac2.00"
+            },
+            {
+              "item": "Cookies",
+              "price": "\u20ac1.50"
+            },
+            {
+              "item": "Cold Coffee",
+              "price": "\u20ac2.50"
+            }
+          ]
+        },
+        "wednesday": {
+          "breakfast": [
+            {
+              "item": "Tea",
+              "price": "\u20ac1.00"
+            },
+            {
+              "item": "Coffee",
+              "price": "\u20ac1.50"
+            },
+            {
+              "item": "Aloo Paratha",
+              "price": "\u20ac3.00"
+            },
+            {
+              "item": "Fruit Bowl",
+              "price": "\u20ac3.50"
+            }
+          ],
+          "lunch": [
+            {
+              "item": "Dal Rice",
+              "price": "\u20ac5.00"
+            },
+            {
+              "item": "Veg Noodles",
+              "price": "\u20ac5.00"
+            },
+            {
+              "item": "Chicken Sandwich Meal",
+              "price": "\u20ac6.00"
+            }
+          ],
+          "snacks": [
+            {
+              "item": "Fries",
+              "price": "\u20ac2.50"
+            },
+            {
+              "item": "Brownie",
+              "price": "2.50"
+            },
+            {
+              "item": "Lemonade",
+              "price": "\u20ac2.00"
+            }
+          ]
+        },
+        "thursday": {
+          "breakfast": [
+            {
+              "item": "Tea",
+              "price": "\u20ac1.00"
+            },
+            {
+              "item": "Coffee",
+              "price": "\u20ac1.50"
+            },
+            {
+              "item": "Upma",
+              "price": "\u20ac2.50"
+            },
+            {
+              "item": "Cheese Toast",
+              "price": "\u20ac3.00"
+            }
+          ],
+          "lunch": [
+            {
+              "item": "Chole Rice",
+              "price": "\u20ac5.50"
+            },
+            {
+              "item": "Paneer Wrap",
+              "price": "\u20ac6.00"
+            },
+            {
+              "item": "Chicken Pasta",
+              "price": "\u20ac6.50"
+            }
+          ],
+          "snacks": [
+            {
+              "item": "Samosa",
+              "price": "\u20ac1.50"
+            },
+            {
+              "item": "Muffin",
+              "price": "\u20ac2.00"
+            },
+            {
+              "item": "Iced Tea",
+              "price": "\u20ac2.50"
+            }
+          ]
+        },
+        "friday": {
+          "breakfast": [
+            {
+              "item": "Tea",
+              "price": "\u20ac1.00"
+            },
+            {
+              "item": "Coffee",
+              "price": "\u20ac1.50"
+            },
+            {
+              "item": "Masala Dosa",
+              "price": "\u20ac3.50"
+            },
+            {
+              "item": "Egg Sandwich",
+              "price": "\u20ac3.50"
+            }
+          ],
+          "lunch": [
+            {
+              "item": "Special Veg Thali",
+              "price": "\u20ac6.50"
+            },
+            {
+              "item": "Chicken Biryani",
+              "price": "\u20ac7.00"
+            },
+            {
+              "item": "Paneer Biryani",
+              "price": "\u20ac6.50"
+            }
+          ],
+          "snacks": [
+            {
+              "item": "Pakora",
+              "price": "\u20ac2.00"
+            },
+            {
+              "item": "Brownie",
+              "price": "\u20ac2.50"
+            },
+            {
+              "item": "Mango Lassi",
+              "price": "\u20ac3.00"
+            }
+          ]
+        },
+        "saturday": {
+          "breakfast": [
+            {
+              "item": "Tea",
+              "price": "\u20ac1.00"
+            },
+            {
+              "item": "Coffee",
+              "price": "\u20ac1.50"
+            },
+            {
+              "item": "Bread Omelette",
+              "price": "\u20ac3.00"
+            },
+            {
+              "item": "Pancakes",
+              "price": "\u20ac3.50"
+            }
+          ],
+          "lunch": [
+            {
+              "item": "Veg Fried Rice",
+              "price": "\u20ac5.00"
+            },
+            {
+              "item": "Chicken Noodles",
+              "price": "\u20ac6.50"
+            },
+            {
+              "item": "Salad Bowl",
+              "price": "\u20ac4.50"
+            }
+          ],
+          "snacks": [
+            {
+              "item": "Fries",
+              "price": "\u20ac2.50"
+            },
+            {
+              "item": "Muffin",
+              "price": "\u20ac2.00"
+            },
+            {
+              "item": "Smoothie",
+              "price": "\u20ac3.00"
+            }
+          ]
+        }
+      }
+    },
+    "aliases": [
+      "cafeteria",
+      "main cafeteria",
+      "canteen",
+      "main canteen",
+      "food court",
+      "dining hall",
+      "lunch area",
+      "place to eat",
+      "student cafeteria",
+      "campus cafeteria",
+      "food area",
+      "where to eat",
+      "get lunch",
+      "eat lunch"
+    ],
+    "search_priority": 1.2
+  },
+  {
+    "id": "coffee_kiosk",
+    "name": "Coffee Kiosk",
+    "category": "cafeteria",
+    "description": "Small kiosk serving coffee, tea, cold drinks, muffins, and quick snacks.",
+    "opening_hours": "Monday to Friday, 08:30\u201317:30.",
+    "map_reference": "Ground Floor, Near Library Staircase",
+    "coordinates": "CAF0-CK",
+    "directions": "From reception, walk towards the lift area. The Coffee Kiosk is next to the staircase leading to the library.",
+    "events": [],
+    "keywords": [
+      "coffee menu",
+      "americano",
+      "iced coffee",
+      "where can I get coffee",
+      "cappuccino",
+      "kiosk",
+      "coffee",
+      "quick snack",
+      "latte",
+      "muffin",
+      "cold drink",
+      "tea",
+      "coffee price",
+      "tea price",
+      "espresso",
+      "hot chocolate"
+    ],
+    "menu": {
+      "payment_options": [
+        "cash",
+        "student card",
+        "debit card"
+      ],
+      "note": "Coffee kiosk prices are approximate.",
+      "items": {
+        "hot_drinks": [
+          {
+            "item": "Tea",
+            "price": "\u20ac1.00"
+          },
+          {
+            "item": "Espresso",
+            "price": "\u20ac1.50"
+          },
+          {
+            "item": "Americano",
+            "price": "\u20ac2.00"
+          },
+          {
+            "item": "Cappuccino",
+            "price": "\u20ac2.50"
+          },
+          {
+            "item": "Latte",
+            "price": "\u20ac2.80"
+          },
+          {
+            "item": "Hot Chocolate",
+            "price": "\u20ac2.50"
+          }
+        ],
+        "cold_drinks": [
+          {
+            "item": "Cold Coffee",
+            "price": "\u20ac2.50"
+          },
+          {
+            "item": "Iced Tea",
+            "price": "\u20ac2.20"
+          },
+          {
+            "item": "Bottled Water",
+            "price": "\u20ac1.00"
+          }
+        ],
+        "snacks": [
+          {
+            "item": "Muffin",
+            "price": "\u20ac2.00"
+          },
+          {
+            "item": "Cookie",
+            "price": "\u20ac1.50"
+          },
+          {
+            "item": "Granola Bar",
+            "price": "\u20ac1.80"
+          }
+        ]
+      }
+    },
+    "aliases": [
+      "coffee kiosk",
+      "coffee shop",
+      "tea coffee counter",
+      "buy coffee",
+      "coffee place",
+      "hot drinks",
+      "tea stall",
+      "coffee counter",
+      "price of tea",
+      "price of coffee"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "canteen_terrace",
+    "name": "Outdoor Canteen Terrace",
+    "category": "cafeteria",
+    "description": "Outdoor seating area adjacent to the cafeteria for eating, socialising, and informal study.",
+    "opening_hours": "Weather permitting. Generally Monday to Friday, 10:00\u201316:00.",
+    "map_reference": "Ground Floor, Zone CAF Outdoor",
+    "coordinates": "CAF0-OUT",
+    "directions": "Walk through the cafeteria and exit through the glass doors at the back. The terrace is directly outside.",
+    "events": [],
+    "keywords": [
+      "terrace",
+      "outdoor",
+      "outside",
+      "garden",
+      "fresh air",
+      "eat outside",
+      "outdoor seating",
+      "picnic",
+      "barbecue"
+    ],
+    "aliases": [
+      "outdoor terrace",
+      "canteen terrace",
+      "outdoor seating",
+      "eat outside",
+      "terrace seating",
+      "cafeteria terrace",
+      "outdoor canteen terrace"
+    ],
+    "search_priority": 0.9
+  },
+  {
+    "id": "central_library",
+    "name": "Central Library",
+    "category": "library",
+    "description": "Main academic library with textbooks, journals, digital resources, reading rooms, issue counter, and printing support.",
+    "opening_hours": "Monday to Friday, 08:30\u201320:00. Saturday, 09:00\u201317:00.",
+    "map_reference": "First Floor, Library Block, Zone LIB",
+    "coordinates": "LIB1",
+    "directions": "From reception, take the stairs or lift to the first floor. Turn right and walk straight. The Central Library is at the end of the corridor.",
+    "events": [
+      "Research skills workshop every Wednesday at 14:00",
+      "Referencing support every Monday at 11:00"
+    ],
+    "keywords": [
+      "library",
+      "central library",
+      "books",
+      "journals",
+      "reading room",
+      "study",
+      "textbooks",
+      "digital library",
+      "borrow books"
+    ],
+    "aliases": [
+      "library",
+      "central library",
+      "main library",
+      "book library",
+      "study library",
+      "campus library",
+      "library building",
+      "borrow books",
+      "issue books"
+    ],
+    "search_priority": 1.2
+  },
+  {
+    "id": "book_issue_counter",
+    "name": "Library Book Issue Counter",
+    "category": "library",
+    "description": "Counter for borrowing, returning, renewing books, and paying library fines.",
+    "opening_hours": "Monday to Friday, 09:00\u201318:00.",
+    "map_reference": "First Floor, Central Library",
+    "coordinates": "LIB1-ISSUE",
+    "directions": "Enter the Central Library. The Book Issue Counter is directly opposite the entrance.",
+    "events": [],
+    "keywords": [
+      "book issue",
+      "borrow book",
+      "return book",
+      "library fine",
+      "renew book",
+      "issue counter"
+    ],
+    "aliases": [
+      "Library Book Issue Counter"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "digital_library",
+    "name": "Digital Library",
+    "category": "library",
+    "description": "Computer-based library section for e-journals, online databases, e-books, and academic research portals.",
+    "opening_hours": "Monday to Friday, 09:00\u201319:00.",
+    "map_reference": "First Floor, Central Library",
+    "coordinates": "LIB1-DIG",
+    "directions": "Enter the Central Library and turn right. The Digital Library is beside the reference section.",
+    "events": [],
+    "keywords": [
+      "digital library",
+      "e books",
+      "e journals",
+      "online database",
+      "research portal",
+      "digital resources"
+    ],
+    "aliases": [
+      "digital library",
+      "online library",
+      "e library",
+      "computer based library",
+      "digital resources"
+    ],
+    "search_priority": 0.9
+  },
+  {
+    "id": "reading_room",
+    "name": "Reading Room",
+    "category": "study_area",
+    "description": "Silent reading space for exam preparation and individual study.",
+    "opening_hours": "Monday to Saturday, 08:00\u201321:00.",
+    "map_reference": "First Floor, Library Block, Zone LIB",
+    "coordinates": "LIB1-RR",
+    "directions": "Enter the Central Library and turn left. The Reading Room is beside the journal section.",
+    "events": [],
+    "keywords": [
+      "exam preparation",
+      "good wifi",
+      "peaceful corner",
+      "quiet corner",
+      "reading room",
+      "sit and work",
+      "work quietly",
+      "study corner",
+      "study room",
+      "calm place",
+      "silent study",
+      "quiet spot",
+      "wifi spot",
+      "quiet area with wifi",
+      "read quietly",
+      "quiet room",
+      "focus area"
+    ],
+    "aliases": [
+      "Reading Room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "group_study_room",
+    "name": "Group Study Room",
+    "category": "study_area",
+    "description": "Bookable room for team assignments, group discussions, and project meetings.",
+    "opening_hours": "Monday to Saturday, 09:00\u201320:00.",
+    "map_reference": "First Floor, Library Block",
+    "coordinates": "LIB1-GS",
+    "directions": "Inside the Central Library, walk past the reading room. Group Study Room is the glass room at the end.",
+    "events": [],
+    "keywords": [
+      "group study",
+      "book study room",
+      "study together",
+      "discussion room",
+      "study with friends",
+      "project meeting",
+      "group work",
+      "collaborative study",
+      "team study"
+    ],
+    "aliases": [
+      "Group Study Room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "stationery_store",
+    "name": "Stationery Store",
+    "category": "store",
+    "description": "Campus store for notebooks, pens, lab records, drawing sheets, calculators, and academic supplies.",
+    "opening_hours": "Monday to Saturday, 09:00\u201318:00.",
+    "map_reference": "Ground Floor, Near Cafeteria, Zone CAF",
+    "coordinates": "CAF0-ST",
+    "directions": "The stationery store is next to the Main Cafeteria on the ground floor.",
+    "events": [],
+    "keywords": [
+      "stationery",
+      "store",
+      "notebook",
+      "pen",
+      "lab record",
+      "files",
+      "calculator",
+      "drawing sheet"
+    ],
+    "services": {
+      "price_list": [
+        {
+          "item": "Notebook",
+          "price": "\u20ac2.50"
+        },
+        {
+          "item": "Pen",
+          "price": "\u20ac0.80"
+        },
+        {
+          "item": "Lab Record",
+          "price": "\u20ac3.00"
+        },
+        {
+          "item": "Drawing Sheet",
+          "price": "\u20ac0.50"
+        },
+        {
+          "item": "Calculator Battery",
+          "price": "\u20ac2.00"
+        }
+      ]
+    },
+    "aliases": [
+      "Stationery Store"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "printing_room",
+    "name": "Printing and Copying Room",
+    "category": "facility",
+    "description": "Self-service printing, scanning, and photocopying room using student ID card and campus credits.",
+    "opening_hours": "Monday to Saturday, 08:00\u201321:00.",
+    "map_reference": "Ground Floor, Zone A",
+    "coordinates": "A0-PRN",
+    "directions": "From reception, turn immediately left. The printing room is the small room next to the main entrance.",
+    "events": [],
+    "keywords": [
+      "print",
+      "printing",
+      "photocopy",
+      "scanner",
+      "scan",
+      "copy",
+      "documents",
+      "student card",
+      "print assignment",
+      "print slides",
+      "photocopier"
+    ],
+    "services": {
+      "price_list": [
+        {
+          "item": "Black and white print",
+          "price": "\u20ac0.10 per page"
+        },
+        {
+          "item": "Colour print",
+          "price": "\u20ac0.40 per page"
+        },
+        {
+          "item": "Photocopy",
+          "price": "\u20ac0.10 per page"
+        },
+        {
+          "item": "Scanning",
+          "price": "Free with student card"
+        }
+      ],
+      "payment_options": [
+        "student card",
+        "campus print credits"
+      ]
+    },
+    "aliases": [
+      "Printing and Copying Room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "medical_room",
+    "name": "Medical Room",
+    "category": "medical",
+    "description": "Basic first-aid and medical support room for students and staff.",
+    "opening_hours": "Monday to Saturday, 08:00\u201320:00.",
+    "map_reference": "Ground Floor, Near Security Cabin, Zone A",
+    "coordinates": "A-MED",
+    "directions": "From the security cabin, walk towards reception. The Medical Room is on the right side before the notice board.",
+    "events": [],
+    "keywords": [
+      "first aid",
+      "chest pain",
+      "sprain",
+      "allergic reaction",
+      "panic attack",
+      "sick",
+      "feeling unwell",
+      "emergency",
+      "severe pain",
+      "not breathing",
+      "friend collapsed",
+      "anxiety attack",
+      "injury",
+      "friend fainted",
+      "health",
+      "medical room",
+      "emergency help",
+      "twisted ankle",
+      "nauseated",
+      "vomiting",
+      "trouble breathing",
+      "doctor",
+      "fainted",
+      "unconscious",
+      "nurse",
+      "someone fainted"
+    ],
+    "aliases": [
+      "Medical Room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "counselling_room",
+    "name": "Student Counselling Room",
+    "category": "welfare",
+    "description": "Private support room for wellbeing counselling, stress management, and student mental health support.",
+    "opening_hours": "Monday to Friday, 10:00\u201317:00 by appointment.",
+    "map_reference": "Ground Floor, Student Services Zone",
+    "coordinates": "C0-COUN",
+    "directions": "Go to Student Services. The Counselling Room is the private room at the end of the corridor.",
+    "events": [],
+    "keywords": [
+      "counselling",
+      "wellbeing",
+      "mental health",
+      "stress",
+      "support",
+      "student counsellor"
+    ],
+    "aliases": [
+      "Student Counselling Room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "prayer_room",
+    "name": "Multi-Faith Prayer Room",
+    "category": "welfare",
+    "description": "Quiet non-denominational room for prayer, meditation, and reflection.",
+    "opening_hours": "Open 24 hours. Access via student ID card.",
+    "map_reference": "Ground Floor, Zone C",
+    "coordinates": "C0-PR",
+    "directions": "From student services, continue down the corridor and turn left at the fire exit sign. The prayer room is the last door on the right.",
+    "events": [],
+    "keywords": [
+      "prayer",
+      "prayer room",
+      "faith",
+      "religion",
+      "quiet",
+      "reflection",
+      "multi-faith",
+      "chapel",
+      "meditate"
+    ],
+    "aliases": [
+      "Multi-Faith Prayer Room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "boys_common_room",
+    "name": "Boys Common Room",
+    "category": "common_room",
+    "description": "Common room for male students to relax between classes.",
+    "opening_hours": "Monday to Saturday, 08:00\u201319:00.",
+    "map_reference": "Ground Floor, Student Area, Zone STU",
+    "coordinates": "STU0-B",
+    "directions": "From reception, walk past the cafeteria. The Boys Common Room is beside the student lounge.",
+    "events": [],
+    "keywords": [
+      "boys common room",
+      "common room",
+      "student lounge",
+      "relax",
+      "rest room"
+    ],
+    "aliases": [
+      "Boys Common Room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "girls_common_room",
+    "name": "Girls Common Room",
+    "category": "common_room",
+    "description": "Common room for female students to relax between classes.",
+    "opening_hours": "Monday to Saturday, 08:00\u201319:00.",
+    "map_reference": "Ground Floor, Student Area, Zone STU",
+    "coordinates": "STU0-G",
+    "directions": "From reception, walk past the cafeteria. The Girls Common Room is next to the first aid room.",
+    "events": [],
+    "keywords": [
+      "girls common room",
+      "common room",
+      "student lounge",
+      "relax",
+      "rest room"
+    ],
+    "aliases": [
+      "Girls Common Room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "washroom_ground_floor",
+    "name": "Ground Floor Washrooms",
+    "category": "washroom",
+    "description": "Student washrooms located on the ground floor near cafeteria and reception.",
+    "opening_hours": "Open during campus hours.",
+    "map_reference": "Ground Floor, Zone W",
+    "coordinates": "W0",
+    "directions": "From reception, walk towards the cafeteria. The washrooms are on the right side before the cafeteria entrance.",
+    "events": [],
+    "keywords": [
+      "washroom",
+      "toilet",
+      "restroom",
+      "bathroom",
+      "ground floor washroom"
+    ],
+    "aliases": [
+      "Ground Floor Washrooms"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "washroom_first_floor",
+    "name": "First Floor Washrooms",
+    "category": "washroom",
+    "description": "Student washrooms on the first floor near the library and CSE block.",
+    "opening_hours": "Open during campus hours.",
+    "map_reference": "First Floor, Zone W",
+    "coordinates": "W1",
+    "directions": "From the lift on the first floor, turn left. The washrooms are near the library staircase.",
+    "events": [],
+    "keywords": [
+      "washroom",
+      "toilet",
+      "restroom",
+      "bathroom",
+      "first floor washroom"
+    ],
+    "aliases": [
+      "First Floor Washrooms"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "lift_area",
+    "name": "Main Lift Area",
+    "category": "facility",
+    "description": "Main lift and staircase area connecting ground floor to all academic department floors.",
+    "opening_hours": "Open during campus hours.",
+    "map_reference": "Ground Floor, Central Lobby, Zone LIFT",
+    "coordinates": "LIFT0",
+    "directions": "From reception, walk straight ahead. The main lift area is beside the staircase in the central lobby.",
+    "events": [],
+    "keywords": [
+      "lift",
+      "elevator",
+      "stairs",
+      "staircase",
+      "go upstairs",
+      "floor access"
+    ],
+    "aliases": [
+      "Main Lift Area"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "careers_office",
+    "name": "Careers and Employability Office",
+    "category": "careers",
+    "description": "Provides CV reviews, job search support, interview coaching, internship support, and networking events.",
+    "opening_hours": "Monday to Friday, 10:00\u201317:00.",
+    "map_reference": "First Floor, Admin Block, Zone CAREER",
+    "coordinates": "CAR1",
+    "directions": "From the first floor, turn right out of the lift. The Careers Office is the first door on the left, adjacent to the library.",
+    "events": [
+      "CV workshop every Monday at 14:00",
+      "Industry networking event every first Thursday at 17:00"
+    ],
+    "keywords": [
+      "careers",
+      "jobs",
+      "cv",
+      "employability",
+      "interview",
+      "networking",
+      "internship",
+      "graduate",
+      "career advice",
+      "job search"
+    ],
+    "aliases": [
+      "Careers and Employability Office"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "placement_cell",
+    "name": "Training and Placement Cell",
+    "category": "placement",
+    "description": "Supports internships, campus placements, aptitude training, mock interviews, and company recruitment drives.",
+    "opening_hours": "Monday to Friday, 10:00\u201317:00.",
+    "map_reference": "First Floor, Admin Block, Zone PLC",
+    "coordinates": "PLC1",
+    "directions": "From reception, take the stairs to the first floor of the admin block. The Training and Placement Cell is next to the seminar hall.",
+    "events": [
+      "Resume clinic every Monday",
+      "Mock interviews every Thursday",
+      "Campus recruitment drives during placement season"
+    ],
+    "keywords": [
+      "placement",
+      "training placement",
+      "jobs",
+      "internship",
+      "company drive",
+      "resume",
+      "interview",
+      "career"
+    ],
+    "aliases": [
+      "Training and Placement Cell"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "seminar_hall_main",
+    "name": "Main Seminar Hall",
+    "category": "seminar_hall",
+    "description": "Seminar hall used for guest lectures, workshops, technical talks, placement training, and department events.",
+    "opening_hours": "Open during scheduled events.",
+    "map_reference": "First Floor, Admin Block, Zone SEM",
+    "coordinates": "SEM1",
+    "directions": "Take the stairs to the first floor of the admin block. The Main Seminar Hall is opposite the placement cell.",
+    "events": [],
+    "keywords": [
+      "seminar hall",
+      "guest lecture",
+      "workshop",
+      "technical talk",
+      "training session",
+      "event hall"
+    ],
+    "aliases": [
+      "Main Seminar Hall"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "auditorium_main",
+    "name": "Main Auditorium",
+    "category": "auditorium",
+    "description": "Large hall used for annual day, orientation, conferences, cultural programmes, hackathons, and major university events.",
+    "opening_hours": "Open during scheduled events.",
+    "map_reference": "Ground Floor, Cultural Block, Zone AUD",
+    "coordinates": "AUD0",
+    "directions": "From reception, walk straight past the cafeteria. The Main Auditorium entrance is on the right side near the cultural block.",
+    "events": [],
+    "keywords": [
+      "auditorium",
+      "main auditorium",
+      "annual day",
+      "orientation",
+      "conference",
+      "cultural event",
+      "technical fest"
+    ],
+    "aliases": [
+      "Main Auditorium"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "student_union",
+    "name": "Student Union",
+    "category": "student_union",
+    "description": "Student-run social hub for clubs, events, communities, and student activities.",
+    "opening_hours": "Monday to Friday, 10:00\u201320:00. Saturday, 11:00\u201318:00.",
+    "map_reference": "Ground Floor, Student Area, Zone STU",
+    "coordinates": "STU0",
+    "directions": "From reception, walk straight ahead past the cafeteria. The Student Union is at the far end of the ground floor.",
+    "events": [
+      "Quiz night every Wednesday at 18:00",
+      "New student social every first Friday at 17:00"
+    ],
+    "keywords": [
+      "student union",
+      "social",
+      "events",
+      "clubs",
+      "lounge",
+      "community",
+      "activities"
+    ],
+    "aliases": [
+      "Student Union"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "sports_ground",
+    "name": "Sports Ground",
+    "category": "sports",
+    "description": "Outdoor ground used for cricket, football, athletics, sports day, and recreation.",
+    "opening_hours": "Monday to Saturday, 06:00\u201319:00.",
+    "map_reference": "Outdoor Campus Area, Zone SP",
+    "coordinates": "SP0",
+    "directions": "Exit through the main academic block and walk behind the mechanical workshop. The Sports Ground is beside the hostel block.",
+    "events": [],
+    "keywords": [
+      "sports ground",
+      "ground",
+      "football",
+      "cricket",
+      "athletics",
+      "sports day",
+      "playground"
+    ],
+    "aliases": [
+      "Sports Ground"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "gym",
+    "name": "Campus Fitness Centre",
+    "category": "sports",
+    "description": "Fitness room with cardio machines, free weights, and yoga space.",
+    "opening_hours": "Monday to Friday, 07:00\u201321:00. Saturday and Sunday, 09:00\u201317:00.",
+    "map_reference": "Basement, Zone K",
+    "coordinates": "K-1",
+    "directions": "From reception, take the stairs down to the basement. The fitness centre is at the bottom of the stairs on the left.",
+    "events": [],
+    "keywords": [
+      "gym",
+      "fitness",
+      "exercise",
+      "weights",
+      "yoga",
+      "cardio",
+      "sports",
+      "workout",
+      "fitness centre"
+    ],
+    "aliases": [
+      "Campus Fitness Centre"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "indoor_games_room",
+    "name": "Indoor Games Room",
+    "category": "sports",
+    "description": "Recreation room with table tennis, chess, carrom, and board games.",
+    "opening_hours": "Monday to Saturday, 10:00\u201319:00.",
+    "map_reference": "Ground Floor, Student Area",
+    "coordinates": "STU0-GAME",
+    "directions": "From the Student Union, turn left. The Indoor Games Room is next to the common rooms.",
+    "events": [],
+    "keywords": [
+      "indoor games",
+      "table tennis",
+      "chess",
+      "carrom",
+      "games room",
+      "recreation"
+    ],
+    "aliases": [
+      "Indoor Games Room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "parking_area",
+    "name": "Student Parking Area",
+    "category": "parking",
+    "description": "Parking area for bicycles, bikes, and authorised student vehicles.",
+    "opening_hours": "Open 24 hours.",
+    "map_reference": "Outdoor Campus Area, Zone PARK",
+    "coordinates": "PARK0",
+    "directions": "The student parking area is near the main gate, beside the security cabin.",
+    "events": [],
+    "keywords": [
+      "parking",
+      "bike parking",
+      "cycle parking",
+      "student parking",
+      "vehicle parking"
+    ],
+    "aliases": [
+      "Student Parking Area"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "bus_stop",
+    "name": "Campus Bus Stop",
+    "category": "transport",
+    "description": "Pick-up and drop-off point for college buses and local transport.",
+    "opening_hours": "Monday to Saturday during bus schedules.",
+    "map_reference": "Outside Main Gate, Transport Zone",
+    "coordinates": "TR0-BUS",
+    "directions": "Exit the main gate. The campus bus stop is on the left side outside the gate.",
+    "events": [],
+    "keywords": [
+      "bus stop",
+      "college bus",
+      "transport",
+      "pickup",
+      "drop off",
+      "shuttle"
+    ],
+    "aliases": [
+      "Campus Bus Stop"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "transport_office",
+    "name": "Transport Office",
+    "category": "transport",
+    "description": "Office for bus passes, transport routes, shuttle timings, and transport fee queries.",
+    "opening_hours": "Monday to Friday, 09:30\u201317:00.",
+    "map_reference": "Ground Floor, Admin Block",
+    "coordinates": "ADM0-TR",
+    "directions": "From reception, go to the admin block. The Transport Office is beside the Accounts Office.",
+    "events": [],
+    "keywords": [
+      "transport office",
+      "bus pass",
+      "bus route",
+      "shuttle",
+      "transport fee"
+    ],
+    "aliases": [
+      "Transport Office"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "hostel_office",
+    "name": "Hostel Office",
+    "category": "hostel",
+    "description": "Administrative office for hostel admissions, room allocation, complaints, and accommodation support.",
+    "opening_hours": "Monday to Saturday, 09:00\u201318:00.",
+    "map_reference": "Hostel Block, Zone U",
+    "coordinates": "U0",
+    "directions": "Exit the academic block and walk towards the hostel block. The hostel office is near the hostel entrance.",
+    "events": [],
+    "keywords": [
+      "hostel",
+      "hostel office",
+      "room allocation",
+      "accommodation",
+      "warden",
+      "student residence"
+    ],
+    "aliases": [
+      "Hostel Office"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "girls_hostel",
+    "name": "Girls Hostel",
+    "category": "hostel",
+    "description": "Residential block for female students with rooms, study area, common room, and warden office.",
+    "opening_hours": "Access controlled. Visitor hours: 17:00\u201319:00.",
+    "map_reference": "Hostel Area, Zone GH",
+    "coordinates": "GH0",
+    "directions": "From the sports ground, walk towards the hostel area. Girls Hostel is the building on the right.",
+    "events": [],
+    "keywords": [
+      "girls hostel",
+      "female hostel",
+      "hostel room",
+      "warden",
+      "residence"
+    ],
+    "aliases": [
+      "Girls Hostel"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "boys_hostel",
+    "name": "Boys Hostel",
+    "category": "hostel",
+    "description": "Residential block for male students with rooms, common area, study space, and warden office.",
+    "opening_hours": "Access controlled. Visitor hours: 17:00\u201319:00.",
+    "map_reference": "Hostel Area, Zone BH",
+    "coordinates": "BH0",
+    "directions": "From the sports ground, walk towards the hostel area. Boys Hostel is the building on the left.",
+    "events": [],
+    "keywords": [
+      "boys hostel",
+      "male hostel",
+      "hostel room",
+      "warden",
+      "residence"
+    ],
+    "aliases": [
+      "Boys Hostel"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "atm",
+    "name": "ATM",
+    "category": "facility",
+    "description": "ATM for cash withdrawal and basic banking services.",
+    "opening_hours": "Open 24 hours.",
+    "map_reference": "Ground Floor, Near Main Gate",
+    "coordinates": "A-ATM",
+    "directions": "The ATM is near the main gate, beside the security cabin.",
+    "events": [],
+    "keywords": [
+      "atm",
+      "cash",
+      "banking",
+      "withdraw money"
+    ],
+    "aliases": [
+      "ATM"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "it_helpdesk",
+    "name": "IT Help Desk",
+    "category": "it_support",
+    "description": "Technical support for student laptops, campus Wi-Fi, student email, passwords, and software access.",
+    "opening_hours": "Monday to Friday, 09:00\u201318:00.",
+    "map_reference": "First Floor, CSE Block",
+    "coordinates": "CSE1-IT",
+    "directions": "Take the lift to the first floor. The IT Help Desk is directly outside the Computer Lab.",
+    "events": [],
+    "keywords": [
+      "it",
+      "help desk",
+      "technical support",
+      "wi-fi",
+      "laptop",
+      "software",
+      "password",
+      "email",
+      "internet",
+      "fix laptop",
+      "campus wifi"
+    ],
+    "aliases": [
+      "IT Help Desk"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "cse_department",
+    "name": "Computer Science Engineering Department",
+    "category": "department",
+    "description": "Department area for Computer Science Engineering students, faculty, classrooms, labs, and academic support.",
+    "opening_hours": "Monday to Friday, 09:00\u201318:00.",
+    "map_reference": "First Floor, CSE Block, Zone CSE",
+    "coordinates": "CSE1",
+    "directions": "From reception, take the stairs or lift to the first floor. Follow the signs for the CSE Department corridor.",
+    "events": [
+      "CSE department seminar every month"
+    ],
+    "keywords": [
+      "cse",
+      "computer science engineering",
+      "cse department",
+      "department",
+      "cse",
+      "computer science",
+      "coding",
+      "programming",
+      "software"
+    ],
+    "aliases": [
+      "Computer Science Engineering Department",
+      "Computer Science",
+      "Computer Science department",
+      "Computer Science block"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "cse_classroom_101",
+    "name": "CSE Classroom 101",
+    "category": "classroom",
+    "description": "Classroom used for programming and data structures lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "First Floor, CSE Block",
+    "coordinates": "CSE1-101",
+    "directions": "Go to the first floor CSE corridor. CSE Classroom 101 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "cse classroom",
+      "classroom 101",
+      "CSE classroom 101",
+      "computer science engineering classroom",
+      "cse",
+      "computer science",
+      "coding",
+      "programming",
+      "software"
+    ],
+    "aliases": [
+      "CSE Classroom 101"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "cse_classroom_102",
+    "name": "CSE Classroom 102",
+    "category": "classroom",
+    "description": "Classroom used for algorithms and artificial intelligence lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "First Floor, CSE Block",
+    "coordinates": "CSE1-102",
+    "directions": "Go to the first floor CSE corridor. CSE Classroom 102 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "cse classroom",
+      "classroom 102",
+      "CSE classroom 102",
+      "computer science engineering classroom",
+      "cse",
+      "computer science",
+      "coding",
+      "programming",
+      "software"
+    ],
+    "aliases": [
+      "CSE Classroom 102"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "cse_hod_office",
+    "name": "HOD Office - Computer Science Engineering",
+    "category": "hod_office",
+    "description": "Office of the Head of Department for Computer Science Engineering. Students visit for academic approvals, project permissions, and departmental queries.",
+    "opening_hours": "Monday to Friday, 10:00\u201316:00.",
+    "map_reference": "First Floor, CSE Block",
+    "coordinates": "CSE1-HOD",
+    "directions": "Go to the first floor CSE corridor. The CSE HOD office is near the department classrooms and faculty rooms.",
+    "events": [],
+    "keywords": [
+      "hod timing",
+      "coding",
+      "programming",
+      "head of department",
+      "CSE hod",
+      "computer science engineering head",
+      "department head",
+      "cse hod",
+      "software",
+      "hod hours",
+      "computer science",
+      "cse",
+      "computer science engineering hod",
+      "hod office",
+      "hod office hours"
+    ],
+    "aliases": [
+      "cse hod office",
+      "computer science hod office",
+      "cs hod office",
+      "HOD Office - Computer Science Engineering"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "cse_faculty_room",
+    "name": "CSE Faculty Room",
+    "category": "faculty_room",
+    "description": "Faculty room for lecturers and academic staff of the Computer Science Engineering Department.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "First Floor, CSE Block",
+    "coordinates": "CSE1-FAC",
+    "directions": "Go to the first floor CSE corridor. The faculty room is beside the HOD office.",
+    "events": [],
+    "keywords": [
+      "coding",
+      "programming",
+      "faculty timing",
+      "CSE faculty room",
+      "teacher room",
+      "lecturer room",
+      "staff room",
+      "software",
+      "lecturer office",
+      "faculty office hours",
+      "cse staff",
+      "cse faculty",
+      "computer science",
+      "cse",
+      "faculty hours",
+      "faculty room"
+    ],
+    "aliases": [
+      "cse faculty room",
+      "cse staff room",
+      "computer science faculty room",
+      "computer science staff room",
+      "cs faculty room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "it_department",
+    "name": "Information Technology Department",
+    "category": "department",
+    "description": "Department area for Information Technology students, faculty, classrooms, labs, and academic support.",
+    "opening_hours": "Monday to Friday, 09:00\u201318:00.",
+    "map_reference": "First Floor, IT Block, Zone IT",
+    "coordinates": "IT1",
+    "directions": "From reception, take the stairs or lift to the first floor. Follow the signs for the IT Department corridor.",
+    "events": [
+      "IT department seminar every month"
+    ],
+    "keywords": [
+      "it",
+      "information technology",
+      "it department",
+      "department",
+      "it department",
+      "information technology",
+      "networking",
+      "web development",
+      "cloud"
+    ],
+    "aliases": [
+      "Information Technology Department",
+      "Information Technology",
+      "Information Technology block"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "it_classroom_101",
+    "name": "IT Classroom 101",
+    "category": "classroom",
+    "description": "Classroom used for web development and cloud computing lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "First Floor, IT Block",
+    "coordinates": "IT1-101",
+    "directions": "Go to the first floor IT corridor. IT Classroom 101 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "it classroom",
+      "classroom 101",
+      "IT classroom 101",
+      "information technology classroom",
+      "it department",
+      "information technology",
+      "networking",
+      "web development",
+      "cloud"
+    ],
+    "aliases": [
+      "IT Classroom 101"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "it_classroom_102",
+    "name": "IT Classroom 102",
+    "category": "classroom",
+    "description": "Classroom used for network security and software testing lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "First Floor, IT Block",
+    "coordinates": "IT1-102",
+    "directions": "Go to the first floor IT corridor. IT Classroom 102 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "it classroom",
+      "classroom 102",
+      "IT classroom 102",
+      "information technology classroom",
+      "it department",
+      "information technology",
+      "networking",
+      "web development",
+      "cloud"
+    ],
+    "aliases": [
+      "IT Classroom 102"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "it_hod_office",
+    "name": "HOD Office - Information Technology",
+    "category": "hod_office",
+    "description": "Office of the Head of Department for Information Technology. Students visit for academic approvals, project permissions, and departmental queries.",
+    "opening_hours": "Monday to Friday, 10:00\u201316:00.",
+    "map_reference": "First Floor, IT Block",
+    "coordinates": "IT1-HOD",
+    "directions": "Go to the first floor IT corridor. The IT HOD office is near the department classrooms and faculty rooms.",
+    "events": [],
+    "keywords": [
+      "hod timing",
+      "it hod",
+      "head of department",
+      "IT hod",
+      "department head",
+      "information technology hod",
+      "information technology head",
+      "hod office hours",
+      "it department",
+      "hod hours",
+      "networking",
+      "web development",
+      "hod office",
+      "information technology",
+      "cloud"
+    ],
+    "aliases": [
+      "it hod office",
+      "information technology hod office",
+      "HOD Office - Information Technology"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "it_faculty_room",
+    "name": "IT Faculty Room",
+    "category": "faculty_room",
+    "description": "Faculty room for lecturers and academic staff of the Information Technology Department.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "First Floor, IT Block",
+    "coordinates": "IT1-FAC",
+    "directions": "Go to the first floor IT corridor. The faculty room is beside the HOD office.",
+    "events": [],
+    "keywords": [
+      "faculty timing",
+      "teacher room",
+      "lecturer room",
+      "staff room",
+      "lecturer office",
+      "faculty office hours",
+      "it department",
+      "it faculty",
+      "IT faculty room",
+      "networking",
+      "web development",
+      "faculty hours",
+      "it staff",
+      "faculty room",
+      "information technology",
+      "cloud"
+    ],
+    "aliases": [
+      "it faculty room",
+      "it staff room",
+      "information technology faculty room",
+      "information technology staff room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "ai_ds_department",
+    "name": "Artificial Intelligence and Data Science Department",
+    "category": "department",
+    "description": "Department area for Artificial Intelligence and Data Science students, faculty, classrooms, labs, and academic support.",
+    "opening_hours": "Monday to Friday, 09:00\u201318:00.",
+    "map_reference": "Second Floor, AI Block, Zone AI&DS",
+    "coordinates": "AI2",
+    "directions": "From reception, take the stairs or lift to the second floor. Follow the signs for the AI&DS Department corridor.",
+    "events": [
+      "AI&DS department seminar every month"
+    ],
+    "keywords": [
+      "ai_ds",
+      "artificial intelligence and data science",
+      "ai_ds department",
+      "department",
+      "ai",
+      "data science",
+      "machine learning",
+      "deep learning",
+      "analytics"
+    ],
+    "aliases": [
+      "Artificial Intelligence and Data Science Department",
+      "Artificial Intelligence and Data Science",
+      "Artificial Intelligence and Data Science block"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "ai_ds_classroom_201",
+    "name": "AI&DS Classroom 201",
+    "category": "classroom",
+    "description": "Classroom used for machine learning and data mining lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Second Floor, AI Block",
+    "coordinates": "AI2-201",
+    "directions": "Go to the second floor AI&DS corridor. AI&DS Classroom 201 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "ai_ds classroom",
+      "classroom 201",
+      "AI&DS classroom 201",
+      "artificial intelligence and data science classroom",
+      "ai",
+      "data science",
+      "machine learning",
+      "deep learning",
+      "analytics"
+    ],
+    "aliases": [
+      "AI&DS Classroom 201"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "ai_ds_classroom_202",
+    "name": "AI&DS Classroom 202",
+    "category": "classroom",
+    "description": "Classroom used for deep learning and big data analytics lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Second Floor, AI Block",
+    "coordinates": "AI2-202",
+    "directions": "Go to the second floor AI&DS corridor. AI&DS Classroom 202 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "ai_ds classroom",
+      "classroom 202",
+      "AI&DS classroom 202",
+      "artificial intelligence and data science classroom",
+      "ai",
+      "data science",
+      "machine learning",
+      "deep learning",
+      "analytics"
+    ],
+    "aliases": [
+      "AI&DS Classroom 202"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "ai_ds_hod_office",
+    "name": "HOD Office - Artificial Intelligence and Data Science",
+    "category": "hod_office",
+    "description": "Office of the Head of Department for Artificial Intelligence and Data Science. Students visit for academic approvals, project permissions, and departmental queries.",
+    "opening_hours": "Monday to Friday, 10:00\u201316:00.",
+    "map_reference": "Second Floor, AI Block",
+    "coordinates": "AI2-HOD",
+    "directions": "Go to the second floor AI&DS corridor. The AI&DS HOD office is near the department classrooms and faculty rooms.",
+    "events": [],
+    "keywords": [
+      "hod timing",
+      "deep learning",
+      "head of department",
+      "artificial intelligence and data science head",
+      "AI&DS hod",
+      "analytics",
+      "ai",
+      "department head",
+      "data science",
+      "artificial intelligence and data science hod",
+      "hod hours",
+      "ai_ds hod",
+      "hod office",
+      "machine learning",
+      "hod office hours"
+    ],
+    "aliases": [
+      "ai hod office",
+      "ai ds hod office",
+      "data science hod office",
+      "HOD Office - Artificial Intelligence and Data Science"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "ai_ds_faculty_room",
+    "name": "AI&DS Faculty Room",
+    "category": "faculty_room",
+    "description": "Faculty room for lecturers and academic staff of the Artificial Intelligence and Data Science Department.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Second Floor, AI Block",
+    "coordinates": "AI2-FAC",
+    "directions": "Go to the second floor AI&DS corridor. The faculty room is beside the HOD office.",
+    "events": [],
+    "keywords": [
+      "faculty timing",
+      "teacher room",
+      "deep learning",
+      "lecturer room",
+      "ai&ds staff",
+      "analytics",
+      "ai",
+      "staff room",
+      "data science",
+      "faculty room",
+      "lecturer office",
+      "faculty office hours",
+      "ai&ds faculty",
+      "AI&DS faculty room",
+      "faculty hours",
+      "ai_ds faculty",
+      "machine learning"
+    ],
+    "aliases": [
+      "ai faculty room",
+      "ai ds faculty room",
+      "ai and data science staff room",
+      "artificial intelligence faculty room",
+      "data science faculty room",
+      "AI&DS Faculty Room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "ece_department",
+    "name": "Electronics and Communication Engineering Department",
+    "category": "department",
+    "description": "Department area for Electronics and Communication Engineering students, faculty, classrooms, labs, and academic support.",
+    "opening_hours": "Monday to Friday, 09:00\u201318:00.",
+    "map_reference": "Second Floor, ECE Block, Zone ECE",
+    "coordinates": "ECE2",
+    "directions": "From reception, take the stairs or lift to the second floor. Follow the signs for the ECE Department corridor.",
+    "events": [
+      "ECE department seminar every month"
+    ],
+    "keywords": [
+      "ece",
+      "electronics and communication engineering",
+      "ece department",
+      "department",
+      "ece",
+      "electronics",
+      "communication engineering",
+      "circuits"
+    ],
+    "aliases": [
+      "Electronics and Communication Engineering Department",
+      "Electronics and Communication",
+      "Electronics and Communication department",
+      "Electronics and Communication block"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "ece_classroom_201",
+    "name": "ECE Classroom 201",
+    "category": "classroom",
+    "description": "Classroom used for electronics and digital communication lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Second Floor, ECE Block",
+    "coordinates": "ECE2-201",
+    "directions": "Go to the second floor ECE corridor. ECE Classroom 201 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "ece classroom",
+      "classroom 201",
+      "ECE classroom 201",
+      "electronics and communication engineering classroom",
+      "ece",
+      "electronics",
+      "communication engineering",
+      "circuits"
+    ],
+    "aliases": [
+      "ECE Classroom 201"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "ece_classroom_202",
+    "name": "ECE Classroom 202",
+    "category": "classroom",
+    "description": "Classroom used for signal processing and vlsi lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Second Floor, ECE Block",
+    "coordinates": "ECE2-202",
+    "directions": "Go to the second floor ECE corridor. ECE Classroom 202 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "ece classroom",
+      "classroom 202",
+      "ECE classroom 202",
+      "electronics and communication engineering classroom",
+      "ece",
+      "electronics",
+      "communication engineering",
+      "circuits"
+    ],
+    "aliases": [
+      "ECE Classroom 202"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "ece_hod_office",
+    "name": "HOD Office - Electronics and Communication Engineering",
+    "category": "hod_office",
+    "description": "Office of the Head of Department for Electronics and Communication Engineering. Students visit for academic approvals, project permissions, and departmental queries.",
+    "opening_hours": "Monday to Friday, 10:00\u201316:00.",
+    "map_reference": "Second Floor, ECE Block",
+    "coordinates": "ECE2-HOD",
+    "directions": "Go to the second floor ECE corridor. The ECE HOD office is near the department classrooms and faculty rooms.",
+    "events": [],
+    "keywords": [
+      "hod timing",
+      "ece hod",
+      "electronics",
+      "ece",
+      "hod hours",
+      "head of department",
+      "communication engineering",
+      "department head",
+      "electronics and communication engineering head",
+      "ECE hod",
+      "circuits",
+      "electronics and communication engineering hod",
+      "hod office",
+      "hod office hours"
+    ],
+    "aliases": [
+      "ece hod office",
+      "electronics hod office",
+      "HOD Office - Electronics and Communication Engineering"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "ece_faculty_room",
+    "name": "ECE Faculty Room",
+    "category": "faculty_room",
+    "description": "Faculty room for lecturers and academic staff of the Electronics and Communication Engineering Department.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Second Floor, ECE Block",
+    "coordinates": "ECE2-FAC",
+    "directions": "Go to the second floor ECE corridor. The faculty room is beside the HOD office.",
+    "events": [],
+    "keywords": [
+      "ece faculty",
+      "faculty timing",
+      "electronics",
+      "ece",
+      "teacher room",
+      "lecturer room",
+      "ECE faculty room",
+      "communication engineering",
+      "staff room",
+      "ece staff",
+      "lecturer office",
+      "faculty office hours",
+      "circuits",
+      "faculty hours",
+      "faculty room"
+    ],
+    "aliases": [
+      "ece faculty room",
+      "ece staff room",
+      "electronics faculty room",
+      "electronics staff room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "electrical_department",
+    "name": "Electrical Engineering Department",
+    "category": "department",
+    "description": "Department area for Electrical Engineering students, faculty, classrooms, labs, and academic support.",
+    "opening_hours": "Monday to Friday, 09:00\u201318:00.",
+    "map_reference": "Third Floor, EE Block, Zone EE",
+    "coordinates": "EE3",
+    "directions": "From reception, take the stairs or lift to the third floor. Follow the signs for the EE Department corridor.",
+    "events": [
+      "EE department seminar every month"
+    ],
+    "keywords": [
+      "electrical",
+      "electrical engineering",
+      "electrical department",
+      "department",
+      "electrical",
+      "power systems",
+      "machines",
+      "circuits"
+    ],
+    "aliases": [
+      "Electrical Engineering Department",
+      "Electrical",
+      "Electrical department",
+      "Electrical block"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "electrical_classroom_301",
+    "name": "EE Classroom 301",
+    "category": "classroom",
+    "description": "Classroom used for electrical machines and power systems lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Third Floor, EE Block",
+    "coordinates": "EE3-301",
+    "directions": "Go to the third floor EE corridor. EE Classroom 301 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "electrical classroom",
+      "classroom 301",
+      "EE classroom 301",
+      "electrical engineering classroom",
+      "electrical",
+      "power systems",
+      "machines",
+      "circuits"
+    ],
+    "aliases": [
+      "EE Classroom 301"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "electrical_classroom_302",
+    "name": "EE Classroom 302",
+    "category": "classroom",
+    "description": "Classroom used for control systems and renewable energy lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Third Floor, EE Block",
+    "coordinates": "EE3-302",
+    "directions": "Go to the third floor EE corridor. EE Classroom 302 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "electrical classroom",
+      "classroom 302",
+      "EE classroom 302",
+      "electrical engineering classroom",
+      "electrical",
+      "power systems",
+      "machines",
+      "circuits"
+    ],
+    "aliases": [
+      "EE Classroom 302"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "electrical_hod_office",
+    "name": "HOD Office - Electrical Engineering",
+    "category": "hod_office",
+    "description": "Office of the Head of Department for Electrical Engineering. Students visit for academic approvals, project permissions, and departmental queries.",
+    "opening_hours": "Monday to Friday, 10:00\u201316:00.",
+    "map_reference": "Third Floor, EE Block",
+    "coordinates": "EE3-HOD",
+    "directions": "Go to the third floor EE corridor. The EE HOD office is near the department classrooms and faculty rooms.",
+    "events": [],
+    "keywords": [
+      "hod timing",
+      "electrical hod",
+      "EE hod",
+      "hod hours",
+      "head of department",
+      "machines",
+      "electrical",
+      "power systems",
+      "department head",
+      "electrical engineering head",
+      "electrical engineering hod",
+      "circuits",
+      "hod office",
+      "hod office hours"
+    ],
+    "aliases": [
+      "electrical hod office",
+      "ee hod office",
+      "HOD Office - Electrical Engineering"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "electrical_faculty_room",
+    "name": "EE Faculty Room",
+    "category": "faculty_room",
+    "description": "Faculty room for lecturers and academic staff of the Electrical Engineering Department.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Third Floor, EE Block",
+    "coordinates": "EE3-FAC",
+    "directions": "Go to the third floor EE corridor. The faculty room is beside the HOD office.",
+    "events": [],
+    "keywords": [
+      "faculty timing",
+      "teacher room",
+      "electrical faculty",
+      "machines",
+      "lecturer room",
+      "electrical",
+      "power systems",
+      "ee faculty",
+      "staff room",
+      "lecturer office",
+      "faculty office hours",
+      "circuits",
+      "faculty hours",
+      "EE faculty room",
+      "faculty room",
+      "ee staff"
+    ],
+    "aliases": [
+      "electrical faculty room",
+      "electrical staff room",
+      "ee faculty room",
+      "ee staff room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "mechanical_department",
+    "name": "Mechanical Engineering Department",
+    "category": "department",
+    "description": "Department area for Mechanical Engineering students, faculty, classrooms, labs, and academic support.",
+    "opening_hours": "Monday to Friday, 09:00\u201318:00.",
+    "map_reference": "Third Floor, ME Block, Zone ME",
+    "coordinates": "ME3",
+    "directions": "From reception, take the stairs or lift to the third floor. Follow the signs for the ME Department corridor.",
+    "events": [
+      "ME department seminar every month"
+    ],
+    "keywords": [
+      "mechanical",
+      "mechanical engineering",
+      "mechanical department",
+      "department",
+      "mechanical",
+      "machines",
+      "design",
+      "manufacturing"
+    ],
+    "aliases": [
+      "Mechanical Engineering Department",
+      "Mechanical",
+      "Mechanical department",
+      "Mechanical block"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "mechanical_classroom_301",
+    "name": "ME Classroom 301",
+    "category": "classroom",
+    "description": "Classroom used for thermodynamics and fluid mechanics lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Third Floor, ME Block",
+    "coordinates": "ME3-301",
+    "directions": "Go to the third floor ME corridor. ME Classroom 301 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "mechanical classroom",
+      "classroom 301",
+      "ME classroom 301",
+      "mechanical engineering classroom",
+      "mechanical",
+      "machines",
+      "design",
+      "manufacturing"
+    ],
+    "aliases": [
+      "ME Classroom 301"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "mechanical_classroom_302",
+    "name": "ME Classroom 302",
+    "category": "classroom",
+    "description": "Classroom used for machine design and manufacturing lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Third Floor, ME Block",
+    "coordinates": "ME3-302",
+    "directions": "Go to the third floor ME corridor. ME Classroom 302 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "mechanical classroom",
+      "classroom 302",
+      "ME classroom 302",
+      "mechanical engineering classroom",
+      "mechanical",
+      "machines",
+      "design",
+      "manufacturing"
+    ],
+    "aliases": [
+      "ME Classroom 302"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "mechanical_hod_office",
+    "name": "HOD Office - Mechanical Engineering",
+    "category": "hod_office",
+    "description": "Office of the Head of Department for Mechanical Engineering. Students visit for academic approvals, project permissions, and departmental queries.",
+    "opening_hours": "Monday to Friday, 10:00\u201316:00.",
+    "map_reference": "Third Floor, ME Block",
+    "coordinates": "ME3-HOD",
+    "directions": "Go to the third floor ME corridor. The ME HOD office is near the department classrooms and faculty rooms.",
+    "events": [],
+    "keywords": [
+      "hod timing",
+      "manufacturing",
+      "head of department",
+      "machines",
+      "department head",
+      "mechanical engineering hod",
+      "mechanical hod",
+      "mechanical",
+      "ME hod",
+      "design",
+      "hod hours",
+      "mechanical engineering head",
+      "hod office",
+      "hod office hours"
+    ],
+    "aliases": [
+      "mechanical hod office",
+      "me hod office",
+      "mechanical head of department office",
+      "HOD Office - Mechanical Engineering"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "mechanical_faculty_room",
+    "name": "ME Faculty Room",
+    "category": "faculty_room",
+    "description": "Faculty room for lecturers and academic staff of the Mechanical Engineering Department.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Third Floor, ME Block",
+    "coordinates": "ME3-FAC",
+    "directions": "Go to the third floor ME corridor. The faculty room is beside the HOD office.",
+    "events": [],
+    "keywords": [
+      "mechanical faculty",
+      "manufacturing",
+      "faculty timing",
+      "teacher room",
+      "machines",
+      "lecturer room",
+      "me faculty",
+      "staff room",
+      "mechanical",
+      "lecturer office",
+      "faculty office hours",
+      "ME faculty room",
+      "design",
+      "faculty hours",
+      "faculty room",
+      "me staff"
+    ],
+    "aliases": [
+      "mechanical faculty room",
+      "mechanical staff room",
+      "me faculty room",
+      "me staff room",
+      "mechanical lecturers room",
+      "mechanical teachers room"
+    ],
+    "search_priority": 1.2
+  },
+  {
+    "id": "civil_department",
+    "name": "Civil Engineering Department",
+    "category": "department",
+    "description": "Department area for Civil Engineering students, faculty, classrooms, labs, and academic support.",
+    "opening_hours": "Monday to Friday, 09:00\u201318:00.",
+    "map_reference": "Fourth Floor, CE Block, Zone CE",
+    "coordinates": "CE4",
+    "directions": "From reception, take the stairs or lift to the fourth floor. Follow the signs for the CE Department corridor.",
+    "events": [
+      "CE department seminar every month"
+    ],
+    "keywords": [
+      "civil",
+      "civil engineering",
+      "civil department",
+      "department",
+      "civil",
+      "surveying",
+      "construction",
+      "structures"
+    ],
+    "aliases": [
+      "Civil Engineering Department",
+      "Civil",
+      "Civil department",
+      "Civil block"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "civil_classroom_401",
+    "name": "CE Classroom 401",
+    "category": "classroom",
+    "description": "Classroom used for structural analysis and concrete technology lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Fourth Floor, CE Block",
+    "coordinates": "CE4-401",
+    "directions": "Go to the fourth floor CE corridor. CE Classroom 401 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "civil classroom",
+      "classroom 401",
+      "CE classroom 401",
+      "civil engineering classroom",
+      "civil",
+      "surveying",
+      "construction",
+      "structures"
+    ],
+    "aliases": [
+      "CE Classroom 401"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "civil_classroom_402",
+    "name": "CE Classroom 402",
+    "category": "classroom",
+    "description": "Classroom used for transportation engineering and geotechnical engineering lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Fourth Floor, CE Block",
+    "coordinates": "CE4-402",
+    "directions": "Go to the fourth floor CE corridor. CE Classroom 402 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "civil classroom",
+      "classroom 402",
+      "CE classroom 402",
+      "civil engineering classroom",
+      "civil",
+      "surveying",
+      "construction",
+      "structures"
+    ],
+    "aliases": [
+      "CE Classroom 402"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "civil_hod_office",
+    "name": "HOD Office - Civil Engineering",
+    "category": "hod_office",
+    "description": "Office of the Head of Department for Civil Engineering. Students visit for academic approvals, project permissions, and departmental queries.",
+    "opening_hours": "Monday to Friday, 10:00\u201316:00.",
+    "map_reference": "Fourth Floor, CE Block",
+    "coordinates": "CE4-HOD",
+    "directions": "Go to the fourth floor CE corridor. The CE HOD office is near the department classrooms and faculty rooms.",
+    "events": [],
+    "keywords": [
+      "CE hod",
+      "hod timing",
+      "surveying",
+      "structures",
+      "head of department",
+      "civil engineering head",
+      "department head",
+      "construction",
+      "civil engineering hod",
+      "civil hod",
+      "civil",
+      "hod hours",
+      "hod office",
+      "hod office hours"
+    ],
+    "aliases": [
+      "civil hod office",
+      "ce hod office",
+      "civil head of department office",
+      "HOD Office - Civil Engineering"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "civil_faculty_room",
+    "name": "CE Faculty Room",
+    "category": "faculty_room",
+    "description": "Faculty room for lecturers and academic staff of the Civil Engineering Department.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Fourth Floor, CE Block",
+    "coordinates": "CE4-FAC",
+    "directions": "Go to the fourth floor CE corridor. The faculty room is beside the HOD office.",
+    "events": [],
+    "keywords": [
+      "faculty timing",
+      "surveying",
+      "structures",
+      "teacher room",
+      "lecturer room",
+      "construction",
+      "staff room",
+      "civil",
+      "lecturer office",
+      "ce staff",
+      "ce faculty",
+      "faculty office hours",
+      "civil faculty",
+      "faculty hours",
+      "faculty room",
+      "CE faculty room"
+    ],
+    "aliases": [
+      "civil faculty room",
+      "civil staff room",
+      "ce faculty room",
+      "ce staff room",
+      "civil lecturers room",
+      "civil teachers room",
+      "civil professor room"
+    ],
+    "search_priority": 1.2
+  },
+  {
+    "id": "chemical_department",
+    "name": "Chemical Engineering Department",
+    "category": "department",
+    "description": "Department area for Chemical Engineering students, faculty, classrooms, labs, and academic support.",
+    "opening_hours": "Monday to Friday, 09:00\u201318:00.",
+    "map_reference": "Fourth Floor, Chemical Block, Zone CHE",
+    "coordinates": "CHE4",
+    "directions": "From reception, take the stairs or lift to the fourth floor. Follow the signs for the CHE Department corridor.",
+    "events": [
+      "CHE department seminar every month"
+    ],
+    "keywords": [
+      "chemical",
+      "chemical engineering",
+      "chemical department",
+      "department",
+      "chemical engineering",
+      "process",
+      "chemical lab",
+      "plant design"
+    ],
+    "aliases": [
+      "Chemical Engineering Department",
+      "Chemical",
+      "Chemical department",
+      "Chemical block"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "chemical_classroom_401",
+    "name": "CHE Classroom 401",
+    "category": "classroom",
+    "description": "Classroom used for process calculations and chemical reaction engineering lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Fourth Floor, Chemical Block",
+    "coordinates": "CHE4-401",
+    "directions": "Go to the fourth floor CHE corridor. CHE Classroom 401 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "chemical classroom",
+      "classroom 401",
+      "CHE classroom 401",
+      "chemical engineering classroom",
+      "chemical engineering",
+      "process",
+      "chemical lab",
+      "plant design"
+    ],
+    "aliases": [
+      "CHE Classroom 401"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "chemical_classroom_402",
+    "name": "CHE Classroom 402",
+    "category": "classroom",
+    "description": "Classroom used for mass transfer and process control lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Fourth Floor, Chemical Block",
+    "coordinates": "CHE4-402",
+    "directions": "Go to the fourth floor CHE corridor. CHE Classroom 402 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "chemical classroom",
+      "classroom 402",
+      "CHE classroom 402",
+      "chemical engineering classroom",
+      "chemical engineering",
+      "process",
+      "chemical lab",
+      "plant design"
+    ],
+    "aliases": [
+      "CHE Classroom 402"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "chemical_hod_office",
+    "name": "HOD Office - Chemical Engineering",
+    "category": "hod_office",
+    "description": "Office of the Head of Department for Chemical Engineering. Students visit for academic approvals, project permissions, and departmental queries.",
+    "opening_hours": "Monday to Friday, 10:00\u201316:00.",
+    "map_reference": "Fourth Floor, Chemical Block",
+    "coordinates": "CHE4-HOD",
+    "directions": "Go to the fourth floor CHE corridor. The CHE HOD office is near the department classrooms and faculty rooms.",
+    "events": [],
+    "keywords": [
+      "hod timing",
+      "chemical engineering head",
+      "hod hours",
+      "head of department",
+      "CHE hod",
+      "chemical hod",
+      "chemical lab",
+      "plant design",
+      "chemical engineering hod",
+      "department head",
+      "chemical engineering",
+      "process",
+      "hod office",
+      "hod office hours"
+    ],
+    "aliases": [
+      "chemical hod office",
+      "HOD Office - Chemical Engineering"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "chemical_faculty_room",
+    "name": "CHE Faculty Room",
+    "category": "faculty_room",
+    "description": "Faculty room for lecturers and academic staff of the Chemical Engineering Department.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Fourth Floor, Chemical Block",
+    "coordinates": "CHE4-FAC",
+    "directions": "Go to the fourth floor CHE corridor. The faculty room is beside the HOD office.",
+    "events": [],
+    "keywords": [
+      "chemical faculty",
+      "faculty timing",
+      "che staff",
+      "teacher room",
+      "lecturer room",
+      "chemical lab",
+      "CHE faculty room",
+      "staff room",
+      "plant design",
+      "che faculty",
+      "lecturer office",
+      "faculty office hours",
+      "chemical engineering",
+      "process",
+      "faculty hours",
+      "faculty room"
+    ],
+    "aliases": [
+      "chemical faculty room",
+      "chemical staff room",
+      "chem faculty room",
+      "CHE Faculty Room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "biotech_department",
+    "name": "Biotechnology Department",
+    "category": "department",
+    "description": "Department area for Biotechnology students, faculty, classrooms, labs, and academic support.",
+    "opening_hours": "Monday to Friday, 09:00\u201318:00.",
+    "map_reference": "Fifth Floor, Biotech Block, Zone BIO",
+    "coordinates": "BIO5",
+    "directions": "From reception, take the stairs or lift to the fifth floor. Follow the signs for the BIO Department corridor.",
+    "events": [
+      "BIO department seminar every month"
+    ],
+    "keywords": [
+      "biotech",
+      "biotechnology",
+      "biotech department",
+      "department",
+      "biotechnology",
+      "bio lab",
+      "microbiology",
+      "genetics"
+    ],
+    "aliases": [
+      "Biotechnology Department",
+      "Biotechnology",
+      "Biotechnology block"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "biotech_classroom_501",
+    "name": "BIO Classroom 501",
+    "category": "classroom",
+    "description": "Classroom used for microbiology and genetics lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Fifth Floor, Biotech Block",
+    "coordinates": "BIO5-501",
+    "directions": "Go to the fifth floor BIO corridor. BIO Classroom 501 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "biotech classroom",
+      "classroom 501",
+      "BIO classroom 501",
+      "biotechnology classroom",
+      "biotechnology",
+      "bio lab",
+      "microbiology",
+      "genetics"
+    ],
+    "aliases": [
+      "BIO Classroom 501"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "biotech_classroom_502",
+    "name": "BIO Classroom 502",
+    "category": "classroom",
+    "description": "Classroom used for bioprocess and bioinformatics lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Fifth Floor, Biotech Block",
+    "coordinates": "BIO5-502",
+    "directions": "Go to the fifth floor BIO corridor. BIO Classroom 502 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "biotech classroom",
+      "classroom 502",
+      "BIO classroom 502",
+      "biotechnology classroom",
+      "biotechnology",
+      "bio lab",
+      "microbiology",
+      "genetics"
+    ],
+    "aliases": [
+      "BIO Classroom 502"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "biotech_hod_office",
+    "name": "HOD Office - Biotechnology",
+    "category": "hod_office",
+    "description": "Office of the Head of Department for Biotechnology. Students visit for academic approvals, project permissions, and departmental queries.",
+    "opening_hours": "Monday to Friday, 10:00\u201316:00.",
+    "map_reference": "Fifth Floor, Biotech Block",
+    "coordinates": "BIO5-HOD",
+    "directions": "Go to the fifth floor BIO corridor. The BIO HOD office is near the department classrooms and faculty rooms.",
+    "events": [],
+    "keywords": [
+      "hod timing",
+      "biotech hod",
+      "bio lab",
+      "head of department",
+      "department head",
+      "hod office",
+      "microbiology",
+      "hod office hours",
+      "BIO hod",
+      "hod hours",
+      "biotechnology head",
+      "biotechnology hod",
+      "genetics",
+      "biotechnology"
+    ],
+    "aliases": [
+      "biotech hod office",
+      "biotechnology hod office",
+      "HOD Office - Biotechnology"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "biotech_faculty_room",
+    "name": "BIO Faculty Room",
+    "category": "faculty_room",
+    "description": "Faculty room for lecturers and academic staff of the Biotechnology Department.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Fifth Floor, Biotech Block",
+    "coordinates": "BIO5-FAC",
+    "directions": "Go to the fifth floor BIO corridor. The faculty room is beside the HOD office.",
+    "events": [],
+    "keywords": [
+      "faculty timing",
+      "bio faculty",
+      "teacher room",
+      "biotech faculty",
+      "bio lab",
+      "lecturer room",
+      "BIO faculty room",
+      "staff room",
+      "microbiology",
+      "lecturer office",
+      "faculty office hours",
+      "faculty hours",
+      "bio staff",
+      "faculty room",
+      "genetics",
+      "biotechnology"
+    ],
+    "aliases": [
+      "biotech faculty room",
+      "biotechnology faculty room",
+      "biotech staff room",
+      "BIO Faculty Room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "robotics_department",
+    "name": "Robotics and Automation Department",
+    "category": "department",
+    "description": "Department area for Robotics and Automation students, faculty, classrooms, labs, and academic support.",
+    "opening_hours": "Monday to Friday, 09:00\u201318:00.",
+    "map_reference": "Fifth Floor, Robotics Block, Zone ROBO",
+    "coordinates": "ROB5",
+    "directions": "From reception, take the stairs or lift to the fifth floor. Follow the signs for the ROBO Department corridor.",
+    "events": [
+      "ROBO department seminar every month"
+    ],
+    "keywords": [
+      "robotics",
+      "robotics and automation",
+      "robotics department",
+      "department",
+      "robotics",
+      "automation",
+      "mechatronics",
+      "robots"
+    ],
+    "aliases": [
+      "Robotics and Automation Department",
+      "Robotics and Automation",
+      "Robotics and Automation block"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "robotics_classroom_501",
+    "name": "ROBO Classroom 501",
+    "category": "classroom",
+    "description": "Classroom used for robotics and automation lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Fifth Floor, Robotics Block",
+    "coordinates": "ROB5-501",
+    "directions": "Go to the fifth floor ROBO corridor. ROBO Classroom 501 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "robotics classroom",
+      "classroom 501",
+      "ROBO classroom 501",
+      "robotics and automation classroom",
+      "robotics",
+      "automation",
+      "mechatronics",
+      "robots"
+    ],
+    "aliases": [
+      "ROBO Classroom 501"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "robotics_classroom_502",
+    "name": "ROBO Classroom 502",
+    "category": "classroom",
+    "description": "Classroom used for control systems and embedded robotics lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Fifth Floor, Robotics Block",
+    "coordinates": "ROB5-502",
+    "directions": "Go to the fifth floor ROBO corridor. ROBO Classroom 502 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "robotics classroom",
+      "classroom 502",
+      "ROBO classroom 502",
+      "robotics and automation classroom",
+      "robotics",
+      "automation",
+      "mechatronics",
+      "robots"
+    ],
+    "aliases": [
+      "ROBO Classroom 502"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "robotics_hod_office",
+    "name": "HOD Office - Robotics and Automation",
+    "category": "hod_office",
+    "description": "Office of the Head of Department for Robotics and Automation. Students visit for academic approvals, project permissions, and departmental queries.",
+    "opening_hours": "Monday to Friday, 10:00\u201316:00.",
+    "map_reference": "Fifth Floor, Robotics Block",
+    "coordinates": "ROB5-HOD",
+    "directions": "Go to the fifth floor ROBO corridor. The ROBO HOD office is near the department classrooms and faculty rooms.",
+    "events": [],
+    "keywords": [
+      "hod timing",
+      "robotics and automation hod",
+      "head of department",
+      "automation",
+      "mechatronics",
+      "department head",
+      "robotics and automation head",
+      "ROBO hod",
+      "robots",
+      "hod hours",
+      "robotics hod",
+      "hod office",
+      "robotics",
+      "hod office hours"
+    ],
+    "aliases": [
+      "robotics hod office",
+      "robo hod office",
+      "HOD Office - Robotics and Automation"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "robotics_faculty_room",
+    "name": "ROBO Faculty Room",
+    "category": "faculty_room",
+    "description": "Faculty room for lecturers and academic staff of the Robotics and Automation Department.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Fifth Floor, Robotics Block",
+    "coordinates": "ROB5-FAC",
+    "directions": "Go to the fifth floor ROBO corridor. The faculty room is beside the HOD office.",
+    "events": [],
+    "keywords": [
+      "faculty timing",
+      "teacher room",
+      "robotics faculty",
+      "robo faculty",
+      "lecturer room",
+      "automation",
+      "mechatronics",
+      "staff room",
+      "robo staff",
+      "lecturer office",
+      "faculty office hours",
+      "robots",
+      "ROBO faculty room",
+      "faculty hours",
+      "faculty room",
+      "robotics"
+    ],
+    "aliases": [
+      "robotics faculty room",
+      "robotics staff room",
+      "robo faculty room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "mba_department",
+    "name": "Management Department",
+    "category": "department",
+    "description": "Department area for Management Department students, faculty, classrooms, labs, and academic support.",
+    "opening_hours": "Monday to Friday, 09:00\u201318:00.",
+    "map_reference": "Sixth Floor, Management Block, Zone MBA",
+    "coordinates": "MBA6",
+    "directions": "From reception, take the stairs or lift to the sixth floor. Follow the signs for the MBA Department corridor.",
+    "events": [
+      "MBA department seminar every month"
+    ],
+    "keywords": [
+      "mba",
+      "management department",
+      "mba department",
+      "department",
+      "mba",
+      "management",
+      "business",
+      "marketing",
+      "finance"
+    ],
+    "aliases": [
+      "Management Department",
+      "Management",
+      "Management block"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "mba_classroom_601",
+    "name": "MBA Classroom 601",
+    "category": "classroom",
+    "description": "Classroom used for marketing and finance lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Sixth Floor, Management Block",
+    "coordinates": "MBA6-601",
+    "directions": "Go to the sixth floor MBA corridor. MBA Classroom 601 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "mba classroom",
+      "classroom 601",
+      "MBA classroom 601",
+      "management department classroom",
+      "mba",
+      "management",
+      "business",
+      "marketing",
+      "finance"
+    ],
+    "aliases": [
+      "MBA Classroom 601"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "mba_classroom_602",
+    "name": "MBA Classroom 602",
+    "category": "classroom",
+    "description": "Classroom used for hr management and business analytics lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Sixth Floor, Management Block",
+    "coordinates": "MBA6-602",
+    "directions": "Go to the sixth floor MBA corridor. MBA Classroom 602 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "mba classroom",
+      "classroom 602",
+      "MBA classroom 602",
+      "management department classroom",
+      "mba",
+      "management",
+      "business",
+      "marketing",
+      "finance"
+    ],
+    "aliases": [
+      "MBA Classroom 602"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "mba_hod_office",
+    "name": "HOD Office - Management Department",
+    "category": "hod_office",
+    "description": "Office of the Head of Department for Management Department. Students visit for academic approvals, project permissions, and departmental queries.",
+    "opening_hours": "Monday to Friday, 10:00\u201316:00.",
+    "map_reference": "Sixth Floor, Management Block",
+    "coordinates": "MBA6-HOD",
+    "directions": "Go to the sixth floor MBA corridor. The MBA HOD office is near the department classrooms and faculty rooms.",
+    "events": [],
+    "keywords": [
+      "hod timing",
+      "head of department",
+      "MBA hod",
+      "business",
+      "department head",
+      "mba hod",
+      "finance",
+      "hod office hours",
+      "management",
+      "mba",
+      "hod hours",
+      "management department head",
+      "marketing",
+      "hod office",
+      "management department hod"
+    ],
+    "aliases": [
+      "mba hod office",
+      "management hod office",
+      "HOD Office - Management Department"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "mba_faculty_room",
+    "name": "MBA Faculty Room",
+    "category": "faculty_room",
+    "description": "Faculty room for lecturers and academic staff of the Management Department.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Sixth Floor, Management Block",
+    "coordinates": "MBA6-FAC",
+    "directions": "Go to the sixth floor MBA corridor. The faculty room is beside the HOD office.",
+    "events": [],
+    "keywords": [
+      "faculty timing",
+      "teacher room",
+      "mba faculty",
+      "lecturer room",
+      "business",
+      "staff room",
+      "marketing",
+      "finance",
+      "faculty hours",
+      "lecturer office",
+      "faculty office hours",
+      "mba",
+      "MBA faculty room",
+      "faculty room",
+      "mba staff",
+      "management"
+    ],
+    "aliases": [
+      "mba faculty room",
+      "management faculty room",
+      "mba staff room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "humanities_department",
+    "name": "Humanities and Communication Department",
+    "category": "department",
+    "description": "Department area for Humanities and Communication Department students, faculty, classrooms, labs, and academic support.",
+    "opening_hours": "Monday to Friday, 09:00\u201318:00.",
+    "map_reference": "Sixth Floor, Humanities Block, Zone HUM",
+    "coordinates": "HUM6",
+    "directions": "From reception, take the stairs or lift to the sixth floor. Follow the signs for the HUM Department corridor.",
+    "events": [
+      "HUM department seminar every month"
+    ],
+    "keywords": [
+      "humanities",
+      "humanities and communication department",
+      "humanities department",
+      "department",
+      "humanities",
+      "english",
+      "communication skills",
+      "soft skills"
+    ],
+    "aliases": [
+      "Humanities and Communication Department",
+      "Humanities and Communication",
+      "Humanities and Communication block"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "humanities_classroom_601",
+    "name": "HUM Classroom 601",
+    "category": "classroom",
+    "description": "Classroom used for communication skills and professional ethics lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Sixth Floor, Humanities Block",
+    "coordinates": "HUM6-601",
+    "directions": "Go to the sixth floor HUM corridor. HUM Classroom 601 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "humanities classroom",
+      "classroom 601",
+      "HUM classroom 601",
+      "humanities and communication department classroom",
+      "humanities",
+      "english",
+      "communication skills",
+      "soft skills"
+    ],
+    "aliases": [
+      "HUM Classroom 601"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "humanities_classroom_602",
+    "name": "HUM Classroom 602",
+    "category": "classroom",
+    "description": "Classroom used for english and presentation skills lectures.",
+    "opening_hours": "Monday to Friday during scheduled classes.",
+    "map_reference": "Sixth Floor, Humanities Block",
+    "coordinates": "HUM6-602",
+    "directions": "Go to the sixth floor HUM corridor. HUM Classroom 602 is located along the main department corridor.",
+    "events": [],
+    "keywords": [
+      "humanities classroom",
+      "classroom 602",
+      "HUM classroom 602",
+      "humanities and communication department classroom",
+      "humanities",
+      "english",
+      "communication skills",
+      "soft skills"
+    ],
+    "aliases": [
+      "HUM Classroom 602"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "humanities_hod_office",
+    "name": "HOD Office - Humanities and Communication Department",
+    "category": "hod_office",
+    "description": "Office of the Head of Department for Humanities and Communication Department. Students visit for academic approvals, project permissions, and departmental queries.",
+    "opening_hours": "Monday to Friday, 10:00\u201316:00.",
+    "map_reference": "Sixth Floor, Humanities Block",
+    "coordinates": "HUM6-HOD",
+    "directions": "Go to the sixth floor HUM corridor. The HUM HOD office is near the department classrooms and faculty rooms.",
+    "events": [],
+    "keywords": [
+      "hod timing",
+      "communication skills",
+      "hod hours",
+      "head of department",
+      "humanities and communication department head",
+      "HUM hod",
+      "humanities and communication department hod",
+      "english",
+      "department head",
+      "humanities hod",
+      "soft skills",
+      "humanities",
+      "hod office",
+      "hod office hours"
+    ],
+    "aliases": [
+      "humanities hod office",
+      "HOD Office - Humanities and Communication Department"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "humanities_faculty_room",
+    "name": "HUM Faculty Room",
+    "category": "faculty_room",
+    "description": "Faculty room for lecturers and academic staff of the Humanities and Communication Department.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Sixth Floor, Humanities Block",
+    "coordinates": "HUM6-FAC",
+    "directions": "Go to the sixth floor HUM corridor. The faculty room is beside the HOD office.",
+    "events": [],
+    "keywords": [
+      "faculty timing",
+      "communication skills",
+      "teacher room",
+      "lecturer room",
+      "HUM faculty room",
+      "staff room",
+      "english",
+      "humanities faculty",
+      "hum faculty",
+      "lecturer office",
+      "faculty office hours",
+      "soft skills",
+      "humanities",
+      "faculty hours",
+      "hum staff",
+      "faculty room"
+    ],
+    "aliases": [
+      "humanities faculty room",
+      "humanities staff room",
+      "english faculty room",
+      "HUM Faculty Room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "computer_lab",
+    "name": "Computer Lab",
+    "category": "engineering_lab",
+    "description": "High-performance workstations with Python, MATLAB, databases, and development tools.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "First Floor, CSE Block",
+    "coordinates": "CSE1-LAB",
+    "directions": "Go to the first floor CSE corridor. The Computer Lab is opposite CSE Classroom 101.",
+    "events": [],
+    "keywords": [
+      "computer lab",
+      "computers",
+      "coding",
+      "python",
+      "data science",
+      "software"
+    ],
+    "aliases": [
+      "computer lab",
+      "computer room",
+      "pc lab",
+      "it lab",
+      "programming lab",
+      "coding lab",
+      "computer laboratory",
+      "software lab",
+      "lab with computers"
+    ],
+    "search_priority": 1.2
+  },
+  {
+    "id": "networking_lab",
+    "name": "Networking Lab",
+    "category": "engineering_lab",
+    "description": "Lab for computer networks, routers, switches, cybersecurity, and cloud networking practice.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "First Floor, IT Block",
+    "coordinates": "IT1-LAB",
+    "directions": "Go to the first floor IT corridor. The Networking Lab is beside IT Classroom 102.",
+    "events": [],
+    "keywords": [
+      "networking lab",
+      "router",
+      "switch",
+      "cybersecurity",
+      "cloud networking"
+    ],
+    "aliases": [
+      "Networking Lab"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "ai_lab",
+    "name": "AI and Data Science Lab",
+    "category": "engineering_lab",
+    "description": "Lab for machine learning, deep learning, computer vision, NLP, and data analytics experiments.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Second Floor, AI Block",
+    "coordinates": "AI2-LAB",
+    "directions": "Go to the second floor AI block. The AI Lab is beside the AI&DS HOD Office.",
+    "events": [],
+    "keywords": [
+      "ai lab",
+      "data science lab",
+      "machine learning",
+      "deep learning",
+      "computer vision",
+      "nlp"
+    ],
+    "aliases": [
+      "AI and Data Science Lab"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "electronics_lab",
+    "name": "Electronics Lab",
+    "category": "engineering_lab",
+    "description": "Practical lab for circuits, sensors, microcontrollers, embedded systems, and communication experiments.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Second Floor, ECE Block",
+    "coordinates": "ECE2-LAB",
+    "directions": "Take the lift to the second floor. The Electronics Lab is beside the ECE HOD office.",
+    "events": [],
+    "keywords": [
+      "electronics lab",
+      "circuits",
+      "microcontroller",
+      "arduino",
+      "sensors",
+      "embedded systems"
+    ],
+    "aliases": [
+      "electronics lab",
+      "ece lab",
+      "circuit lab",
+      "microcontroller lab",
+      "electronics laboratory"
+    ],
+    "search_priority": 0.9
+  },
+  {
+    "id": "electrical_lab",
+    "name": "Electrical Machines and Power Systems Lab",
+    "category": "engineering_lab",
+    "description": "Electrical lab for machines, transformers, power systems, measurements, and renewable energy experiments.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Third Floor, Electrical Block",
+    "coordinates": "EE3-LAB",
+    "directions": "Go to the third floor Electrical corridor. The Electrical Lab is near EE Classroom 301.",
+    "events": [],
+    "keywords": [
+      "electrical lab",
+      "machines lab",
+      "power systems",
+      "transformer",
+      "renewable energy"
+    ],
+    "aliases": [
+      "Electrical Machines and Power Systems Lab"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "mechanical_lab",
+    "name": "Mechanical Engineering Lab",
+    "category": "engineering_lab",
+    "description": "Lab for mechanical experiments including materials testing, thermodynamics, and machine components.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Third Floor, Mechanical Block",
+    "coordinates": "ME3-LAB",
+    "directions": "Go to the third floor Mechanical corridor. The Mechanical Lab is near the workshop staircase.",
+    "events": [],
+    "keywords": [
+      "mechanical lab",
+      "machines",
+      "thermodynamics",
+      "materials testing"
+    ],
+    "aliases": [
+      "Mechanical Engineering Lab"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "civil_lab",
+    "name": "Civil Engineering Lab",
+    "category": "engineering_lab",
+    "description": "Lab for concrete testing, soil testing, surveying, and structural experiments.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Fourth Floor, Civil Block",
+    "coordinates": "CE4-LAB",
+    "directions": "Go to the fourth floor Civil corridor. The Civil Lab is near CE Classroom 402.",
+    "events": [],
+    "keywords": [
+      "civil lab",
+      "concrete",
+      "soil testing",
+      "surveying",
+      "structure lab"
+    ],
+    "aliases": [
+      "Civil Engineering Lab"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "chemical_lab",
+    "name": "Chemical Engineering Lab",
+    "category": "engineering_lab",
+    "description": "Lab for process engineering, reaction experiments, fluid flow, and chemical analysis.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Fourth Floor, Chemical Block",
+    "coordinates": "CHE4-LAB",
+    "directions": "Go to the fourth floor Chemical Engineering corridor. The Chemical Lab is beside CHE Classroom 402.",
+    "events": [],
+    "keywords": [
+      "chemical lab",
+      "process lab",
+      "reaction engineering",
+      "fluid flow"
+    ],
+    "aliases": [
+      "Chemical Engineering Lab"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "biotech_lab",
+    "name": "Biotechnology Lab",
+    "category": "science_lab",
+    "description": "Lab for microbiology, genetics, bioprocessing, and bioinformatics practical work.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Fifth Floor, Biotech Block",
+    "coordinates": "BIO5-LAB",
+    "directions": "Go to the fifth floor Biotechnology corridor. The Biotech Lab is near the faculty room.",
+    "events": [],
+    "keywords": [
+      "biotech lab",
+      "microbiology",
+      "genetics",
+      "bioprocess"
+    ],
+    "aliases": [
+      "Biotechnology Lab"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "robotics_lab",
+    "name": "Robotics and Automation Lab",
+    "category": "engineering_lab",
+    "description": "Lab for robotics kits, automation systems, sensors, actuators, and robot programming.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Fifth Floor, Robotics Block",
+    "coordinates": "ROB5-LAB",
+    "directions": "Go to the fifth floor Robotics corridor. The Robotics Lab is opposite ROB Classroom 501.",
+    "events": [],
+    "keywords": [
+      "robotics lab",
+      "robots",
+      "automation",
+      "actuators",
+      "sensors"
+    ],
+    "aliases": [
+      "Robotics and Automation Lab"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "physics_lab",
+    "name": "Engineering Physics Lab",
+    "category": "science_lab",
+    "description": "Lab for optics, electricity, mechanics, and first-year engineering physics experiments.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "First Floor, Science Block",
+    "coordinates": "SCI1-PHY",
+    "directions": "From the first floor lift, turn left and walk past the classroom corridor. The Physics Lab is at the end.",
+    "events": [],
+    "keywords": [
+      "physics lab",
+      "engineering physics",
+      "optics",
+      "mechanics",
+      "electricity"
+    ],
+    "aliases": [
+      "Engineering Physics Lab"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "chemistry_lab",
+    "name": "Engineering Chemistry Lab",
+    "category": "science_lab",
+    "description": "Lab for chemistry experiments, material analysis, and basic chemical testing.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "First Floor, Science Block",
+    "coordinates": "SCI1-CHEM",
+    "directions": "From the Physics Lab, continue straight. The Chemistry Lab is the next large lab on the left.",
+    "events": [],
+    "keywords": [
+      "chemistry lab",
+      "engineering chemistry",
+      "chemical lab",
+      "experiments",
+      "material analysis"
+    ],
+    "aliases": [
+      "Engineering Chemistry Lab"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "engineering_workshop",
+    "name": "Engineering Workshop",
+    "category": "workshop",
+    "description": "Practical workshop for fitting, welding, carpentry, machining, and manufacturing practice.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Ground Floor, Workshop Block, Zone WS",
+    "coordinates": "WS0",
+    "directions": "From reception, walk to the workshop block through the side corridor. The workshop is the large hall near the mechanical lab entrance.",
+    "events": [],
+    "keywords": [
+      "workshop",
+      "engineering workshop",
+      "welding",
+      "fitting",
+      "machining",
+      "carpentry",
+      "manufacturing"
+    ],
+    "aliases": [
+      "Engineering Workshop"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "project_lab",
+    "name": "Final Year Project Lab",
+    "category": "project_lab",
+    "description": "Dedicated space for final-year projects, prototypes, robotics, IoT systems, and research demonstrations.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Third Floor, Innovation Block, Zone R",
+    "coordinates": "R3",
+    "directions": "Take the lift to the third floor. Turn right; the Final Year Project Lab is next to the Innovation Centre.",
+    "events": [],
+    "keywords": [
+      "project lab",
+      "final year project",
+      "prototype",
+      "robotics",
+      "iot",
+      "innovation"
+    ],
+    "aliases": [
+      "Final Year Project Lab"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "innovation_centre",
+    "name": "Innovation and Incubation Centre",
+    "category": "innovation",
+    "description": "Startup and innovation space for projects, entrepreneurship, hackathons, and industry collaboration.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Third Floor, Innovation Block, Zone R",
+    "coordinates": "R3-IN",
+    "directions": "Take the lift to the third floor. The Innovation Centre is directly opposite the lift.",
+    "events": [],
+    "keywords": [
+      "innovation centre",
+      "incubation",
+      "startup",
+      "hackathon",
+      "entrepreneurship",
+      "student projects"
+    ],
+    "aliases": [
+      "Innovation and Incubation Centre"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "washroom_cse",
+    "name": "CSE Department Washrooms",
+    "category": "washroom",
+    "description": "Washrooms located near the Computer Science Engineering Department corridor.",
+    "opening_hours": "Open during campus hours.",
+    "map_reference": "First Floor, CSE Block",
+    "coordinates": "CSE1-W",
+    "directions": "From the CSE Department entrance, walk towards the Computer Lab. The washrooms are beside the staircase.",
+    "events": [],
+    "keywords": [
+      "cse washroom",
+      "computer science washroom",
+      "cse toilet",
+      "washroom near cse",
+      "bathroom cse",
+      "toilet cse"
+    ],
+    "aliases": [
+      "cse washroom",
+      "computer science washroom",
+      "toilet near cse",
+      "cse restroom",
+      "CSE Department Washrooms"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "washroom_it",
+    "name": "IT Department Washrooms",
+    "category": "washroom",
+    "description": "Washrooms located near the Information Technology Department corridor.",
+    "opening_hours": "Open during campus hours.",
+    "map_reference": "First Floor, IT Block",
+    "coordinates": "IT1-W",
+    "directions": "From the IT Department corridor, walk past IT Classroom 102. The washrooms are on the right.",
+    "events": [],
+    "keywords": [
+      "it washroom",
+      "information technology washroom",
+      "it toilet",
+      "washroom near it",
+      "bathroom it"
+    ],
+    "aliases": [
+      "IT Department Washrooms"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "washroom_ece",
+    "name": "ECE Department Washrooms",
+    "category": "washroom",
+    "description": "Washrooms located near the Electronics and Communication Engineering Department.",
+    "opening_hours": "Open during campus hours.",
+    "map_reference": "Second Floor, ECE Block",
+    "coordinates": "ECE2-W",
+    "directions": "From the ECE Department entrance, walk towards the Electronics Lab. The washrooms are opposite the lab corridor.",
+    "events": [],
+    "keywords": [
+      "ece washroom",
+      "electronics washroom",
+      "ece toilet",
+      "washroom near ece",
+      "bathroom ece"
+    ],
+    "aliases": [
+      "ece washroom",
+      "electronics washroom",
+      "toilet near ece",
+      "ece restroom",
+      "ECE Department Washrooms"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "washroom_ai",
+    "name": "AI and Data Science Department Washrooms",
+    "category": "washroom",
+    "description": "Washrooms located near the AI and Data Science Department corridor.",
+    "opening_hours": "Open during campus hours.",
+    "map_reference": "Second Floor, AI Block",
+    "coordinates": "AI2-W",
+    "directions": "From the AI&DS Department corridor, walk past AI&DS Classroom 202. The washrooms are near the lift area.",
+    "events": [],
+    "keywords": [
+      "ai washroom",
+      "data science washroom",
+      "ai ds washroom",
+      "washroom near ai department",
+      "bathroom ai"
+    ],
+    "aliases": [
+      "AI and Data Science Department Washrooms"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "washroom_me",
+    "name": "Mechanical Department Washrooms",
+    "category": "washroom",
+    "description": "Washrooms located near the Mechanical Engineering Department corridor.",
+    "opening_hours": "Open during campus hours.",
+    "map_reference": "Third Floor, ME Block",
+    "coordinates": "ME3-W",
+    "directions": "From the Mechanical Department entrance, walk towards ME Classroom 302. The washrooms are beside the faculty room corridor.",
+    "events": [],
+    "keywords": [
+      "mechanical washroom",
+      "me washroom",
+      "mechanical toilet",
+      "washroom near mechanical",
+      "bathroom mechanical"
+    ],
+    "aliases": [
+      "mechanical washroom",
+      "mechanical department washroom",
+      "me washroom",
+      "toilet near mechanical",
+      "mechanical restroom",
+      "Mechanical Department Washrooms"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "washroom_ee",
+    "name": "Electrical Department Washrooms",
+    "category": "washroom",
+    "description": "Washrooms located near the Electrical Engineering Department corridor.",
+    "opening_hours": "Open during campus hours.",
+    "map_reference": "Third Floor, EE Block",
+    "coordinates": "EE3-W",
+    "directions": "From the Electrical Department corridor, walk past EE Classroom 302. The washrooms are near the staircase.",
+    "events": [],
+    "keywords": [
+      "electrical washroom",
+      "ee washroom",
+      "electrical toilet",
+      "washroom near electrical",
+      "bathroom electrical"
+    ],
+    "aliases": [
+      "electrical washroom",
+      "ee washroom",
+      "toilet near electrical",
+      "electrical restroom",
+      "Electrical Department Washrooms"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "washroom_ce",
+    "name": "Civil Department Washrooms",
+    "category": "washroom",
+    "description": "Washrooms located beside the Civil Engineering Department corridor.",
+    "opening_hours": "Open during campus hours.",
+    "map_reference": "Fourth Floor, CE Block",
+    "coordinates": "CE4-W",
+    "directions": "From the Civil Department entrance, walk straight for 10 metres. The washrooms are on the left side of the corridor.",
+    "events": [],
+    "keywords": [
+      "civil washroom",
+      "ce washroom",
+      "civil department washroom",
+      "toilet civil",
+      "bathroom civil",
+      "washroom near civil department"
+    ],
+    "aliases": [
+      "civil washroom",
+      "civil department washroom",
+      "ce washroom",
+      "toilet near civil",
+      "civil restroom",
+      "Civil Department Washrooms"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "washroom_chemical",
+    "name": "Chemical Department Washrooms",
+    "category": "washroom",
+    "description": "Washrooms located near the Chemical Engineering Department corridor.",
+    "opening_hours": "Open during campus hours.",
+    "map_reference": "Fourth Floor, Chemical Block",
+    "coordinates": "CHE4-W",
+    "directions": "From the Chemical Engineering Department corridor, walk towards CHE Classroom 402. The washrooms are near the emergency exit.",
+    "events": [],
+    "keywords": [
+      "chemical washroom",
+      "chemical toilet",
+      "washroom near chemical department",
+      "bathroom chemical"
+    ],
+    "aliases": [
+      "Chemical Department Washrooms"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "washroom_biotech",
+    "name": "Biotechnology Department Washrooms",
+    "category": "washroom",
+    "description": "Washrooms located near the Biotechnology Department corridor.",
+    "opening_hours": "Open during campus hours.",
+    "map_reference": "Fifth Floor, Biotech Block",
+    "coordinates": "BIO5-W",
+    "directions": "From the Biotechnology Department corridor, walk past BIO Classroom 502. The washrooms are beside the lift lobby.",
+    "events": [],
+    "keywords": [
+      "biotech washroom",
+      "biotechnology washroom",
+      "bio toilet",
+      "washroom near biotech",
+      "bathroom biotech"
+    ],
+    "aliases": [
+      "Biotechnology Department Washrooms"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "washroom_robotics",
+    "name": "Robotics Department Washrooms",
+    "category": "washroom",
+    "description": "Washrooms located near the Robotics and Automation Department corridor.",
+    "opening_hours": "Open during campus hours.",
+    "map_reference": "Fifth Floor, Robotics Block",
+    "coordinates": "ROB5-W",
+    "directions": "From the Robotics Department corridor, walk towards the Robotics Lab. The washrooms are opposite ROB Classroom 502.",
+    "events": [],
+    "keywords": [
+      "robotics washroom",
+      "robotics toilet",
+      "washroom near robotics",
+      "bathroom robotics"
+    ],
+    "aliases": [
+      "Robotics Department Washrooms"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "staff_parking",
+    "name": "Staff Parking Area",
+    "category": "parking",
+    "description": "Reserved parking area for faculty members, lecturers, administrative staff, and authorised employees.",
+    "opening_hours": "Open 24 hours.",
+    "map_reference": "Near Admin Block, Staff Parking Zone",
+    "coordinates": "PARK-STAFF",
+    "directions": "Enter through the main gate and turn left before the admin block. The staff parking area is marked for faculty and authorised staff only.",
+    "events": [],
+    "keywords": [
+      "staff parking",
+      "faculty parking",
+      "teacher parking",
+      "employee parking",
+      "lecturer parking",
+      "staff vehicle parking"
+    ],
+    "aliases": [
+      "Staff Parking Area"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "visitor_parking",
+    "name": "Visitor Parking Area",
+    "category": "parking",
+    "description": "Short-stay parking area for visitors, parents, guest speakers, and interview candidates.",
+    "opening_hours": "Monday to Saturday, 08:00\u201320:00.",
+    "map_reference": "Near Main Gate, Visitor Parking Zone",
+    "coordinates": "PARK-VIS",
+    "directions": "The visitor parking area is just after the main gate, beside the security cabin. Visitors should register at security first.",
+    "events": [],
+    "keywords": [
+      "visitor parking",
+      "guest parking",
+      "parent parking",
+      "interview parking",
+      "visitor vehicle"
+    ],
+    "aliases": [
+      "Visitor Parking Area"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "lost_and_found",
+    "name": "Lost and Found Desk",
+    "category": "student_services",
+    "description": "Desk for reporting and collecting lost items such as ID cards, bags, keys, phones, and documents.",
+    "opening_hours": "Monday to Friday, 09:00\u201317:00.",
+    "map_reference": "Ground Floor, Security Cabin",
+    "coordinates": "A-LOST",
+    "directions": "Go to the Security Cabin near the main gate. Lost and Found is handled at the security desk.",
+    "events": [],
+    "keywords": [
+      "lost phone",
+      "stolen phone",
+      "pick pocket",
+      "found wallet",
+      "lost keys",
+      "found item",
+      "found phone",
+      "found something",
+      "theft",
+      "lost id card",
+      "someone stole",
+      "missing item",
+      "found keys",
+      "found bag",
+      "lost item",
+      "stolen laptop",
+      "stolen bag",
+      "lost bag",
+      "i found",
+      "stolen",
+      "lost and found",
+      "report theft"
+    ],
+    "aliases": [
+      "lost and found",
+      "lost item desk",
+      "lost property",
+      "found item desk",
+      "report lost item",
+      "lost wallet",
+      "lost watch",
+      "lost laptop",
+      "lost id card",
+      "missing item",
+      "Lost and Found Desk"
+    ],
+    "search_priority": 1.2
+  },
+  {
+    "id": "water_dispenser_ground",
+    "name": "Ground Floor Water Dispenser",
+    "category": "facility",
+    "description": "Drinking water dispenser available for students and staff on the ground floor.",
+    "opening_hours": "Open during campus hours.",
+    "map_reference": "Ground Floor, Near Cafeteria",
+    "coordinates": "CAF0-WATER",
+    "directions": "From reception, walk towards the cafeteria. The water dispenser is beside the cafeteria entrance.",
+    "events": [],
+    "keywords": [
+      "water",
+      "drinking water",
+      "water dispenser",
+      "water cooler",
+      "ground floor water"
+    ],
+    "aliases": [
+      "Ground Floor Water Dispenser"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "water_dispenser_library",
+    "name": "Library Floor Water Dispenser",
+    "category": "facility",
+    "description": "Drinking water dispenser near the library and reading room area.",
+    "opening_hours": "Open during campus hours.",
+    "map_reference": "First Floor, Library Block",
+    "coordinates": "LIB1-WATER",
+    "directions": "Go to the first floor library area. The water dispenser is near the reading room entrance.",
+    "events": [],
+    "keywords": [
+      "water",
+      "drinking water",
+      "library water",
+      "water dispenser first floor",
+      "water cooler"
+    ],
+    "aliases": [
+      "Library Floor Water Dispenser"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "charging_station",
+    "name": "Student Device Charging Station",
+    "category": "facility",
+    "description": "Charging station with plug points for laptops and mobile phones.",
+    "opening_hours": "Monday to Saturday, 08:00\u201321:00.",
+    "map_reference": "First Floor, Open Study Area",
+    "coordinates": "STUDY1-CHG",
+    "directions": "From the library entrance, walk towards the open study area. The charging station is beside the group study tables.",
+    "events": [],
+    "keywords": [
+      "charging station",
+      "charge phone",
+      "charge laptop",
+      "plug point",
+      "power socket",
+      "charging point"
+    ],
+    "aliases": [
+      "charging station",
+      "device charging station",
+      "laptop charging",
+      "phone charging",
+      "charging point",
+      "charge laptop",
+      "charge my laptop",
+      "plug point",
+      "power socket",
+      "Student Device Charging Station"
+    ],
+    "search_priority": 1.2
+  },
+  {
+    "id": "emergency_exit_ground",
+    "name": "Ground Floor Emergency Exit",
+    "category": "safety",
+    "description": "Emergency exit route from the ground floor academic and cafeteria areas.",
+    "opening_hours": "Emergency use only.",
+    "map_reference": "Ground Floor, Zone EXIT-A",
+    "coordinates": "EXIT0-A",
+    "directions": "From the cafeteria corridor, follow the green emergency exit signs towards the side gate.",
+    "events": [],
+    "keywords": [
+      "emergency exit",
+      "fire exit",
+      "exit gate",
+      "safety exit",
+      "ground floor emergency"
+    ],
+    "aliases": [
+      "Ground Floor Emergency Exit"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "conference_room_admin",
+    "name": "Admin Conference Room",
+    "category": "meeting_room",
+    "description": "Conference room used for university meetings, interviews, guest meetings, and administrative discussions.",
+    "opening_hours": "Monday to Friday, 09:00\u201318:00 by booking.",
+    "map_reference": "First Floor, Admin Block",
+    "coordinates": "ADM1-CONF",
+    "directions": "Take the stairs to the first floor of the admin block. The conference room is opposite the Dean Academic Office.",
+    "events": [],
+    "keywords": [
+      "conference room",
+      "meeting room",
+      "admin meeting",
+      "interview room",
+      "guest meeting"
+    ],
+    "aliases": [
+      "Admin Conference Room"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "research_cell",
+    "name": "Research and Development Cell",
+    "category": "research",
+    "description": "Supports student and faculty research, project proposals, publications, innovation grants, and research mentoring.",
+    "opening_hours": "Monday to Friday, 10:00\u201317:00.",
+    "map_reference": "Third Floor, Innovation Block",
+    "coordinates": "R3-RD",
+    "directions": "Take the lift to the third floor. The Research and Development Cell is beside the Innovation Centre.",
+    "events": [
+      "Research proposal clinic every Wednesday at 15:00"
+    ],
+    "keywords": [
+      "research cell",
+      "r and d",
+      "research office",
+      "publication help",
+      "research proposal",
+      "innovation grant"
+    ],
+    "aliases": [
+      "Research and Development Cell"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "hostel_mess",
+    "name": "Hostel Mess",
+    "category": "hostel",
+    "description": "Dining facility for hostel students serving breakfast, lunch, evening snacks, and dinner.",
+    "opening_hours": "Breakfast 07:30\u201309:00, Lunch 12:30\u201314:00, Snacks 17:00\u201318:00, Dinner 19:30\u201321:00.",
+    "map_reference": "Hostel Area, Mess Block",
+    "coordinates": "HOSTEL-MESS",
+    "directions": "From the hostel office, walk straight towards the common courtyard. The hostel mess is on the left.",
+    "events": [],
+    "keywords": [
+      "hostel mess",
+      "mess food",
+      "hostel food",
+      "dinner",
+      "hostel breakfast",
+      "hostel lunch"
+    ],
+    "aliases": [
+      "Hostel Mess"
+    ],
+    "search_priority": 1.0
+  },
+  {
+    "id": "laundry_room",
+    "name": "Hostel Laundry Room",
+    "category": "hostel",
+    "description": "Laundry room for hostel residents with washing machines and drying area.",
+    "opening_hours": "Monday to Saturday, 07:00\u201321:00.",
+    "map_reference": "Hostel Block, Ground Floor",
+    "coordinates": "HOSTEL-LAUNDRY",
+    "directions": "Enter the hostel block and turn right near the common room. The laundry room is at the end of the corridor.",
+    "events": [],
+    "keywords": [
+      "laundry",
+      "washing machine",
+      "hostel laundry",
+      "wash clothes",
+      "drying area"
+    ],
+    "aliases": [
+      "Hostel Laundry Room"
+    ],
+    "search_priority": 1.0
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "category": "library",
+    "image": "library_01.jpg",
+    "top1": "digital_library",
+    "top3": [
+      "digital_library",
+      "book_issue_counter",
+      "central_library"
+    ],
+    "top1_correct": true,
+    "top3_correct": true,
+    "score": 0.33021557331085205
+  },
+  {
+    "category": "library",
+    "image": "library_02.jpg",
+    "top1": "group_study_room",
+    "top3": [
+      "group_study_room",
+      "reading_room",
+      "stationery_store"
+    ],
+    "top1_correct": false,
+    "top3_correct": true,
+    "score": 0.31736862659454346
+  },
+  {
+    "category": "cafeteria",
+    "image": "cafeteria_01.jpg",
+    "top1": "reception",
+    "top3": [
+      "reception",
+      "conference_room_admin",
+      "it_faculty_room"
+    ],
+    "top1_correct": false,
+    "top3_correct": false,
+    "score": 0.20044973492622375
+  },
+  {
+    "category": "cafeteria",
+    "image": "cafeteria_02.jpg",
+    "top1": "innovation_centre",
+    "top3": [
+      "innovation_centre",
+      "conference_room_admin",
+      "ai_ds_faculty_room"
+    ],
+    "top1_correct": false,
+    "top3_correct": false,
+    "score": 0.18571534752845764
+  },
+  {
+    "category": "classroom",
+    "image": "classroom_01.jpg",
+    "top1": "it_classroom_101",
+    "top3": [
+      "it_classroom_101",
+      "cse_classroom_102",
+      "cse_classroom_101"
+    ],
+    "top1_correct": true,
+    "top3_correct": true,
+    "score": 0.29066142439842224
+  },
+  {
+    "category": "classroom",
+    "image": "classroom_02.jpg",
+    "top1": "it_classroom_101",
+    "top3": [
+      "it_classroom_101",
+      "cse_classroom_102",
+      "cse_classroom_101"
+    ],
+    "top1_correct": true,
+    "top3_correct": true,
+    "score": 0.2743186354637146
+  },
+  {
+    "category": "gym",
+    "image": "gym_01.jpg",
+    "top1": "indoor_games_room",
+    "top3": [
+      "indoor_games_room",
+      "gym",
+      "sports_ground"
+    ],
+    "top1_correct": true,
+    "top3_correct": true,
+    "score": 0.3091515004634857
+  },
+  {
+    "category": "gym",
+    "image": "gym_02.jpg",
+    "top1": "indoor_games_room",
+    "top3": [
+      "indoor_games_room",
+      "gym",
+      "sports_ground"
+    ],
+    "top1_correct": true,
+    "top3_correct": true,
+    "score": 0.2653394341468811
+  },
+  {
+    "category": "auditorium",
+    "image": "auditorium_01.jpg",
+    "top1": "auditorium_main",
+    "top3": [
+      "auditorium_main",
+      "seminar_hall_main",
+      "conference_room_admin"
+    ],
+    "top1_correct": true,
+    "top3_correct": true,
+    "score": 0.29406046867370605
+  },
+  {
+    "category": "auditorium",
+    "image": "auditorium_02.jpg",
+    "top1": "auditorium_main",
+    "top3": [
+      "auditorium_main",
+      "seminar_hall_main",
+      "lift_area"
+    ],
+    "top1_correct": true,
+    "top3_correct": true,
+    "score": 0.3055680990219116
+  },
+  {
+    "category": "admin",
+    "image": "admin_01.jpg",
+    "top1": "careers_office",
+    "top3": [
+      "careers_office",
+      "it_helpdesk",
+      "prayer_room"
+    ],
+    "top1_correct": false,
+    "top3_correct": false,
+    "score": 0.286486953496933
+  },
+  {
+    "category": "admin",
+    "image": "admin_02.jpg",
+    "top1": "ai_lab",
+    "top3": [
+      "ai_lab",
+      "networking_lab",
+      "computer_lab"
+    ],
+    "top1_correct": false,
+    "top3_correct": false,
+    "score": 0.3158146142959595
+  },
+  {
+    "category": "department",
+    "image": "department_01.jpg",
+    "top1": "placement_cell",
+    "top3": [
+      "placement_cell",
+      "project_lab",
+      "careers_office"
+    ],
+    "top1_correct": false,
+    "top3_correct": false,
+    "score": 0.2936626076698303
+  },
+  {
+    "category": "department",
+    "image": "department_02.jpg",
+    "top1": "lost_and_found",
+    "top3": [
+      "lost_and_found",
+      "student_services",
+      "international_office"
+    ],
+    "top1_correct": false,
+    "top3_correct": false,
+    "score": 0.2763838469982147
+  }
+]

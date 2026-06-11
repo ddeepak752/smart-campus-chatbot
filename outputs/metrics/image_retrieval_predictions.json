@@ -1,0 +1,488 @@
+[
+  {
+    "image_path": "data/images/admin/admin_08.jpg",
+    "generic_label": "admin",
+    "true_kb_id": "admin_office",
+    "pred_top1": "admin_office",
+    "pred_top3": [
+      "admin_office",
+      "cse_department",
+      "central_library"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "admin_office",
+        "score": 0.8417472839355469
+      },
+      {
+        "kb_id": "cse_department",
+        "score": 0.8064950704574585
+      },
+      {
+        "kb_id": "central_library",
+        "score": 0.7489285469055176
+      }
+    ],
+    "top1_correct": true,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/admin/admin_04.jpg",
+    "generic_label": "admin",
+    "true_kb_id": "admin_office",
+    "pred_top1": "admin_office",
+    "pred_top3": [
+      "admin_office",
+      "cse_department",
+      "cse_classroom_101"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "admin_office",
+        "score": 0.9999997615814209
+      },
+      {
+        "kb_id": "cse_department",
+        "score": 0.7944231629371643
+      },
+      {
+        "kb_id": "cse_classroom_101",
+        "score": 0.6890062093734741
+      }
+    ],
+    "top1_correct": true,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/auditorium/auditorium_12.jpg",
+    "generic_label": "auditorium",
+    "true_kb_id": "auditorium_main",
+    "pred_top1": "auditorium_main",
+    "pred_top3": [
+      "auditorium_main",
+      "cse_classroom_101",
+      "central_library"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "auditorium_main",
+        "score": 0.8344887495040894
+      },
+      {
+        "kb_id": "cse_classroom_101",
+        "score": 0.6492605209350586
+      },
+      {
+        "kb_id": "central_library",
+        "score": 0.6150472164154053
+      }
+    ],
+    "top1_correct": true,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/auditorium/auditorium_08.jpg",
+    "generic_label": "auditorium",
+    "true_kb_id": "auditorium_main",
+    "pred_top1": "auditorium_main",
+    "pred_top3": [
+      "auditorium_main",
+      "cse_classroom_101",
+      "central_library"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "auditorium_main",
+        "score": 0.8250327706336975
+      },
+      {
+        "kb_id": "cse_classroom_101",
+        "score": 0.6816303133964539
+      },
+      {
+        "kb_id": "central_library",
+        "score": 0.6501989364624023
+      }
+    ],
+    "top1_correct": true,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/auditorium/auditorium_03.jpg",
+    "generic_label": "auditorium",
+    "true_kb_id": "auditorium_main",
+    "pred_top1": "auditorium_main",
+    "pred_top3": [
+      "auditorium_main",
+      "gym",
+      "cse_classroom_101"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "auditorium_main",
+        "score": 0.8064602613449097
+      },
+      {
+        "kb_id": "gym",
+        "score": 0.6657821536064148
+      },
+      {
+        "kb_id": "cse_classroom_101",
+        "score": 0.6645818948745728
+      }
+    ],
+    "top1_correct": true,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/cafeteria/cafeteria_07.jpeg",
+    "generic_label": "cafeteria",
+    "true_kb_id": "main_cafeteria",
+    "pred_top1": "cse_classroom_101",
+    "pred_top3": [
+      "cse_classroom_101",
+      "auditorium_main",
+      "main_cafeteria"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "cse_classroom_101",
+        "score": 0.7608460187911987
+      },
+      {
+        "kb_id": "auditorium_main",
+        "score": 0.6921300888061523
+      },
+      {
+        "kb_id": "main_cafeteria",
+        "score": 0.64644455909729
+      }
+    ],
+    "top1_correct": false,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/classroom/classroom_02.jpg",
+    "generic_label": "classroom",
+    "true_kb_id": "cse_classroom_101",
+    "pred_top1": "cse_classroom_101",
+    "pred_top3": [
+      "cse_classroom_101",
+      "auditorium_main",
+      "cse_department"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "cse_classroom_101",
+        "score": 0.9435303807258606
+      },
+      {
+        "kb_id": "auditorium_main",
+        "score": 0.7127587795257568
+      },
+      {
+        "kb_id": "cse_department",
+        "score": 0.6740195751190186
+      }
+    ],
+    "top1_correct": true,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/classroom/classroom_07.jpg",
+    "generic_label": "classroom",
+    "true_kb_id": "cse_classroom_101",
+    "pred_top1": "cse_classroom_101",
+    "pred_top3": [
+      "cse_classroom_101",
+      "auditorium_main",
+      "central_library"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "cse_classroom_101",
+        "score": 0.9165621995925903
+      },
+      {
+        "kb_id": "auditorium_main",
+        "score": 0.8793088793754578
+      },
+      {
+        "kb_id": "central_library",
+        "score": 0.792756974697113
+      }
+    ],
+    "top1_correct": true,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/department/department_09.jpg",
+    "generic_label": "department",
+    "true_kb_id": "cse_department",
+    "pred_top1": "cse_classroom_101",
+    "pred_top3": [
+      "cse_classroom_101",
+      "cse_department",
+      "central_library"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "cse_classroom_101",
+        "score": 0.6563666462898254
+      },
+      {
+        "kb_id": "cse_department",
+        "score": 0.6487901210784912
+      },
+      {
+        "kb_id": "central_library",
+        "score": 0.6171460151672363
+      }
+    ],
+    "top1_correct": false,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/gym/gym_15.jpg",
+    "generic_label": "gym",
+    "true_kb_id": "gym",
+    "pred_top1": "gym",
+    "pred_top3": [
+      "gym",
+      "cse_department",
+      "admin_office"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "gym",
+        "score": 0.8995868563652039
+      },
+      {
+        "kb_id": "cse_department",
+        "score": 0.6959199905395508
+      },
+      {
+        "kb_id": "admin_office",
+        "score": 0.6718732714653015
+      }
+    ],
+    "top1_correct": true,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/gym/gym_14.jpg",
+    "generic_label": "gym",
+    "true_kb_id": "gym",
+    "pred_top1": "gym",
+    "pred_top3": [
+      "gym",
+      "cse_department",
+      "admin_office"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "gym",
+        "score": 0.9125559329986572
+      },
+      {
+        "kb_id": "cse_department",
+        "score": 0.7329401969909668
+      },
+      {
+        "kb_id": "admin_office",
+        "score": 0.7273887395858765
+      }
+    ],
+    "top1_correct": true,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/gym/gym_04.jpg",
+    "generic_label": "gym",
+    "true_kb_id": "gym",
+    "pred_top1": "gym",
+    "pred_top3": [
+      "gym",
+      "admin_office",
+      "central_library"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "gym",
+        "score": 0.8368346095085144
+      },
+      {
+        "kb_id": "admin_office",
+        "score": 0.7084084749221802
+      },
+      {
+        "kb_id": "central_library",
+        "score": 0.6644059419631958
+      }
+    ],
+    "top1_correct": true,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/lab/lab_15.jpg",
+    "generic_label": "lab",
+    "true_kb_id": "computer_lab",
+    "pred_top1": "computer_lab",
+    "pred_top3": [
+      "computer_lab",
+      "admin_office",
+      "central_library"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "computer_lab",
+        "score": 0.8818334937095642
+      },
+      {
+        "kb_id": "admin_office",
+        "score": 0.6961280107498169
+      },
+      {
+        "kb_id": "central_library",
+        "score": 0.6748540997505188
+      }
+    ],
+    "top1_correct": true,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/lab/lab_09.jpg",
+    "generic_label": "lab",
+    "true_kb_id": "computer_lab",
+    "pred_top1": "computer_lab",
+    "pred_top3": [
+      "computer_lab",
+      "cse_classroom_101",
+      "main_cafeteria"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "computer_lab",
+        "score": 0.782195508480072
+      },
+      {
+        "kb_id": "cse_classroom_101",
+        "score": 0.5637509226799011
+      },
+      {
+        "kb_id": "main_cafeteria",
+        "score": 0.5235681533813477
+      }
+    ],
+    "top1_correct": true,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/lab/lab_12.jpg",
+    "generic_label": "lab",
+    "true_kb_id": "computer_lab",
+    "pred_top1": "computer_lab",
+    "pred_top3": [
+      "computer_lab",
+      "admin_office",
+      "cse_classroom_101"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "computer_lab",
+        "score": 0.7692967057228088
+      },
+      {
+        "kb_id": "admin_office",
+        "score": 0.6480363011360168
+      },
+      {
+        "kb_id": "cse_classroom_101",
+        "score": 0.645926296710968
+      }
+    ],
+    "top1_correct": true,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/library/library_07.jpg",
+    "generic_label": "library",
+    "true_kb_id": "central_library",
+    "pred_top1": "central_library",
+    "pred_top3": [
+      "central_library",
+      "admin_office",
+      "cse_classroom_101"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "central_library",
+        "score": 0.8675469160079956
+      },
+      {
+        "kb_id": "admin_office",
+        "score": 0.7366792559623718
+      },
+      {
+        "kb_id": "cse_classroom_101",
+        "score": 0.7300540208816528
+      }
+    ],
+    "top1_correct": true,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/library/library_01.jpg",
+    "generic_label": "library",
+    "true_kb_id": "central_library",
+    "pred_top1": "central_library",
+    "pred_top3": [
+      "central_library",
+      "cse_classroom_101",
+      "auditorium_main"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "central_library",
+        "score": 0.8860210180282593
+      },
+      {
+        "kb_id": "cse_classroom_101",
+        "score": 0.7684042453765869
+      },
+      {
+        "kb_id": "auditorium_main",
+        "score": 0.7472511529922485
+      }
+    ],
+    "top1_correct": true,
+    "top3_correct": true
+  },
+  {
+    "image_path": "data/images/library/library_17.jpg",
+    "generic_label": "library",
+    "true_kb_id": "central_library",
+    "pred_top1": "central_library",
+    "pred_top3": [
+      "central_library",
+      "auditorium_main",
+      "cse_classroom_101"
+    ],
+    "top_scores": [
+      {
+        "kb_id": "central_library",
+        "score": 0.8973709344863892
+      },
+      {
+        "kb_id": "auditorium_main",
+        "score": 0.793599545955658
+      },
+      {
+        "kb_id": "cse_classroom_101",
+        "score": 0.7894250750541687
+      }
+    ],
+    "top1_correct": true,
+    "top3_correct": true
+  }
+]

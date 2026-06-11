@@ -1,0 +1,31 @@
+{
+  "clip_model": "openai/clip-vit-base-patch32",
+  "embedding_dim": 512,
+  "faiss_index_type": "IndexFlatIP (cosine similarity)",
+  "kb_records_indexed": 142,
+  "top1_accuracy": 0.5,
+  "top3_accuracy": 0.5714,
+  "eval_images": 14,
+  "dataset_images": 103,
+  "categories": [
+    "library",
+    "cafeteria",
+    "classroom",
+    "gym",
+    "department",
+    "lab",
+    "auditorium",
+    "admin"
+  ],
+  "images_per_category": {
+    "library": 17,
+    "cafeteria": 8,
+    "classroom": 11,
+    "gym": 15,
+    "department": 9,
+    "lab": 19,
+    "auditorium": 13,
+    "admin": 11
+  },
+  "note": "CLIP frozen. Zero labelled training data. KB text descriptions encoded as retrieval targets."
+}
