@@ -10,8 +10,12 @@ from dotenv import load_dotenv
 GROQ_MODEL = "llama-3.1-8b-instant"
 
 def _get_api_key() -> str:
-    load_dotenv(override=True)
-    return os.getenv("GROQ_API_KEY", "")
+    # On HuggingFace Spaces, key is set as env secret — don't override it
+    key = os.getenv("GROQ_API_KEY", "")
+    if not key:
+        load_dotenv()  # fallback to .env for local dev
+        key = os.getenv("GROQ_API_KEY", "")
+    return key
 
 
 def _clean_template_response(kb_result: str) -> str:
