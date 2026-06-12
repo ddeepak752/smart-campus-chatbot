@@ -6,7 +6,7 @@
   "top1_accuracy": 0.5,
   "top3_accuracy": 0.5714,
   "eval_images": 14,
-  "dataset_images": 103,
+  "dataset_images": 99,
   "categories": [
     "library",
     "cafeteria",

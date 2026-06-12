@@ -66,9 +66,9 @@
       "modality": "text",
       "input": "how to apply for scholarship",
       "intent": "ask_scholarship",
-      "matched": "Accounts Office",
+      "matched": "Scholarship Office",
       "confidence": 0.991,
-      "response": "To apply for a scholarship, you should head to the Accounts Office. You can find them on the Ground Floor of the Admin Block, Zone ADM. To get there, ",
+      "response": "To apply for a scholarship, head to the Scholarship Office, located on the Ground Floor, Admin Block, Zone ADM. Here are the directions to the Scholar",
       "correct": true
     },
     {
