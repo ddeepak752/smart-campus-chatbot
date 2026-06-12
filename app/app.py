@@ -360,11 +360,13 @@ def render_chat():
             cb="b-hi" if conf>0.7 else "b-lo"
             itag=(f'<span class="badge {cb}">{_html.escape(intent.replace("_"," "))}</span>'
                   if intent and intent not in ("greeting","fallback","error","") else "")
+            # Render newlines as <br> for proper formatting
+            sc_html = sc.replace("\n", "<br>")
             st.markdown(
                 f'<div class="msg-wrap">'
                 f'<div class="msg-bot">'
                 f'<div class="bot-av">🤖</div>'
-                f'<div class="bub-b">{sc}{kb_card(r)}</div>'
+                f'<div class="bub-b">{sc_html}{kb_card(r)}</div>'
                 f'</div>'
                 f'<div class="msg-meta">Campus AI {mbadge(m)}{itag} · {t}</div>'
                 f'</div>', unsafe_allow_html=True)

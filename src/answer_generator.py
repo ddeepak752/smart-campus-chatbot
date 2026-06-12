@@ -163,8 +163,12 @@ def build_kb_result(query: str, intent: str, record=None) -> str:
     if intent in ("emergency", "lost_found"):
         return _emergency_handler(query, record)
 
+    # Contact/hours queries — no directions needed
+    if intent == "ask_contact":
+        return _hours_handler(record)
+
     # find_location, faculty_query, ask_department, service_query,
-    # recommend_place, facility_info, ask_contact, fallback
+    # recommend_place, facility_info, fallback
     return _location_handler(query, record)
 
 def build_kb_result_multi(query: str, intent: str, records: list) -> str:
