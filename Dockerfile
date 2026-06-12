@@ -23,6 +23,7 @@ COPY models/ ./models/
 COPY scripts/ ./scripts/
 COPY chatbot.py .
 COPY README.md .
+COPY .streamlit/ ./.streamlit/
 
 ENV KMP_DUPLICATE_LIB_OK=TRUE
 ENV OMP_NUM_THREADS=1
@@ -35,4 +36,6 @@ HEALTHCHECK CMD curl --fail http://localhost:7860/_stcore/health || exit 1
 ENTRYPOINT ["streamlit", "run", "app/app.py", \
             "--server.port=7860", \
             "--server.address=0.0.0.0", \
-            "--server.headless=true"]
+            "--server.headless=true", \
+            "--server.enableCORS=false", \
+            "--server.enableXsrfProtection=false"]

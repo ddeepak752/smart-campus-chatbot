@@ -23,7 +23,7 @@ st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 html,body,[class*="css"]{font-family:'Inter',sans-serif;}
-.stApp{background:#F4F7FB;color:#1A1D23;}
+.stApp{background:#EEF3F8;color:#111827;}
 
 /* Sidebar */
 [data-testid="stSidebar"]{
@@ -54,8 +54,8 @@ html,body,[class*="css"]{font-family:'Inter',sans-serif;}
   justify-content:center;font-size:1.1rem;
   box-shadow:0 2px 6px rgba(37,99,235,0.25);
 }
-.top-title{font-size:1rem;font-weight:600;color:#1A1D23;margin:0;}
-.top-sub{font-size:0.65rem;color:#2563EB;font-family:'JetBrains Mono',monospace;
+.top-title{font-size:1rem;font-weight:700;color:#111827;margin:0;}
+.top-sub{font-size:0.65rem;color:#1D4ED8;font-family:'JetBrains Mono',monospace;
          text-transform:uppercase;letter-spacing:0.08em;margin:0;}
 .top-live{margin-left:auto;display:flex;align-items:center;gap:0.35rem;
           font-size:0.62rem;color:#6B7280;font-family:'JetBrains Mono',monospace;}
@@ -69,14 +69,14 @@ html,body,[class*="css"]{font-family:'Inter',sans-serif;}
 .bot-av{width:26px;height:26px;border-radius:7px;flex-shrink:0;margin-top:2px;
         background:linear-gradient(135deg,#2563EB,#1D4ED8);
         display:flex;align-items:center;justify-content:center;font-size:0.8rem;}
-.bub-u{background:#2563EB;color:#fff;border-radius:18px 18px 4px 18px;
+.bub-u{background:#1D4ED8;color:#FFFFFF;border-radius:18px 18px 4px 18px;
        padding:0.65rem 1rem;max-width:70%;font-size:0.88rem;line-height:1.6;
-       word-wrap:break-word;box-shadow:0 2px 6px rgba(37,99,235,0.2);}
-.bub-b{background:#FFFFFF;color:#374151;border-radius:4px 18px 18px 18px;
+       word-wrap:break-word;box-shadow:0 3px 10px rgba(29,78,216,0.22);}
+.bub-b{background:#FFFFFF;color:#1F2937;border-radius:4px 18px 18px 18px;
        padding:0.65rem 1rem;max-width:82%;font-size:0.88rem;line-height:1.65;
-       word-wrap:break-word;border:1px solid #E8EDF4;
-       box-shadow:0 1px 3px rgba(0,0,0,0.05);}
-.msg-meta{font-size:0.58rem;color:#9CA3AF;font-family:'JetBrains Mono',monospace;
+       word-wrap:break-word;border:1px solid #D8E1EC;
+       box-shadow:0 2px 8px rgba(15,23,42,0.08);}
+.msg-meta{font-size:0.58rem;color:#64748B;font-family:'JetBrains Mono',monospace;
           margin-top:0.18rem;padding:0 0.2rem;}
 .msg-meta-r{text-align:right;}
 
@@ -85,23 +85,23 @@ html,body,[class*="css"]{font-family:'Inter',sans-serif;}
        font-family:'JetBrains Mono',monospace;padding:0.08rem 0.38rem;
        border-radius:20px;border:1px solid;text-transform:uppercase;
        letter-spacing:0.04em;margin-left:0.25rem;vertical-align:middle;}
-.b-text{color:#2563EB;border-color:rgba(37,99,235,0.25);background:rgba(37,99,235,0.07);}
-.b-voice{color:#059669;border-color:rgba(5,150,105,0.25);background:rgba(5,150,105,0.07);}
-.b-image{color:#7C3AED;border-color:rgba(124,58,237,0.25);background:rgba(124,58,237,0.07);}
-.b-fusion{color:#D97706;border-color:rgba(217,119,6,0.25);background:rgba(217,119,6,0.07);}
-.b-hi{color:#059669;border-color:rgba(5,150,105,0.25);background:rgba(5,150,105,0.07);}
-.b-lo{color:#DC2626;border-color:rgba(220,38,38,0.25);background:rgba(220,38,38,0.07);}
+.b-text{color:#1D4ED8;border-color:#93C5FD;background:#DBEAFE;}
+.b-voice{color:#047857;border-color:#6EE7B7;background:#D1FAE5;}
+.b-image{color:#6D28D9;border-color:#C4B5FD;background:#EDE9FE;}
+.b-fusion{color:#B45309;border-color:#FDBA74;background:#FFEDD5;}
+.b-hi{color:#047857;border-color:#6EE7B7;background:#D1FAE5;}
+.b-lo{color:#B91C1C;border-color:#FCA5A5;background:#FEE2E2;}
 
 /* KB card */
-.kb-card{margin-top:0.6rem;background:#F0F4FF;border-radius:10px;
-         padding:0.65rem 0.85rem;border-left:3px solid #2563EB;}
-.kb-name{font-weight:600;color:#1E3A8A;margin-bottom:0.3rem;font-size:0.82rem;}
+.kb-card{margin-top:0.6rem;background:#F8FAFC;border-radius:10px;
+         padding:0.65rem 0.85rem;border:1px solid #CBD5E1;border-left:4px solid #1D4ED8;}
+.kb-name{font-weight:700;color:#1E3A8A;margin-bottom:0.3rem;font-size:0.82rem;}
 .kb-row{display:flex;flex-wrap:wrap;gap:0.6rem;margin-top:0.2rem;}
-.kb-item{font-size:0.67rem;color:#6B7280;font-family:'JetBrains Mono',monospace;}
-.kb-item span{color:#374151;font-family:'Inter',sans-serif;}
-.kb-events{margin-top:0.35rem;color:#B45309;font-size:0.73rem;}
+.kb-item{font-size:0.67rem;color:#475569;font-family:'JetBrains Mono',monospace;}
+.kb-item span{color:#1F2937;font-family:'Inter',sans-serif;}
+.kb-events{margin-top:0.35rem;color:#92400E;font-size:0.73rem;}
 .kb-ev-lbl{font-family:'JetBrains Mono',monospace;font-size:0.58rem;
-           text-transform:uppercase;letter-spacing:0.08em;color:#9CA3AF;margin-bottom:0.1rem;}
+           text-transform:uppercase;letter-spacing:0.08em;color:#64748B;margin-bottom:0.1rem;}
 
 /* Empty state */
 .empty-state{text-align:center;padding:2rem 1rem;}
@@ -109,18 +109,16 @@ html,body,[class*="css"]{font-family:'Inter',sans-serif;}
 .empty-title{font-size:1rem;font-weight:600;color:#1A1D23;margin-bottom:0.3rem;}
 .empty-sub{font-size:0.82rem;color:#6B7280;line-height:1.7;}
 
-/* Input section */
-.input-section{
-  background:#FFFFFF;
-  border:1.5px solid #E5E9F0;
-  border-radius:14px;
-  padding:0.5rem 0.75rem 0.5rem 0.75rem;
-  margin-top:0.5rem;
-  box-shadow:0 2px 8px rgba(0,0,0,0.05);
+.composer-status{
+  font-size:0.64rem;color:#1D4ED8;
+  font-family:'JetBrains Mono',monospace;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  padding:0 0.25rem 0.3rem 0.25rem;
 }
-.input-section:focus-within{
-  border-color:#2563EB;
-  box-shadow:0 2px 8px rgba(37,99,235,0.1);
+.composer-hint{
+  font-size:0.62rem;color:#64748B;
+  font-family:'JetBrains Mono',monospace;
+  padding:0 0.25rem 0.3rem 0.25rem;
 }
 .input-label{font-size:0.6rem;font-family:'JetBrains Mono',monospace;
              color:#9CA3AF;text-transform:uppercase;letter-spacing:0.08em;
@@ -132,9 +130,9 @@ html,body,[class*="css"]{font-family:'Inter',sans-serif;}
             background:rgba(37,99,235,0.08);border:1px solid rgba(37,99,235,0.2);}
 
 /* Attachment preview */
-.attach-box{background:#EFF6FF;border:1px solid #BFDBFE;border-radius:8px;
-            padding:0.35rem 0.7rem;font-size:0.75rem;color:#1D4ED8;
-            margin-bottom:0.4rem;display:flex;align-items:center;gap:0.4rem;}
+.attach-box{background:#DBEAFE;border:1px solid #93C5FD;border-radius:8px;
+            padding:0.35rem 0.7rem;font-size:0.75rem;color:#1E40AF;
+            margin:0.25rem 0 0.4rem 0;display:flex;align-items:center;gap:0.4rem;}
 
 /* Transcript */
 .tr-box{background:#F0FDF4;border:1.5px dashed #86EFAC;border-radius:8px;
@@ -149,26 +147,26 @@ html,body,[class*="css"]{font-family:'Inter',sans-serif;}
          border-radius:8px;display:flex;align-items:center;justify-content:center;
          font-size:0.95rem;box-shadow:0 2px 4px rgba(37,99,235,0.25);}
 .sb-title{font-size:0.85rem;font-weight:600;color:#1A1D23;}
-.sb-sub{font-size:0.6rem;color:#2563EB;font-family:'JetBrains Mono',monospace;
+.sb-sub{font-size:0.6rem;color:#1D4ED8;font-family:'JetBrains Mono',monospace;
         text-transform:uppercase;letter-spacing:0.08em;}
-.sb-sec{font-size:0.6rem;font-family:'JetBrains Mono',monospace;color:#2563EB;
+.sb-sec{font-size:0.6rem;font-family:'JetBrains Mono',monospace;color:#1D4ED8;
         text-transform:uppercase;letter-spacing:0.1em;margin:0.65rem 0 0.35rem 0;}
 .sb-div{border-top:1px solid #F0F2F5;margin:0.65rem 0;}
 
 /* Buttons */
 .stButton>button{
-  width:100%;background:linear-gradient(135deg,#2563EB,#1D4ED8) !important;
+  width:100%;background:linear-gradient(135deg,#1D4ED8,#1E40AF) !important;
   color:#fff !important;border:none !important;border-radius:9px !important;
   padding:0.5rem !important;font-weight:600 !important;font-size:0.82rem !important;
   box-shadow:0 2px 5px rgba(37,99,235,0.25) !important;transition:all 0.15s !important;
 }
 .stButton>button:hover{opacity:0.9 !important;}
 .sug .stButton>button{
-  background:#F8FAFC !important;color:#4B5563 !important;
-  border:1px solid #E5E9F0 !important;font-weight:400 !important;
+  background:#FFFFFF !important;color:#334155 !important;
+  border:1px solid #CBD5E1 !important;font-weight:500 !important;
   font-size:0.76rem !important;box-shadow:none !important;
 }
-.sug .stButton>button:hover{border-color:#2563EB !important;color:#2563EB !important;}
+.sug .stButton>button:hover{border-color:#1D4ED8 !important;color:#1D4ED8 !important;}
 .sec .stButton>button{
   background:rgba(37,99,235,0.07) !important;color:#2563EB !important;
   border:1px solid rgba(37,99,235,0.2) !important;
@@ -188,8 +186,32 @@ html,body,[class*="css"]{font-family:'Inter',sans-serif;}
 }
 .stTextArea textarea:focus{box-shadow:none !important;border:none !important;}
 .stTextInput input{
-  background:#F8FAFC !important;border:1.5px solid #E5E9F0 !important;
-  border-radius:8px !important;color:#1A1D23 !important;font-size:0.85rem !important;
+  background:transparent !important;
+  border:none !important;
+  box-shadow:none !important;
+  color:#1A1D23 !important;
+  font-size:0.92rem !important;
+  padding-top:0.35rem !important;
+}
+.stTextInput input:focus{
+  border:none !important;
+  box-shadow:none !important;
+}
+div[data-testid="stForm"]{
+  background:#FFFFFF !important;
+  border:1.5px solid #C7D2E1 !important;
+  border-radius:18px !important;
+  padding:0.45rem 0.65rem 0.15rem 0.65rem !important;
+  margin:0.45rem 0 0.35rem 0 !important;
+  box-shadow:0 2px 8px rgba(0,0,0,0.05) !important;
+}
+div[data-testid="stForm"]:focus-within{
+  border-color:#1D4ED8 !important;
+  box-shadow:0 2px 10px rgba(37,99,235,0.12) !important;
+}
+div[data-testid="stForm"] .stTextInput input{
+  color:#1A1D23 !important;
+  font-size:0.92rem !important;
 }
 [data-testid="stCameraInput"]>div{
   border:1.5px dashed #CBD5E1 !important;border-radius:10px !important;
@@ -209,28 +231,42 @@ html,body,[class*="css"]{font-family:'Inter',sans-serif;}
 .stTabs [aria-selected="true"]{background:#FFFFFF !important;color:#2563EB !important;
   box-shadow:0 1px 2px rgba(0,0,0,0.07) !important;}
 .audio-row{display:flex;justify-content:center;padding:0.4rem 0;}
-.icon-btn .stButton>button{
-  background:#F8FAFC !important;color:#6B7280 !important;
-  border:1px solid #E5E9F0 !important;border-radius:8px !important;
-  padding:0.3rem 0.5rem !important;font-size:1rem !important;
+.icon-btn .stButton>button,
+.icon-btn .stFormSubmitButton>button{
+  background:#F8FAFC !important;color:#334155 !important;
+  border:1.5px solid #C7D2E1 !important;border-radius:50% !important;
+  padding:0 !important;font-size:1.05rem !important;
   font-weight:400 !important;box-shadow:none !important;
-  min-height:32px !important;
+  height:38px !important;min-height:38px !important;
 }
-.icon-btn .stButton>button:hover{
-  border-color:#2563EB !important;color:#2563EB !important;
-  background:#EFF6FF !important;
+.icon-btn .stButton>button:hover,
+.icon-btn .stFormSubmitButton>button:hover{
+  border-color:#1D4ED8 !important;color:#1D4ED8 !important;
+  background:#DBEAFE !important;
 }
-.icon-btn-active .stButton>button{
-  background:#EFF6FF !important;color:#2563EB !important;
-  border:1.5px solid #2563EB !important;border-radius:8px !important;
-  padding:0.3rem 0.5rem !important;font-size:1rem !important;
+.icon-btn-active .stButton>button,
+.icon-btn-active .stFormSubmitButton>button{
+  background:#DBEAFE !important;color:#1D4ED8 !important;
+  border:1.5px solid #1D4ED8 !important;border-radius:50% !important;
+  padding:0 !important;font-size:1.05rem !important;
   font-weight:400 !important;box-shadow:none !important;
+  height:38px !important;min-height:38px !important;
 }
-.icon-btn-danger .stButton>button{
-  background:#FEF2F2 !important;color:#EF4444 !important;
-  border:1px solid #FECACA !important;border-radius:8px !important;
-  padding:0.3rem 0.5rem !important;font-size:0.8rem !important;
+.icon-btn-danger .stButton>button,
+.icon-btn-danger .stFormSubmitButton>button{
+  background:#FEE2E2 !important;color:#B91C1C !important;
+  border:1.5px solid #FCA5A5 !important;border-radius:50% !important;
+  padding:0 !important;font-size:1rem !important;
   font-weight:400 !important;box-shadow:none !important;
+  height:38px !important;min-height:38px !important;
+}
+.send-btn .stButton>button,
+.send-btn .stFormSubmitButton>button{
+  background:#111827 !important;color:#FFFFFF !important;
+  border:none !important;border-radius:50% !important;
+  padding:0 !important;font-size:1rem !important;
+  font-weight:700 !important;box-shadow:none !important;
+  height:38px !important;min-height:38px !important;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -243,6 +279,7 @@ if "pending_img"  not in st.session_state: st.session_state.pending_img  = None
 if "pending_name" not in st.session_state: st.session_state.pending_name = ""
 if "audio_data"   not in st.session_state: st.session_state.audio_data   = None
 if "audio_suffix" not in st.session_state: st.session_state.audio_suffix = ".wav"
+if "voice_hint"   not in st.session_state: st.session_state.voice_hint   = ""
 
 # ── Pipelines ─────────────────────────────────────────────────────────
 @st.cache_resource(show_spinner=False)
@@ -258,7 +295,9 @@ def mbadge(m):
        "image":'<span class="badge b-image">📷 image</span>',
        "text+image":'<span class="badge b-fusion">⚡ fusion</span>',
        "image+text":'<span class="badge b-fusion">⚡ fusion</span>',
-       "voice+image":'<span class="badge b-fusion">🎤📷 fusion</span>'}
+       "text+voice":'<span class="badge b-fusion">⌨🎤 fusion</span>',
+       "voice+image":'<span class="badge b-fusion">🎤📷 fusion</span>',
+       "text+voice+image":'<span class="badge b-fusion">⌨🎤📷 fusion</span>'}
     return B.get(m,B["text"])
 
 def kb_card(result):
@@ -337,6 +376,91 @@ def do_image(img_bytes, hint="", img_name="photo"):
         add_msg("assistant","Couldn't identify a campus location. "
                 "Try a clearer photo or add a text hint.","image",{})
 
+def do_multimodal_fusion(img_bytes=None, audio_bytes=None, audio_suffix=".wav",
+                         text_hint="", img_name="photo"):
+    from src.answer_generator import build_kb_result
+    from src.fusion_layer     import run_fusion_pipeline
+    from src.llm_handler      import ask_llm
+
+    pil = Image.open(io.BytesIO(img_bytes)).convert("RGB") if img_bytes else None
+    fusion = run_fusion_pipeline(
+        text_query=text_hint.strip() or None,
+        image_input=pil,
+        voice_input=audio_bytes,
+        voice_suffix=audio_suffix,
+        top_k=3,
+    )
+
+    if fusion.get("error") and not fusion.get("top_match"):
+        if img_bytes:
+            do_image(img_bytes, hint=text_hint, img_name=img_name)
+        elif audio_bytes:
+            _, run_voice = load_pipelines()
+            r = run_voice(audio_bytes, suffix=audio_suffix)
+            transcript = r.get("transcript", "")
+            if text_hint.strip():
+                do_text(f"{text_hint.strip()} {transcript}".strip(), "text+voice")
+            else:
+                add_msg("user", f'🎤 "{transcript}"' if transcript else "🎤 Voice query", "voice")
+                add_msg("assistant", r["response"], "voice", r)
+        return
+
+    top = fusion.get("top_match")
+    transcript = fusion.get("transcript", "").strip()
+    parts = []
+    if img_bytes:
+        parts.append(f"📷 {img_name}")
+    if transcript:
+        parts.append(f'🎤 "{transcript}"')
+    if text_hint.strip():
+        parts.append(f'"{text_hint.strip()}"')
+    disp = " + ".join(parts) if parts else "Multimodal query"
+
+    used = set(fusion.get("modalities_used", []))
+    if {"text", "voice", "image"}.issubset(used):
+        mod = "text+voice+image"
+    elif {"text", "voice"}.issubset(used):
+        mod = "text+voice"
+    elif {"voice", "image"}.issubset(used):
+        mod = "voice+image"
+    elif {"text", "image"}.issubset(used):
+        mod = "text+image"
+    elif "image" in used:
+        mod = "image"
+    elif "voice" in used:
+        mod = "voice"
+    else:
+        mod = "text"
+
+    if not top:
+        add_msg("user", disp, mod)
+        add_msg("assistant",
+                "I could not confidently match that to a campus location. "
+                "Try a clearer image, a shorter voice query, or a typed hint.",
+                mod, {})
+        return
+
+    query_text = " ".join([text_hint.strip(), transcript]).strip()
+    if not query_text:
+        query_text = f"Tell me about {top.get('name', 'this place')}"
+
+    score = float((fusion.get("top_k_records") or [{}])[0].get("score", 0.0))
+    kb_str = build_kb_result(query_text, "facility_info", top)
+    resp, used_llm = ask_llm(query_text, kb_str)
+    pr = {
+        "response": resp,
+        "intent": "multimodal_fusion",
+        "intent_confidence": score,
+        "matched_location": top.get("name", ""),
+        "retrieval_score": score,
+        "llm_used": used_llm,
+        "kb_result": kb_str,
+        "transcript": transcript,
+        "modalities_used": fusion.get("modalities_used", []),
+    }
+    add_msg("user", disp, mod)
+    add_msg("assistant", resp, mod, pr)
+
 def render_chat():
     if not st.session_state.messages:
         st.markdown("""<div class='empty-state'>
@@ -385,7 +509,7 @@ with st.sidebar:
     ⌨️ <b>Text</b> — type any question<br>
     🎤 <b>Voice</b> — click mic, speak, send<br>
     📷 <b>Image</b> — camera or upload<br>
-    ⚡ <b>Combine</b> — image + text hint
+    ⚡ <b>Combine</b> — image + text, voice + text, or all three
     </div>
     """, unsafe_allow_html=True)
 
@@ -436,68 +560,7 @@ st.markdown("""<div class='top-bar'>
 # Chat messages
 render_chat()
 
-# ── UNIFIED INPUT SECTION ─────────────────────────────────────────────
-st.markdown("<div class='input-section'>", unsafe_allow_html=True)
-
-# Attachment preview
-if st.session_state.pending_img:
-    st.markdown(
-        f"<div class='attach-box'>📷 <b>{_html.escape(st.session_state.pending_name)}</b> attached "
-        f"<span style='color:#6B7280;font-size:0.68rem'>— will send with your message</span></div>",
-        unsafe_allow_html=True)
-
-# ── Text input row ────────────────────────────────────────────────────
-q = st.chat_input("Ask anything about the campus…", key="chat_in")
-if q:
-    if st.session_state.pending_img:
-        with st.spinner(""):
-            do_image(st.session_state.pending_img, hint=q,
-                     img_name=st.session_state.pending_name)
-        st.session_state.pending_img  = None
-        st.session_state.pending_name = ""
-    else:
-        do_text(q.strip(), "text")
-    st.rerun()
-
-# ── Modality toggle row ───────────────────────────────────────────────
-ic1, ic2, ic3, ic4 = st.columns([1,1,1,2])
-with ic1:
-    st.markdown("<div class='sec'>", unsafe_allow_html=True)
-    if st.button("🎤 Voice", key="tog_voice", use_container_width=True):
-        st.session_state.show_voice = not st.session_state.show_voice
-        st.session_state.show_image = False
-        st.rerun()
-    st.markdown("</div>", unsafe_allow_html=True)
-with ic2:
-    st.markdown("<div class='sec'>", unsafe_allow_html=True)
-    if st.button("📷 Image", key="tog_image", use_container_width=True):
-        st.session_state.show_image = not st.session_state.show_image
-        st.session_state.show_voice = False
-        st.rerun()
-    st.markdown("</div>", unsafe_allow_html=True)
-with ic3:
-    if st.session_state.pending_img:
-        st.markdown("<div class='sec'>", unsafe_allow_html=True)
-        if st.button("❌ Remove", key="rm_img", use_container_width=True):
-            st.session_state.pending_img  = None
-            st.session_state.pending_name = ""
-            st.rerun()
-        st.markdown("</div>", unsafe_allow_html=True)
-with ic4:
-    # Status indicator
-    active_modes = []
-    if st.session_state.show_voice: active_modes.append("🎤 Voice panel open")
-    if st.session_state.show_image: active_modes.append("📷 Image panel open")
-    if st.session_state.pending_img: active_modes.append("📎 Image attached")
-    if active_modes:
-        st.markdown(f"<div style='font-size:0.65rem;color:#2563EB;padding:0.3rem 0;"
-                    f"font-family:JetBrains Mono,monospace;'>"
-                    f"{' · '.join(active_modes)}</div>",
-                    unsafe_allow_html=True)
-
-st.markdown("</div>", unsafe_allow_html=True)  # close input-section
-
-# ── Voice panel (inline, below input) ────────────────────────────────
+# ── Voice/Image panels (open above composer) ──────────────────────────
 if st.session_state.show_voice:
     with st.container():
         st.markdown("""<div style='background:#F0FDF4;border:1px solid #BBF7D0;
@@ -521,6 +584,12 @@ if st.session_state.show_voice:
                     neutral_color="#9CA3AF", icon_size="2x")
                 st.markdown("</div>", unsafe_allow_html=True)
             with col_send:
+                voice_hint = st.text_input(
+                    "voice_hint_input",
+                    placeholder="Optional typed context (combines with voice/image)",
+                    key="voice_hint",
+                    label_visibility="collapsed",
+                )
                 uploaded_audio = st.file_uploader(
                     "audio_upload",
                     type=["wav", "mp3", "m4a", "ogg", "webm"],
@@ -542,18 +611,29 @@ if st.session_state.show_voice:
                         unsafe_allow_html=True)
                 if st.session_state.audio_data:
                     if st.button("Send Voice →", key="send_v", use_container_width=True):
-                        _,run_voice=load_pipelines()
                         with st.spinner("Transcribing…"):
                             suffix = st.session_state.get("audio_suffix", ".wav")
-                            r=run_voice(st.session_state.audio_data, suffix=suffix)
-                            tr=r.get("transcript","")
-                            # If image also attached → voice+image fusion
+                            hint_text = voice_hint.strip()
                             if st.session_state.pending_img:
-                                do_image(st.session_state.pending_img, hint=tr,
-                                         img_name=st.session_state.pending_name)
+                                do_multimodal_fusion(
+                                    img_bytes=st.session_state.pending_img,
+                                    audio_bytes=st.session_state.audio_data,
+                                    audio_suffix=suffix,
+                                    text_hint=hint_text,
+                                    img_name=st.session_state.pending_name,
+                                )
                                 st.session_state.pending_img=None
                                 st.session_state.pending_name=""
+                            elif hint_text:
+                                _, run_voice = load_pipelines()
+                                r = run_voice(st.session_state.audio_data, suffix=suffix)
+                                tr = r.get("transcript", "")
+                                combined = f"{hint_text} {tr}".strip()
+                                do_text(combined, "text+voice")
                             else:
+                                _,run_voice=load_pipelines()
+                                r=run_voice(st.session_state.audio_data, suffix=suffix)
+                                tr=r.get("transcript","")
                                 disp=f'🎤 "{tr}"' if tr else "🎤 Voice query"
                                 add_msg("user",disp,"voice")
                                 add_msg("assistant",r["response"],"voice",r)
@@ -565,7 +645,6 @@ if st.session_state.show_voice:
             st.error("Run: pip install audio-recorder-streamlit")
         st.markdown("</div>", unsafe_allow_html=True)
 
-# ── Image panel (inline, below input) ────────────────────────────────
 if st.session_state.show_image:
     with st.container():
         st.markdown("""<div style='background:#F5F3FF;border:1px solid #DDD6FE;
@@ -592,7 +671,7 @@ if st.session_state.show_image:
 
         b1, b2 = st.columns(2)
         with b1:
-            if st.button("�� Identify & Ask", key="send_img2",
+            if st.button("📷 Identify & Ask", key="send_img2",
                          use_container_width=True):
                 if img_data:
                     with st.spinner(""):
@@ -612,3 +691,91 @@ if st.session_state.show_image:
                     st.session_state.show_image   = False
                     st.rerun()
         st.markdown("</div>", unsafe_allow_html=True)
+
+# ── Composer ──────────────────────────────────────────────────────────
+active_modes = []
+if st.session_state.show_voice:
+    active_modes.append("voice")
+if st.session_state.show_image:
+    active_modes.append("image")
+if st.session_state.pending_img:
+    active_modes.append("image attached")
+
+# Attachment preview
+if st.session_state.pending_img:
+    st.markdown(
+        f"<div class='attach-box'>📷 <b>{_html.escape(st.session_state.pending_name)}</b> attached "
+        f"<span style='color:#6B7280;font-size:0.68rem'>— send with text, voice, or both</span></div>",
+        unsafe_allow_html=True)
+
+with st.form("campus_composer", clear_on_submit=True):
+    c_plus, c_text, c_mic, c_send = st.columns([0.45, 5.2, 0.45, 0.45])
+    with c_plus:
+        cls = "icon-btn-danger" if st.session_state.pending_img else ("icon-btn-active" if st.session_state.show_image else "icon-btn")
+        st.markdown(f"<div class='{cls}'>", unsafe_allow_html=True)
+        plus_label = "×" if st.session_state.pending_img else "📎"
+        plus_pressed = st.form_submit_button(
+            plus_label,
+            help="Attach or remove image",
+            use_container_width=True,
+        )
+        st.markdown("</div>", unsafe_allow_html=True)
+    with c_text:
+        q = st.text_input(
+            "composer_text",
+            placeholder="Ask anything about the campus...",
+            key="composer_text",
+            label_visibility="collapsed",
+        )
+    with c_mic:
+        cls = "icon-btn-active" if st.session_state.show_voice else "icon-btn"
+        st.markdown(f"<div class='{cls}'>", unsafe_allow_html=True)
+        mic_pressed = st.form_submit_button(
+            "🎤",
+            help="Record or upload voice",
+            use_container_width=True,
+        )
+        st.markdown("</div>", unsafe_allow_html=True)
+    with c_send:
+        st.markdown("<div class='send-btn'>", unsafe_allow_html=True)
+        send_pressed = st.form_submit_button(
+            "↑",
+            help="Send message",
+            use_container_width=True,
+        )
+        st.markdown("</div>", unsafe_allow_html=True)
+
+if active_modes:
+    st.markdown(
+        f"<div class='composer-status'>{_html.escape(' + '.join(active_modes))}</div>",
+        unsafe_allow_html=True,
+    )
+else:
+    st.markdown("<div class='composer-hint'>text · voice · image</div>", unsafe_allow_html=True)
+
+submit_text = q.strip()
+
+if (send_pressed or (plus_pressed and submit_text)) and submit_text:
+    if st.session_state.pending_img:
+        with st.spinner(""):
+            do_image(st.session_state.pending_img, hint=submit_text,
+                     img_name=st.session_state.pending_name)
+        st.session_state.pending_img  = None
+        st.session_state.pending_name = ""
+    else:
+        do_text(submit_text, "text")
+    st.rerun()
+
+if plus_pressed:
+    if st.session_state.pending_img:
+        st.session_state.pending_img  = None
+        st.session_state.pending_name = ""
+    else:
+        st.session_state.show_image = not st.session_state.show_image
+        st.session_state.show_voice = False
+    st.rerun()
+
+if mic_pressed:
+    st.session_state.show_voice = not st.session_state.show_voice
+    st.session_state.show_image = False
+    st.rerun()
