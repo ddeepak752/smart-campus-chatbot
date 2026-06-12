@@ -144,6 +144,7 @@ def _keyword_route(query: str) -> dict:
         (["exam", "examination", "timetable", "hall ticket", "result", "re-evaluation", "marksheet", "transcript"], "ask_exam", "exam_cell", "exam"),
         (["fest", "festival", "annual day", "hackathon", "cultural", "techfest", "sports day", "farewell", "freshers"], "ask_fest", "student_union", "fest"),
         (["join club", "student club", "coding club", "music club", "drama club", "photography club", "debate club", "dance club"], "ask_club", "student_union", "club"),
+        (["sports team", "sports club", "join sports", "football team", "cricket team", "athletics team", "basketball team"], "ask_club", "sports_ground", "sports team"),
         (["placement", "placement cell", "recruitment", "campus drive", "internship", "cv help", "career"], "ask_placement", "placement_cell", "placement"),
         (["scholarship", "bursary", "financial aid", "fee waiver", "fee concession"], "ask_scholarship", "accounts_office", "scholarship"),
         (["admission", "apply", "enroll", "enrolment", "courses offered", "course list", "programme", "fee structure"], "ask_admission", "admin_office", "admission"),
