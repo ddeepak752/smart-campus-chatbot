@@ -121,7 +121,7 @@ def _keyword_route(query: str) -> dict:
 
     routes = [
         (["new student", "new on campus", "first day", "go first", "where should i go first", "just joined"], "recommend_place", "reception", "new student help"),
-        (["principal", "director"], "ask_contact", "principal_office", "principal office"),
+        (["principal", "director"], "ask_contact", "principal_office", "principal office"),  # Note: direction queries bypass this
         (["library", "central library"], "find_location", "central_library", "library"),
         (["computer lab", "computing lab"], "find_location", "computer_lab", "computer lab"),
         (["quiet place", "quiet study", "study quietly", "silent study", "exam preparation", "exam prep"], "recommend_place", "reading_room", "quiet study"),
@@ -130,7 +130,7 @@ def _keyword_route(query: str) -> dict:
         (["print", "printing", "photocopy", "photocopying", "scan ", "scanning"], "service_query", "printing_room", "printing"),
         (["hungry", "food", "eat", "lunch", "dinner", "snack", "meal"], "menu_query", "main_cafeteria", "food query"),
         (["cafeteria", "canteen", "main cafeteria", "main canteen", "dining hall"], "find_location", "main_cafeteria", "cafeteria"),
-        (["water dispenser", "drinking water", "drink water", "fill bottle", "refill bottle"], "find_location", "water_dispenser_ground", "water dispenser"),
+        (["water dispenser", "drinking water", "drink water", "fill bottle", "refill bottle", "get water", "need water", "want water", "where is water", "water point", "get me water", "i need water", "where can i get water", "i want water", "get water please"], "find_location", "water_dispenser_ground", "water dispenser"),
         (["hostel", "dormitory", "room allotment", "warden"], "ask_hostel", "hostel_office", "hostel"),
         (["civil faculty", "ce faculty", "civil staff room", "civil lecturer", "civil teacher", "civil professor", "civil engineering faculty", "civil engineering professor", "civil engineering staff", "ce department faculty"], "faculty_query", "civil_faculty_room", "civil faculty room"),
         (["mechanical faculty", "me faculty", "mechanical staff", "mechanical lecturer", "mechanical teacher", "mechanical professor"], "faculty_query", "mechanical_faculty_room", "mechanical faculty room"),
@@ -143,6 +143,7 @@ def _keyword_route(query: str) -> dict:
         (["student email", "email", "wifi", "wi-fi", "password", "laptop", "technical support"], "service_query", "it_helpdesk", "IT support"),
         (["exam", "exams", "assessment", "result", "results"], "ask_exam", "exam_cell", "exam support"),
         (["general help", "just entered", "new here", "information desk", "reception"], "find_location", "reception", "general help"),
+        (["new id card", "get id card", "student id card", "replace id", "id card lost", "new student id", "get my student id", "where can i get my student id"], "service_query", "admin_office", "student ID card"),
         (["make friend", "make friends", "meet people", "lonely", "no friends"], "social_life", "student_union", "student life"),
         (["lost", "misplaced", "id card", "student card", "wallet"], "lost_found", "lost_and_found", "lost item"),
         (["unsafe", "security", "danger", "threat"], "emergency", "security_cabin", "security"),
@@ -278,11 +279,18 @@ def run_text_pipeline(query: str, modality: str = "text") -> dict:
         if override:
             override_record = get_by_id(override["kb_id"])
             if override_record:
-                logger.debug(
-                    f"Keyword route='{override['reason']}' -> {override_record['name']}"
-                )
-                intent = override["intent"]
-                intent_confidence = max(intent_confidence, 0.88)
+                # Don't override with ask_contact if user is asking for directions
+                direction_words = ["direction", "directions", "how do i get", "how to get",
+                                   "how to go", "how do i go", "route", "from ", "get to "]
+                is_direction_q = any(w in query.lower() for w in direction_words)
+                if is_direction_q and override.get("intent") == "ask_contact":
+                    override = {}  # let direction intent pass through
+                else:
+                    logger.debug(
+                        f"Keyword route='{override['reason']}' -> {override_record['name']}"
+                    )
+                    intent = override["intent"]
+                    intent_confidence = max(intent_confidence, 0.88)
 
         logger.debug(f"Query='{query}' Intent={intent} Conf={intent_confidence:.2f}")
 
