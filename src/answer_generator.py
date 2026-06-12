@@ -163,9 +163,15 @@ def build_kb_result(query: str, intent: str, record=None) -> str:
     if intent in ("emergency", "lost_found"):
         return _emergency_handler(query, record)
 
-    # Contact/hours queries — no directions needed
+    # Contact/hours — include description and hours, no step-by-step directions
     if intent == "ask_contact":
-        return _hours_handler(record)
+        return (
+            f"Location: {record['name']}\n"
+            f"About: {record.get('description','')}\n"
+            f"Opening Hours: {_fmt_hours(record)}\n"
+            f"Map Reference: {record.get('map_reference','')}\n"
+            f"Events:\n{_fmt_events(record.get('events',[]))}"
+        )
 
     # find_location, faculty_query, ask_department, service_query,
     # recommend_place, facility_info, fallback
