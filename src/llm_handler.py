@@ -11,10 +11,10 @@ GROQ_MODEL = "llama-3.3-70b-versatile"
 
 def _get_api_key() -> str:
     # On HuggingFace Spaces, key is set as env secret — don't override it
-    key = os.getenv("GROQ_API_KEY", "")
+    key = os.getenv("GROQ_API_KEY", "") or os.getenv("GROK_API_KEY", "")
     if not key:
         load_dotenv()  # fallback to .env for local dev
-        key = os.getenv("GROQ_API_KEY", "")
+        key = os.getenv("GROQ_API_KEY", "") or os.getenv("GROK_API_KEY", "")
     return key
 
 
@@ -88,7 +88,10 @@ def _clean_template_response(kb_result: str, user_query: str = "") -> str:
         parts.append(f"{title} hours: {hours}" if hours else f"Here are the details for {title}.")
         hours = ""
     elif wants_contact:
-        parts.append(f"For this, contact or visit {title}.")
+        if "appointment" in q or "book" in q or "booking" in q:
+            parts.append(f"To arrange an appointment, contact or visit {title}.")
+        else:
+            parts.append(f"For this, contact or visit {title}.")
     elif wants_water:
         parts.append(f"You can get drinking water at {title}.")
     else:

@@ -31,13 +31,10 @@ html,body,[class*="css"]{font-family:'Inter',sans-serif;}
   background:#FFFFFF !important;
   border-right:1px solid #E5E9F0 !important;
   box-shadow:2px 0 8px rgba(0,0,0,0.04);
-  position:fixed !important;
-  height:100vh !important;
-  overflow:hidden !important;
 }
 [data-testid="stSidebar"] .block-container{
   padding:1rem !important;
-  height:100vh !important;
+  max-height:100vh !important;
   overflow-y:auto !important;
   scrollbar-width:thin;
 }
@@ -804,18 +801,25 @@ components.html(
       }
     };
     const scrollMainToBottom = () => {
-      const main = doc.querySelector('section.main');
       const target = doc.querySelector('div[data-testid="stForm"]');
       if (target) {
-        target.scrollIntoView({ behavior: "smooth", block: "end" });
-      } else if (main) {
-        main.scrollTo({ top: main.scrollHeight, behavior: "smooth" });
-      } else {
-        window.parent.scrollTo({ top: doc.body.scrollHeight, behavior: "smooth" });
+        target.scrollIntoView({ behavior: "auto", block: "end" });
       }
-      setTimeout(focusComposer, 150);
+      const scrollables = [
+        doc.scrollingElement,
+        doc.documentElement,
+        doc.body,
+        doc.querySelector('section.main'),
+        doc.querySelector('section.main .block-container'),
+        doc.querySelector('[data-testid="stAppViewContainer"]')
+      ].filter(Boolean);
+      scrollables.forEach((el) => {
+        try { el.scrollTop = el.scrollHeight; } catch (e) {}
+      });
+      window.parent.scrollTo(0, Math.max(doc.body.scrollHeight, doc.documentElement.scrollHeight));
+      focusComposer();
     };
-    setTimeout(scrollMainToBottom, 120);
+    [80, 250, 600, 1100].forEach((delay) => setTimeout(scrollMainToBottom, delay));
     </script>
     """,
     height=0,
