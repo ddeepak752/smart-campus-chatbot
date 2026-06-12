@@ -110,6 +110,11 @@ _PENALISE_NAMES = {
 
 def _is_direction_query(query: str) -> bool:
     q = query.lower()
+    if any(w in q for w in [
+        "appointment", "book", "booking", "schedule", "contact",
+        "speak to", "talk to", "meet with",
+    ]):
+        return False
     return any(w in q for w in [
         "direction", "directions", "how do i get", "how to get",
         "how to go", "how do i go", "route", "from ", "get to ",
@@ -186,6 +191,7 @@ def _keyword_route(query: str) -> dict:
     routes = [
         (["print my assignment", "printing then pay", "print then pay", "print and pay", "print first", "assignment then pay"], "service_query", "printing_room", "print/pay first step"),
         (["new student", "new on campus", "first day", "go first", "where should i go first", "just joined"], "recommend_place", "reception", "new student help"),
+        (["principal appointment", "appointment for principal", "book principal", "meet principal", "contact principal"], "ask_contact", "principal_office", "principal appointment"),
         (["principal", "director"], "ask_contact", "principal_office", "principal office"),
         (["group study", "study with classmates", "study with friends", "team study", "group work", "sit with classmates", "study together", "study room"], "recommend_place", "group_study_room", "group study"),
         (["quiet place", "quiet study", "study quietly", "silent study", "exam preparation", "exam prep"], "recommend_place", "reading_room", "quiet study"),
@@ -215,7 +221,7 @@ def _keyword_route(query: str) -> dict:
         (["join club", "student club", "coding club", "music club", "drama club", "photography club", "debate club", "dance club"], "ask_club", "student_union", "club"),
         (["sports team", "sports club", "join sports", "football team", "cricket team", "athletics team", "basketball team"], "ask_club", "sports_ground", "sports team"),
         (["placement", "placement cell", "recruitment", "campus drive", "internship", "cv help", "career"], "ask_placement", "placement_cell", "placement"),
-        (["scholarship", "bursary", "financial aid", "fee waiver", "fee concession"], "ask_scholarship", "accounts_office", "scholarship"),
+        (["scholarship", "bursary", "financial aid", "fee waiver", "fee concession"], "ask_scholarship", "scholarship_office", "scholarship"),
         (["admission", "apply", "enroll", "enrolment", "courses offered", "course list", "which courses", "what courses", "course can i", "courses can i", "programmes", "programs", "study options", "what can i study", "programme", "fee structure"], "ask_admission", "admin_office", "admission"),
         (["depression", "depressed", "anxiety", "mental health", "counselling", "counseling", "stress"], "emergency", "counselling_room", "wellbeing"),
         (["hurt", "injured", "stomach ache", "headache", "sick", "first aid", "medical"], "emergency", "medical_room", "medical"),
@@ -436,7 +442,7 @@ def run_text_pipeline(query: str, modality: str = "text") -> dict:
                 "ask_club":        "student_union",
                 "ask_exam":        "exam_cell",
                 "ask_hostel":      "hostel_office",
-                "ask_scholarship": "accounts_office",
+                "ask_scholarship": "scholarship_office",
                 "social_life":     "student_union",
                 "faculty_query":   "reception",
             }

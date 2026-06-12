@@ -9,6 +9,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 import streamlit as st
+import streamlit.components.v1 as components
 from PIL import Image
 from datetime import datetime
 
@@ -30,8 +31,20 @@ html,body,[class*="css"]{font-family:'Inter',sans-serif;}
   background:#FFFFFF !important;
   border-right:1px solid #E5E9F0 !important;
   box-shadow:2px 0 8px rgba(0,0,0,0.04);
+  position:fixed !important;
+  height:100vh !important;
+  overflow:hidden !important;
 }
-[data-testid="stSidebar"] .block-container{padding:1rem !important;}
+[data-testid="stSidebar"] .block-container{
+  padding:1rem !important;
+  height:100vh !important;
+  overflow-y:auto !important;
+  scrollbar-width:thin;
+}
+[data-testid="stSidebar"] .block-container::-webkit-scrollbar{width:6px;}
+[data-testid="stSidebar"] .block-container::-webkit-scrollbar-thumb{
+  background:#CBD5E1;border-radius:999px;
+}
 #MainMenu,footer,header{visibility:hidden;}
 
 /* Main area - no extra padding */
@@ -779,3 +792,31 @@ if mic_pressed:
     st.session_state.show_voice = not st.session_state.show_voice
     st.session_state.show_image = False
     st.rerun()
+
+components.html(
+    """
+    <script>
+    const doc = window.parent.document;
+    const focusComposer = () => {
+      const input = doc.querySelector('input[aria-label="composer_text"], input[placeholder="Ask anything about the campus..."]');
+      if (input && doc.activeElement !== input) {
+        input.focus({ preventScroll: true });
+      }
+    };
+    const scrollMainToBottom = () => {
+      const main = doc.querySelector('section.main');
+      const target = doc.querySelector('div[data-testid="stForm"]');
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "end" });
+      } else if (main) {
+        main.scrollTo({ top: main.scrollHeight, behavior: "smooth" });
+      } else {
+        window.parent.scrollTo({ top: doc.body.scrollHeight, behavior: "smooth" });
+      }
+      setTimeout(focusComposer, 150);
+    };
+    setTimeout(scrollMainToBottom, 120);
+    </script>
+    """,
+    height=0,
+)

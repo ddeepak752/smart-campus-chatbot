@@ -71,12 +71,12 @@ def _clean_template_response(kb_result: str, user_query: str = "") -> str:
     hours = data.get("opening hours") or data.get("available", "")
     map_ref = data.get("map reference", "")
     q = user_query.lower()
-    wants_directions = any(w in q for w in [
+    wants_contact = any(w in q for w in ["appointment", "book", "booking", "meet", "contact", "speak", "talk"])
+    wants_directions = (not wants_contact) and any(w in q for w in [
         "direction", "directions", "how do i get", "how to get",
         "how to go", "route", "from ", "get to ",
     ])
     wants_hours = any(w in q for w in ["timing", "timings", "hours", "open", "when can"])
-    wants_contact = any(w in q for w in ["appointment", "meet", "contact", "speak", "talk"])
     wants_water = any(w in q for w in ["water", "drink", "thirst", "thurst", "thrust", "dirnk"])
 
     parts = []
