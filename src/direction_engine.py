@@ -180,23 +180,50 @@ def get_directions_from_query(query: str, to_record: dict, all_kb: list) -> str:
     q = query.lower()
     from_loc = None
 
-    # Detect "from <place>" pattern
+    # Detect "from <place>" or "at <place> ... reach/go to/get to" patterns.
     m = re.search(r'\bfrom\s+(?:the\s+)?(.+?)(?:\s+to\b|\s+how|\s+where|\s*$)', q)
+    if not m:
+        m = re.search(
+            r'\bat\s+(?:the\s+)?(.+?)(?:\s+and\b|\s+i\b|\s+we\b|\s+need\b|\s+want\b|\s+reach\b|\s+get to\b|\s+go to\b|[,.!?]|$)',
+            q
+        )
     if m:
-        hint = m.group(1).strip()
+        hint = m.group(1).strip(" ?!.,\"'")
+        explicit_sources = {
+            "dean": "dean_office",
+            "deans": "dean_office",
+            "dean office": "dean_office",
+            "dean's office": "dean_office",
+            "academic dean": "dean_office",
+            "principal": "principal_office",
+            "principals": "principal_office",
+            "principal office": "principal_office",
+            "principal's office": "principal_office",
+            "reception": "reception",
+            "main reception": "reception",
+            "library": "central_library",
+            "central library": "central_library",
+            "cafeteria": "main_cafeteria",
+            "main cafeteria": "main_cafeteria",
+        }
+        explicit_id = explicit_sources.get(hint)
+        if explicit_id:
+            from_loc = next((loc for loc in all_kb if loc.get("id") == explicit_id), None)
+
         # Strip common suffixes so "civil department" matches "Civil Engineering Department"
-        for suffix in [" department", " block", " room", " office", " lab", " floor"]:
-            hint = hint.replace(suffix, "").strip()
-        for loc in all_kb:
-            if hint in loc.get("name", "").lower():
-                from_loc = loc
-                break
-            if any(hint in a.lower() for a in loc.get("aliases", [])):
-                from_loc = loc
-                break
-            if any(hint in k.lower() for k in loc.get("keywords", [])):
-                from_loc = loc
-                break
+        if not from_loc:
+            for suffix in [" department", " block", " room", " office", " lab", " floor"]:
+                hint = hint.replace(suffix, "").strip()
+            for loc in all_kb:
+                if hint in loc.get("name", "").lower():
+                    from_loc = loc
+                    break
+                if any(hint in a.lower() for a in loc.get("aliases", [])):
+                    from_loc = loc
+                    break
+                if any(hint in k.lower() for k in loc.get("keywords", [])):
+                    from_loc = loc
+                    break
     # Default: Main Reception
     if not from_loc:
         for loc in all_kb:

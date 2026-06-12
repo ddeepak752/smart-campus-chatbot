@@ -108,6 +108,57 @@ _PENALISE_NAMES = {
 }
 
 
+def _is_direction_query(query: str) -> bool:
+    q = query.lower()
+    return any(w in q for w in [
+        "direction", "directions", "how do i get", "how to get",
+        "how to go", "how do i go", "route", "from ", "get to ",
+    ])
+
+
+def _extract_direction_destination(query: str) -> str:
+    """
+    Pull the destination side from navigation phrasing.
+    This keeps "from library to cafeteria" from being routed to library.
+    """
+    import re as _re
+    q = query.lower()
+    patterns = [
+        r'\bfrom\s+.+?\s+to\s+(?:the\s+)?(.+?)(?:\s*$)',
+        r'\bto\s+(?:the\s+)?([a-z][a-z\s\']+?)(?:\s+from\b)',
+        r'\bat\s+(?:the\s+)?.+?\b(?:reach|get to|go to|head to)\s+(?:the\s+)?(.+?)(?:\s+before\b|\s+after\b|\s+by\b|[?.!]|$)',
+    ]
+    for pat in patterns:
+        m = _re.search(pat, q)
+        if m:
+            return m.group(1).strip(" ?!.,\"'")
+    return ""
+
+
+def _route_location_phrase(text: str) -> dict:
+    """
+    Deterministic entity routing for destination phrases.
+    Kept separate from intent routing so directions and direct location
+    questions use the same KB ids without changing unrelated intents.
+    """
+    q = text.lower().strip(" ?!.,\"'")
+    routes = [
+        (["principal", "principal office", "director"], "principal_office", "principal office", "find_location"),
+        (["dean", "dean office", "dean's office", "academic dean"], "dean_office", "dean office", "find_location"),
+        (["library", "central library"], "central_library", "library", "find_location"),
+        (["cafeteria", "canteen", "main cafeteria", "main canteen", "dining hall"], "main_cafeteria", "cafeteria", "find_location"),
+        (["computer lab", "computing lab"], "computer_lab", "computer lab", "find_location"),
+        (["sports ground", "sports field", "playground"], "sports_ground", "sports ground", "find_location"),
+        (["civil faculty", "civil professor", "civil engineering faculty", "civil engineering professor"], "civil_faculty_room", "civil faculty room", "faculty_query"),
+        (["mechanical faculty", "mechanical professor"], "mechanical_faculty_room", "mechanical faculty room", "faculty_query"),
+        (["water dispenser", "drinking water", "water point", "get water", "need water", "want water"], "water_dispenser_ground", "water dispenser", "find_location"),
+    ]
+    for needles, kb_id, reason, intent in routes:
+        if any(needle in q for needle in needles):
+            return {"intent": intent, "kb_id": kb_id, "reason": reason}
+    return {}
+
+
 def _keyword_route(query: str) -> dict:
     """
     Small deterministic routing layer for high-value campus service queries.
@@ -119,18 +170,29 @@ def _keyword_route(query: str) -> dict:
     if q_short == "water":
         return {"intent": "find_location", "kb_id": "water_dispenser_ground", "reason": "water dispenser"}
 
+    if _is_direction_query(query):
+        dest = _extract_direction_destination(query)
+        if dest:
+            routed_dest = _route_location_phrase(dest)
+            if routed_dest:
+                routed_dest["intent"] = "find_location"
+                return routed_dest
+
+    direct_location = _route_location_phrase(query)
+    direct_location_markers = ["where", "location", "located", "get to", "go to"]
+    if direct_location and any(marker in q for marker in direct_location_markers):
+        return direct_location
+
     routes = [
+        (["print my assignment", "printing then pay", "print then pay", "print and pay", "print first", "assignment then pay"], "service_query", "printing_room", "print/pay first step"),
         (["new student", "new on campus", "first day", "go first", "where should i go first", "just joined"], "recommend_place", "reception", "new student help"),
-        (["principal", "director"], "ask_contact", "principal_office", "principal office"),  # Note: direction queries bypass this
-        (["library", "central library"], "find_location", "central_library", "library"),
-        (["computer lab", "computing lab"], "find_location", "computer_lab", "computer lab"),
-        (["quiet place", "quiet study", "study quietly", "silent study", "exam preparation", "exam prep"], "recommend_place", "reading_room", "quiet study"),
+        (["principal", "director"], "ask_contact", "principal_office", "principal office"),
         (["group study", "study with classmates", "study with friends", "team study", "group work", "sit with classmates", "study together", "study room"], "recommend_place", "group_study_room", "group study"),
+        (["quiet place", "quiet study", "study quietly", "silent study", "exam preparation", "exam prep"], "recommend_place", "reading_room", "quiet study"),
         (["academic journal", "academic journals", "journals", "e-journal", "e-journals", "research portal", "research portals"], "service_query", "digital_library", "academic journals"),
         (["print", "printing", "photocopy", "photocopying", "scan ", "scanning"], "service_query", "printing_room", "printing"),
         (["hungry", "food", "eat", "lunch", "dinner", "snack", "meal"], "menu_query", "main_cafeteria", "food query"),
-        (["cafeteria", "canteen", "main cafeteria", "main canteen", "dining hall"], "find_location", "main_cafeteria", "cafeteria"),
-        (["water dispenser", "drinking water", "drink water", "fill bottle", "refill bottle", "get water", "need water", "want water", "where is water", "water point", "get me water", "i need water", "where can i get water", "i want water", "get water please"], "find_location", "water_dispenser_ground", "water dispenser"),
+        (["thirsty", "thirst", "thursty", "thrusty", "thristy", "drink water", "fill bottle", "refill bottle", "get me water", "i need water", "where can i get water", "i want water", "get water please", "need to drink", "something to drink", "drink something", "dirnk", "someting to drink", "beverage"], "find_location", "water_dispenser_ground", "water dispenser"),
         (["hostel", "dormitory", "room allotment", "warden"], "ask_hostel", "hostel_office", "hostel"),
         (["civil faculty", "ce faculty", "civil staff room", "civil lecturer", "civil teacher", "civil professor", "civil engineering faculty", "civil engineering professor", "civil engineering staff", "ce department faculty"], "faculty_query", "civil_faculty_room", "civil faculty room"),
         (["mechanical faculty", "me faculty", "mechanical staff", "mechanical lecturer", "mechanical teacher", "mechanical professor"], "faculty_query", "mechanical_faculty_room", "mechanical faculty room"),
@@ -279,11 +341,8 @@ def run_text_pipeline(query: str, modality: str = "text") -> dict:
         if override:
             override_record = get_by_id(override["kb_id"])
             if override_record:
-                # Don't override with ask_contact if user is asking for directions
-                direction_words = ["direction", "directions", "how do i get", "how to get",
-                                   "how to go", "how do i go", "route", "from ", "get to "]
-                is_direction_q = any(w in query.lower() for w in direction_words)
-                if is_direction_q and override.get("intent") == "ask_contact":
+                # Directions must keep navigation intent even if destination is an office.
+                if _is_direction_query(query) and override.get("intent") == "ask_contact":
                     override = {}  # let direction intent pass through
                 else:
                     logger.debug(
@@ -317,19 +376,9 @@ def run_text_pipeline(query: str, modality: str = "text") -> dict:
         # and retrieve that specifically — prevents matching the FROM location
         retrieve_query = query
         if intent == "find_location":
-            import re as _re
-            # Match "from X to Y" pattern — extract Y as destination
-            from_to = _re.search(
-                r'from\s+.+?\s+to\s+(?:the\s+)?(.+?)(?:\s*$)', query.lower()
-            )
-            # Match "to Y from X" pattern
-            to_from = _re.search(
-                r'\bto\s+(?:the\s+)?([a-z][a-z\s]+?)(?:\s+from\b)', query.lower()
-            )
-            if from_to:
-                retrieve_query = from_to.group(1).strip(" ?!.,")
-            elif to_from:
-                retrieve_query = to_from.group(1).strip(" ?!.,")
+            dest = _extract_direction_destination(query)
+            if dest:
+                retrieve_query = dest
 
         if override and override_record:
             related = hybrid_retrieve(retrieve_query, intent, top_k=3)

@@ -23,14 +23,15 @@ def _clean_template_response(kb_result: str, user_query: str = "") -> str:
     if not kb_result:
         return "I couldn't find a specific campus match. Please visit Main Reception for help."
 
-    lines = [line.strip() for line in kb_result.splitlines()]
+    lines = [line.rstrip() for line in kb_result.splitlines()]
     data = {"events": [], "related": [], "courses": [], "directions": []}
     section = ""
 
     for line in lines:
-        if not line:
+        clean = line.strip()
+        if not clean:
             continue
-        low = line.lower()
+        low = clean.lower()
         if low.startswith("events:"):
             section = "events"; continue
         if low.startswith("additional related locations:"):
@@ -40,15 +41,26 @@ def _clean_template_response(kb_result: str, user_query: str = "") -> str:
         if low.startswith("directions:") or low.startswith("how to get there:"):
             section = "directions"; continue
 
-        if section in ("events", "related", "courses") and line.startswith("- "):
-            data[section].append(line[2:].strip())
-            continue
-        if section == "directions":
-            data["directions"].append(line)
+        if section in ("events", "related", "courses") and clean.startswith("- "):
+            data[section].append(clean[2:].strip())
             continue
 
-        if ":" in line:
-            key, value = line.split(":", 1)
+        if ":" in clean:
+            key, value = clean.split(":", 1)
+            key_norm = key.strip().lower()
+            if key_norm in {"location", "category", "about", "map reference",
+                            "opening hours", "available", "urgent"}:
+                data[key_norm] = value.strip()
+                if section == "directions":
+                    section = ""
+                continue
+
+        if section == "directions":
+            data["directions"].append(clean)
+            continue
+
+        if ":" in clean:
+            key, value = clean.split(":", 1)
             data[key.strip().lower()] = value.strip()
 
     if "price for" in kb_result.lower() or "today's menu" in kb_result.lower():
@@ -58,18 +70,34 @@ def _clean_template_response(kb_result: str, user_query: str = "") -> str:
     about = data.get("about", "")
     hours = data.get("opening hours") or data.get("available", "")
     map_ref = data.get("map reference", "")
+    q = user_query.lower()
+    wants_directions = any(w in q for w in [
+        "direction", "directions", "how do i get", "how to get",
+        "how to go", "route", "from ", "get to ",
+    ])
+    wants_hours = any(w in q for w in ["timing", "timings", "hours", "open", "when can"])
+    wants_contact = any(w in q for w in ["appointment", "meet", "contact", "speak", "talk"])
+    wants_water = any(w in q for w in ["water", "drink", "thirst", "thurst", "thrust", "dirnk"])
 
     parts = []
     if "urgent" in data:
         parts.append(f"Please go to {title}.")
+    elif wants_directions:
+        parts.append(f"Here are the directions to {title}.")
+    elif wants_hours:
+        parts.append(f"{title} hours: {hours}" if hours else f"Here are the details for {title}.")
+        hours = ""
+    elif wants_contact:
+        parts.append(f"For this, contact or visit {title}.")
+    elif wants_water:
+        parts.append(f"You can get drinking water at {title}.")
     else:
-        parts.append(f"{title} is the best place for this.")
+        parts.append(f"Go to {title}.")
     if about:
         parts.append(about)
     if map_ref:
         parts.append(f"Location: {map_ref}.")
-    if data["directions"] and any(user_query.lower().startswith(w) or w in user_query.lower()
-                                  for w in ["direction", "directions", "how do i get", "route", "from "]):
+    if data["directions"] and wants_directions:
         parts.append("Directions:\n" + "\n".join(data["directions"]))
     if hours:
         parts.append(f"Hours: {hours}")
@@ -87,10 +115,11 @@ Core rules:
 1. Answer using ONLY the KB_RESULT provided. Never invent facts.
 2. Sound warm and natural — like a helpful senior student.
 3. For prices, give only the specific item price requested.
-4. For directions, use clear numbered steps.
+4. For directions, start with "Here are the directions to [location]" and use clear numbered steps.
 5. Keep replies under 120 words unless directions need more.
 6. Treat the first "Location:" or "URGENT:" record as the primary answer. Do not make another related location sound like the main match.
 7. Avoid uncertain filler like "I think", "you might mean", or "usually" unless the KB_RESULT explicitly says uncertainty.
+8. Do not use the phrase "is the best place for this" for directions, timings, contact, or direct location questions. Match the opening sentence to the user's request.
 
 Handling specific situations:
 - If asked about faculty/HOD/staff timing: say office hours vary by staff member, suggest contacting the department office or Main Reception.
