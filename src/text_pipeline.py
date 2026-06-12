@@ -205,6 +205,7 @@ def _keyword_route(query: str) -> dict:
         (["student email", "email", "wifi", "wi-fi", "password", "laptop", "technical support"], "service_query", "it_helpdesk", "IT support"),
         (["exam", "exams", "assessment", "result", "results"], "ask_exam", "exam_cell", "exam support"),
         (["general help", "just entered", "new here", "information desk", "reception"], "find_location", "reception", "general help"),
+        (["certificate", "certificates", "bonafide", "bonafide letter", "student record", "student records", "official document", "official documents"], "service_query", "admin_office", "certificates/documents"),
         (["new id card", "get id card", "student id card", "replace id", "id card lost", "new student id", "get my student id", "where can i get my student id"], "service_query", "admin_office", "student ID card"),
         (["make friend", "make friends", "meet people", "lonely", "no friends"], "social_life", "student_union", "student life"),
         (["lost", "misplaced", "id card", "student card", "wallet"], "lost_found", "lost_and_found", "lost item"),
@@ -215,7 +216,7 @@ def _keyword_route(query: str) -> dict:
         (["sports team", "sports club", "join sports", "football team", "cricket team", "athletics team", "basketball team"], "ask_club", "sports_ground", "sports team"),
         (["placement", "placement cell", "recruitment", "campus drive", "internship", "cv help", "career"], "ask_placement", "placement_cell", "placement"),
         (["scholarship", "bursary", "financial aid", "fee waiver", "fee concession"], "ask_scholarship", "accounts_office", "scholarship"),
-        (["admission", "apply", "enroll", "enrolment", "courses offered", "course list", "programme", "fee structure"], "ask_admission", "admin_office", "admission"),
+        (["admission", "apply", "enroll", "enrolment", "courses offered", "course list", "which courses", "what courses", "course can i", "courses can i", "programmes", "programs", "study options", "what can i study", "programme", "fee structure"], "ask_admission", "admin_office", "admission"),
         (["depression", "depressed", "anxiety", "mental health", "counselling", "counseling", "stress"], "emergency", "counselling_room", "wellbeing"),
         (["hurt", "injured", "stomach ache", "headache", "sick", "first aid", "medical"], "emergency", "medical_room", "medical"),
     ]
