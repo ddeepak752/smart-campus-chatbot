@@ -120,6 +120,9 @@ def _keyword_route(query: str) -> dict:
         return {"intent": "find_location", "kb_id": "water_dispenser_ground", "reason": "water dispenser"}
 
     routes = [
+        (["new student", "new on campus", "first day", "go first", "where should i go first", "just joined"], "recommend_place", "reception", "new student help"),
+        (["principal", "director"], "ask_contact", "principal_office", "principal office"),
+        (["library", "central library"], "find_location", "central_library", "library"),
         (["computer lab", "computing lab"], "find_location", "computer_lab", "computer lab"),
         (["quiet place", "quiet study", "study quietly", "silent study", "exam preparation", "exam prep"], "recommend_place", "reading_room", "quiet study"),
         (["academic journal", "academic journals", "journals", "e-journal", "e-journals", "research portal", "research portals"], "service_query", "digital_library", "academic journals"),
@@ -133,6 +136,7 @@ def _keyword_route(query: str) -> dict:
         (["cse faculty", "computer science faculty", "cs faculty", "cs staff", "cse professor", "computer science professor"], "faculty_query", "cse_faculty_room", "cse faculty room"),
         (["it faculty", "information technology faculty", "it staff", "it professor", "information technology professor"], "faculty_query", "it_faculty_room", "it faculty room"),
         (["ai faculty", "data science faculty", "ai ds faculty", "ai&ds faculty", "ai professor", "data science professor"], "faculty_query", "ai_ds_faculty_room", "ai faculty room"),
+        (["department faculty", "my faculty", "my professor", "meet professor", "speak to professor", "talk to professor"], "faculty_query", "reception", "generic faculty guidance"),
         (["fees", "fee ", "tuition", "payment", "pay fee", "account"], "service_query", "accounts_office", "fees/accounts"),
         (["visa", "immigration", "brp", "residence permit"], "service_query", "international_office", "visa support"),
         (["student email", "email", "wifi", "wi-fi", "password", "laptop", "technical support"], "service_query", "it_helpdesk", "IT support"),
@@ -314,9 +318,9 @@ def run_text_pipeline(query: str, modality: str = "text") -> dict:
                 r'\bto\s+(?:the\s+)?([a-z][a-z\s]+?)(?:\s+from\b)', query.lower()
             )
             if from_to:
-                retrieve_query = from_to.group(1).strip()
+                retrieve_query = from_to.group(1).strip(" ?!.,")
             elif to_from:
-                retrieve_query = to_from.group(1).strip()
+                retrieve_query = to_from.group(1).strip(" ?!.,")
 
         if override and override_record:
             related = hybrid_retrieve(retrieve_query, intent, top_k=3)
