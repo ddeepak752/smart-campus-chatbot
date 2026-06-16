@@ -124,7 +124,6 @@ def _is_direction_query(query: str) -> bool:
 def _extract_direction_destination(query: str) -> str:
     """
     Pull the destination side from navigation phrasing.
-    This keeps "from library to cafeteria" from being routed to library.
     """
     import re as _re
     q = query.lower()

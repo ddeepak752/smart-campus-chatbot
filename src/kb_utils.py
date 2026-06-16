@@ -164,7 +164,6 @@ def search_by_floor(floor_number: int) -> list:
 def build_doc(loc: dict) -> str:
     """
     Builds rich text for embedding. Only main locations get floor text
-    so floor queries match departments, not washrooms or classrooms.
     """
     import re as _re
 

@@ -182,9 +182,9 @@ def build_kb_result_multi(query: str, intent: str, records: list) -> str:
     Multi-record version of build_kb_result.
     Passes context from top-3 KB records to the LLM so it can
     synthesise answers for floor listings, washroom queries,
-    multi-location questions etc. — without any rule-based special cases.
+    multi-location questions etc.
 
-    Single-record intents (menu, hours, emergency) still use only the
+    Single-record intents (menu, hours, emergency) use only the
     best record to avoid confusing the LLM with irrelevant context.
     """
     if not records:

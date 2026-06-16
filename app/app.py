@@ -1,6 +1,5 @@
 """
 Smart Campus Navigator — BSBI
-Sidebar layout + unified input bar with all 3 modalities.
 """
 import os, sys, io, html as _html
 os.environ["KMP_DUPLICATE_LIB_OK"]  = "TRUE"

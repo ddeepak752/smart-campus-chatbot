@@ -1,6 +1,5 @@
 """
 LLM Handler - Groq (free) with template fallback.
-Get a free key at https://console.groq.com (30 seconds to sign up).
 Add to .env:  GROQ_API_KEY=gsk_xxxx
 """
 
